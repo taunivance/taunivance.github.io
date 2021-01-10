@@ -14,13 +14,8 @@ body {
   
   header,
   footer {
-<<<<<<< HEAD
-    background-color: #264e70;
+    background-color: #a13f66;
     color: #702644;
-=======
-    background-color: #702644;
-    color: #e0ebe9;
->>>>>>> 27096b5ac11beba476e67339daf1825dc35d60e5
     padding: 0.7em;
     text-align: center;
     border-radius: 10px;
