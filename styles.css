@@ -8,14 +8,14 @@ body {
     overflow: hidden;
     max-width: 800px;
     font-family: Tahoma, sans-serif;
-    background-color: #e0ebe9;
+    background-color: #702644;
 
   }
   
   header,
   footer {
     background-color: #264e70;
-    color: #e0ebe9;
+    color: #702644;
     padding: 0.7em;
     text-align: center;
     border-radius: 10px;
