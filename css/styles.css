@@ -7,7 +7,6 @@ body {
     border-radius: 10px;
     overflow: hidden;
     max-width: 800px;
-    font-family: Verdana, sans-serif;
     background-color: #f7f1f7;
 
   }
@@ -47,13 +46,14 @@ body {
   li {
     margin: 5px;
     font-size: 1.1em;
+    font-family: 'News Cycle', sans-serif;
     list-style: none;
   
   }
   
   h1 {
     font-size: 2.5em;
-    margin: 20px;
+    font-family: 'Lato', sans-serif;
     margin-left: 150px;
     text-align: left;
     color: #f6faf9;
@@ -61,6 +61,7 @@ body {
   
   h2 {
     font-size: 1.5em;
+    font-family: 'News Cycle', sans-serif;
     margin-top: 30px;
   }
 
