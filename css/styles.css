@@ -51,7 +51,8 @@
   h2 {
     font-size: 1.5em;
     font-family: 'News Cycle', sans-serif;
-    padding: .5em;
+    border-bottom: 1px solid #0c0c0c;
+    padding: .3em;
     margin-top: 30px;
   }
 
