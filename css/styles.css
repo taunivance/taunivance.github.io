@@ -1,5 +1,4 @@
 
-  
   main {
     margin: 5% auto;
     border-radius: 10px;
@@ -63,6 +62,9 @@
     margin-top: 30px;
   }
 
+  p {
+    font-family: 'News Cycle', sans-serif;
+  }
 
   
   hr {
