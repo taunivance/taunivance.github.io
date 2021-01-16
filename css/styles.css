@@ -1,9 +1,11 @@
-
+  * { -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; box-sizing:
+  border-box;}
+  
   main {
     margin: 5% auto;
     border-radius: 10px;
     overflow: hidden;
-    max-width: 800px;
     background-color: #f7f1f7;
 
   }
