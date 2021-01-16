@@ -3,21 +3,18 @@
   border-box;}
   
   main {
-    margin: 5% auto;
     border-radius: 10px;
     overflow: hidden;
     background-color: #f7f1f7;
-
   }
   
   header {
     background-color: #bd6c98;
     color: #f7f1f7;
     padding: 0.7em;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
   }
-
 
   footer {
     background-color: #bd6c98;
@@ -28,10 +25,7 @@
   }
   
   nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-bottom: 8px;
+    padding: .5em;
   }
   
   .picture {
@@ -65,11 +59,6 @@
     font-family: 'News Cycle', sans-serif;
   }
 
-  
-  hr {
-    width: 155%;
-  }
-  
   a {
     color: #f30e9b;
   }
