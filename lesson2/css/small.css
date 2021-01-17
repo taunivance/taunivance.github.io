@@ -2,8 +2,6 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
   }
   
   /* Rules for Main */
@@ -45,7 +43,7 @@
     color: #555977;
   }
   .img {
-    width: 25%;
+    width: 500px;
     align-self: center;
     box-shadow: 0 0 8px 1px;
   }
