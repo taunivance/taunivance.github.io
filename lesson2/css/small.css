@@ -2,14 +2,16 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
   
-  /* Rules for Main */
+  /* MAIN */
   
-  main {
+  .container {
     display: grid;
-    grid-template-columns: 1fr;
-    font-size: 0.8rem;
+    grid-gap: 1px;
+    margin: 20px 40px 0 40px;
   }
   
   h1 {
@@ -27,6 +29,10 @@
     margin: 0 0 20px;
   }
   
+  section {
+    display: flex;
+    flex-direction: column;
+  }
   
   a {
     font-size: 0.9em;
@@ -39,11 +45,11 @@
     color: #555977;
   }
   .img {
-    width: 500px;
+    width: 90%;
     align-self: center;
     box-shadow: 0 0 8px 1px;
   }
-  .descrip {
+  .description {
     text-align: left;
     padding: 0 25px;
   }
