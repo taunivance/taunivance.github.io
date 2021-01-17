@@ -8,8 +8,8 @@
   
   .contain {
     display: grid;
-    grid-gap: 1px;
-    margin: 20px 40px 0 40px;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
   }
   
   h1 {
