@@ -4,7 +4,7 @@
 
 .whole {
     max-width: 1500px;
-    margin: 20px auto;
+    margin: 60px auto;
 }
 
 header{
@@ -39,8 +39,8 @@ main{
 
 .hierarchy{
     max-width: 420px;
-    border-radius: 40px;
-    margin: 20px;
+    border-radius: 20px;
+    margin: 8px;
     border-top: none;
     background-color: #45A29E;
 }
@@ -50,14 +50,14 @@ main{
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
     background-color: #050507;
-    margin: 40;
+    margin: 20;
     padding: 20px;
     text-align: center;
 }
 
 hierarchy h4{
-    color: #000008;
-    font-size: 3.6rem;
+    color: #1F2833;
+    font-size: 2.6rem;
     text-align: center;
 }
 
@@ -76,7 +76,6 @@ hierarchy img{
     padding: .7rem;
     width: 100%;
     max-width: 100%;
-    
 }
 
 hierarchy p{
@@ -102,12 +101,10 @@ hierarchy p{
     margin: 20;
     padding: 20px;
     text-align: center;
-
-
 }
 
 .vwhitespace h4{
-    color: #000080;
+    color: #1F2833;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -148,16 +145,14 @@ hierarchy p{
     color: #66fCF1;
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
-    background-color: #050507;;
-    margin: 40p;
+    background-color: #050507;
+    margin: 20p;
     padding: 20px;
     text-align: center;
-
-
 }
 
 .alignment h4{
-    color: #000080;
+    color: #1F2833;
     font-size: 1.6rem;
     text-align: center;
 }
