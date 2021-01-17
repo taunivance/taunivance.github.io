@@ -1,66 +1,207 @@
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.whole {
+    max-width: 1500px;
+    margin: 20px auto;
+}
+
+header{
+    background-color: #050507;
+    color: #66fCF1;
+    margin: auto;
     text-align: center;
-  }
-  
-  /* MAIN */
-  
-  .container {
+    padding: 1rem 2%;
+    font-size: 1.3rem;
+    
+
+}
+header h1{
+    margin: 10px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+header h2{
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main{
     display: grid;
-    grid-gap: 1px;
-    margin: 20px 40px 0 40px;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: -10px;
-  }
-  hr {
-    margin-bottom: 50px;
-  }
-  h2 {
-    font-size: 1.5em;
-    margin: 30px 0 20px 0;
-  }
-  h3 {
-    margin: 0 0 20px;
-  }
-  
-  section {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  a {
-    font-size: 0.9em;
-    margin: 10px 20px 3px 0;
-    text-align: right;
-    text-decoration: none;
-    color: #22223b;
-  }
-  a:hover {
-    color: #555977;
-  }
-  .img {
-    width: 70%;
-    align-self: center;
-    box-shadow: 0 0 8px 1px;
-  }
-  .description {
-    text-align: left;
-    padding: 0 25px;
-  }
-  
- 
-  footer {
+    grid-template-columns: 1fr;
+    padding-top: 25px;
+    color: #C5C6C7;
+
+}
+
+.hierarchy{
+    max-width: 420px;
+    border-radius: 40px;
+    margin: 20px;
+    border-top: none;
+    background-color: #45A29E;
+}
+
+.hierarchy h3{
+    color: #66fCF1;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+    background-color: #050507;
+    margin: 40;
+    padding: 20px;
     text-align: center;
-    line-height: normal;
-    margin-bottom: 50px;
-  }
-  
-  #footer-hr {
-    margin-bottom: 20px;
-  }
+}
+
+hierarchy h4{
+    color: #000008;
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+hierarchy a{
+    color: #124fd3;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+hierarchy a:hover{
+    color: black;
+}
+
+hierarchy img{
+    padding: .7rem;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+hierarchy p{
+    color: black;
+    padding: 1rem;
+    
+}
+
+.whitespace{
+    max-width: 420px;
+    border-radius: 20px;
+    margin: 8px;
+    border-top: none;
+    background-color: #45A29E;
+    
+}
+
+.whitespace h3{
+    color: #66fCF1;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+    background-color: #050507;
+    margin: 20;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.vwhitespace h4{
+    color: #000080;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.vwhitespace a{
+    color: #124fd3;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.whitespace a:hover{
+    color: black;
+}
+
+.whitespace img{
+    padding: .7rem;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.visual_hierarchy p{
+    color: black;
+    padding: 1rem;
+    
+}
+
+.alignment{
+    max-width: 420px;
+    border-radius: 20px;
+    margin: 8px;
+    border-top: none;
+    background-color: #45A29E;
+}
+
+.alignment h3{
+    color: #66fCF1;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+    background-color: #050507;;
+    margin: 40p;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.alignment h4{
+    color: #000080;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.alignment a{
+    color: #124fd3;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.alignment a:hover{
+    color: black;
+}
+
+.alignment img{
+    padding: .7rem;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.alignment p{
+    color: black;
+    padding: 1rem;
+    
+}
+
+
+footer{
+    background-color: #050507;
+    color: #66fCF1;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 2%;
+    font-size: 1.3rem;
+    
+}
+
+footer a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}

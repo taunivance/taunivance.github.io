@@ -1,13 +1,5 @@
-@media only screen and (min-width: 617px) {
-    .container {
-      grid-template-columns: repeat(2, 1fr);
+@media only screen and (min-width: 520px){
+    main{
+        grid-template-columns: 1fr 1fr;
     }
-  
-    h1 {
-      font-size: 3.5em;
-    }
-  
-    .webone {
-      margin-top: -29px;
-    }
-  }
+}
