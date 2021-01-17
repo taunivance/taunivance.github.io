@@ -55,30 +55,33 @@ main{
     text-align: center;
 }
 
-hierarchy h4{
+.hierarchy h4{
+    font-family: 'Open Sans', sans-serif;
     color: #1F2833;
     font-size: 2.6rem;
     text-align: center;
 }
 
-hierarchy a{
-    color: #124fd3;
+.hierarchy a{
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2833;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
-hierarchy a:hover{
+.hierarchy a:hover{
     color: black;
 }
 
-hierarchy img{
+.hierarchy img{
     border-radius: 40px;
     padding: .7rem;
     width: 100%;
     max-width: 100%;
 }
 
-hierarchy p{
+.hierarchy p{
     color: black;
     padding: 1rem;
     
@@ -104,15 +107,18 @@ hierarchy p{
 }
 
 .vwhitespace h4{
+    font-family: 'Open Sans', sans-serif;
     color: #1F2833;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     text-align: center;
 }
 
 .vwhitespace a{
-    color: #124fd3;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2833;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .whitespace a:hover{
@@ -152,15 +158,18 @@ hierarchy p{
 }
 
 .alignment h4{
+    font-family: 'Open Sans', sans-serif;
     color: #1F2833;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     text-align: center;
 }
 
 .alignment a{
-    color: #124fd3;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2833;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .alignment a:hover{
