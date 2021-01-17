@@ -36,7 +36,7 @@
     margin: 5px;
     font-size: 1.1em;
     font-family: 'News Cycle', sans-serif;
-    list-style: none;
+    list-style-type: symbols();
   
   }
   
