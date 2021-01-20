@@ -61,7 +61,7 @@
   }
 
   a {
-    color: #f30e9b;
+    color: {color: white;};
   }
 
   #updated {
