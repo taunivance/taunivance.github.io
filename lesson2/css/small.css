@@ -1,5 +1,5 @@
 * {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .whole {
@@ -50,7 +50,7 @@ main{
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
     background-color: #050507;
-    margin: 20;
+    margin: 20px;
     padding: 20px;
     text-align: center;
 }
@@ -59,14 +59,15 @@ main{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
     font-size: 2.6rem;
+    margin: 10px;
     text-align: center;
 }
 
 .hierarchy a{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
-    padding: 20px;
-    font-size: 2rem;
+    padding: 120px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -83,7 +84,10 @@ main{
 
 .hierarchy p{
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     padding: 1rem;
+    text-align: justify;
     
 }
 
@@ -101,23 +105,24 @@ main{
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
     background-color: #050507;
-    margin: 20;
+    margin: 20px;
     padding: 20px;
     text-align: center;
 }
 
-.vwhitespace h4{
+.whitespace h4{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
     font-size: 2.6rem;
+    margin: 10px;
     text-align: center;
 }
 
-.vwhitespace a{
+.whitespace a{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
-    padding: 20px;
-    font-size: 2rem;
+    padding: 60px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -133,9 +138,12 @@ main{
 
 }
 
-.visual_hierarchy p{
+.whitespace p{
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     padding: 1rem;
+    text-align: justify;
     
 }
 
@@ -152,7 +160,7 @@ main{
     font-family: 'Fjalla One', sans-serif;
     font-size: 2rem;
     background-color: #050507;
-    margin: 20p;
+    margin: 20px;
     padding: 20px;
     text-align: center;
 }
@@ -161,14 +169,15 @@ main{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
     font-size: 2.6rem;
+    margin: 10px;
     text-align: center;
 }
 
 .alignment a{
     font-family: 'Open Sans', sans-serif;
     color: #1F2833;
-    padding: 20px;
-    font-size: 2rem;
+    padding: 75px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -186,7 +195,10 @@ main{
 
 .alignment p{
     color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
     padding: 1rem;
+    text-align: justify;
     
 }
 
@@ -196,6 +208,7 @@ footer{
     color: #66fCF1;
     margin: auto;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
     padding: 1rem 2%;
     font-size: 1.3rem;
     
