@@ -22,6 +22,8 @@
     text-align: center;
     border-radius: 10px;
   }
+
+  footer a {color: white;}
   
   nav {
     padding: .5em;
@@ -61,7 +63,7 @@
   }
 
   a {
-    color: white;
+    color: #f42ab1;
   }
 
   #updated {
