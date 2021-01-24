@@ -6,10 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- BODY --------------*/
-body {
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-}
+
 
 
 /*----------- HEADER --------------*/
@@ -17,15 +14,18 @@ header {
     padding: .5rem 2%;
     background-color: #899B64;
 }
-header img {float: left; margin-right: 1px; width: 75px;}
+header img {float: left; margin-right: .5px; width: 75px;}
 header h1 {
-    font-size: 1.3rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700; 
+    font-size: 2.3rem;
     margin-top: 133px;
     margin-bottom: 4px;
     margin-left: 70px;
 }
 header h2 {
-    font-weight: normal; font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal; font-size: 1.3rem;
     margin-top: 4px;
     margin-bottom: 5px;
     margin-left: 70px;
@@ -52,7 +52,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #27d8d3;
+    background-color: #AFA783;
     color: #010706;
 }
 nav ul li.active a {
@@ -63,9 +63,19 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
-    min-height: 10rem;
+    min-height: 30rem;
 }
 
+main h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.8rem;
+}
+
+main p {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+
+}
 
 /*----------- FOOTER --------------*/
 footer {
