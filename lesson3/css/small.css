@@ -110,29 +110,51 @@ td {
 th {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.5rem;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
 }
+
+th.ele {text-align: left;}
+
+th.exa {text-align: left;}
 
 tr td:nth-child(1) {
     padding-right: 1.5rem;
 }
 
+td.bold {font-weight: 700;}
+
 td.head-color {background-color:#899B64;}
-
 td.nav-color {background-color:#6E9B64;}
-
 td.hover-color {background-color:#AFA783;}
-
 td.active-color {background-color: #9B9164;}
-
 td.back-color {background-color: #FFFFFF;}
-
 td.footer-color {background-color: #899B64;}
+
+td.size1 {
+  background-color: #899B64;
+  font-size: 2.3rem;
+}
+
+td.size2 {
+    background-color: #6E9B64;
+    font-size: .9rem;
+  }
+
+td.size3 {
+    background-color:#899B64;
+    font-size: 1.8rem;
+  }
+
+  td.size4 {
+    background-color:#899B64;
+    font-size: 1rem;
+  }
 
 
 /*----------- FOOTER --------------*/
 footer {
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
     background-color: #899B64;
     padding: .5rem 2%;
     text-align: center;
