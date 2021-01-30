@@ -9,11 +9,12 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: #fff;
 }
+
 nav {
-    background-color: #ccc;
-    font-family: Verdana; san-serif;
+    background-color: #aa0000;
+    font-family: Verdana, sans-serif;
 }
 
 nav ul {
@@ -26,13 +27,26 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    color: rgba(255,255, 255, 0.8);
+    border-top:1px solid rgba(0,0,0,0.3);
 }
 
-nav ul li a:hover {background-color: rgba (0,0,0,0.4);}
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display: none;}
 
 
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
