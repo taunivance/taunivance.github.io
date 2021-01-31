@@ -3,7 +3,12 @@
 
 
         /*----------- HEADER --------------*/
-        header img {width: 170px;}
+        header img {float: left; margin-right: .5px; width: 175px;
+        }
+        
+        header h1 {
+            margin-top: 133px;
+        }
         header h1 {font-size: 2.3rem;}
         header h2 {font-size: 1.3rem;}
         
@@ -25,6 +30,11 @@
         /*----------- TABLE --------------*/
         th, td {
             font-size: 1.0rem;
+        }
+        footer {
+        
+            font-size: 1rem;
+         
         }
     
         } /* end of media query */
