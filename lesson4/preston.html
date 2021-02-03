@@ -1,36 +1,27 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
-
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Weather Rain or Shine</title>
+    </head>
 
 
-     
-</head>
-<body>
+    <body>
 <!-- HEADER HERE -->
-	<header>
- <h1>Company Name Here</h1>
-        <h2>Possible Slogan or Tagline</h2>
+    <header class="clearfix">
+        <picture><img src="images/logo.png" alt="logo">
+        </picture>
+        <section class="headings">
+            <h1>Weather Rain or Shine</h1>
+            <div class="m">Bringing warmth to your home</div>
+        </section>
     </header>
     
     
@@ -39,28 +30,33 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>   
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>  
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>    
         </ul>
     </nav>
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Products</h1>
-        <p>The page name shoud almost exactly match the menu item. </p>
+        <h2>Preston</h2>
+        <div class="contentbox">Hero w/weather summary</div>
+        <div class="contentbox">5 Day Forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
     </main>
     
 <!-- FOOTER HERE -->   
-    <footer>
-        <p>&copy; 201x &bull; Paul Cheney &bull; 123-555-6789</p>
-    </footer>
-    
-<script src="js/scripts.js"></script>
-</body>
+        <footer>
+            <p> 
+             © Weather Rain or Shine| Idaho | Tauni K Vance |
+            </p>
+            <p><span id="lastupdated"></span></p>
+            <script src="js/lastupdated.js"></script>
+         </footer>
+         
+
+    </body>
 </html>
