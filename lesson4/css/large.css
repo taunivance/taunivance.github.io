@@ -1,7 +1,7 @@
 /* 64em is also 1028px (if basefont is 16px) */
 @media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
+    nav, main, footer {
         max-width: 64rem;
         margin:auto;
     }
@@ -14,7 +14,7 @@
 header img {
     float: left;  
     width: 175px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 header h1 {
@@ -23,8 +23,6 @@ header h1 {
     font-size: 2rem;
 
 }
-
-
 .m {
 
     font-weight: normal; 
@@ -33,6 +31,7 @@ header h1 {
 }
 
 /*----------- NAVIGATION --------------*/
+button {display: none !important;}
 
 nav ul {margin-left: 4.8%}
 
