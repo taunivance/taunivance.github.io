@@ -6,44 +6,26 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- HEADER --------------*/
+
 header {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    padding: .35rem 2%;
     background-color: #899B64;
-    padding: .5rem 2%;
 }
 header img {
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 25%;
+    float: left; 
+    margin-right: 10px; width: 90px;
 }
-
-div {
-    display: block;
-}
-
-.headertext {
-    margin-left: 0.5rem;
-    text-align: left;
-    margin-top: 20px;
-}
-
 header h1 {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: 700; 
-    font-size: 1.6rem;
-    margin-left: 140px;
-
+    margin: 0; 
+    margin-top: 2.9rem;
+    font-size: 1.7rem;
 }
+
 header h2 {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: normal; font-size: 1.1rem;
-    margin-top: 1px;
-    margin-left: 140px;
-
+    margin: 0; 
+    font-weight: normal; 
+    font-size: 1.3rem;
 }
-
 
 /*----------- NAVIGATION --------------*/
 
@@ -53,14 +35,25 @@ nav {
 }
 
     button {
-    margin: .5rem 44%;
-    background-color: transparent;
+    margin: .5rem 46%;
+    
     background-color: #64899B;
     border: none;
     font-size: 1.6rem;
     color: black;
     float: left;
    
+}
+
+.hamb {
+    flex-direction: row;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: transparent;
+    margin: .5rem 90%;
+    margin-top: -2.4rem;
+    font-size: 1.6rem;
+    color: #ffffff;
 }
 
 nav ul{
