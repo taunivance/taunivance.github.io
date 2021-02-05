@@ -13,18 +13,20 @@ header {
 }
 header img {
     float: left; 
-    margin-right: 10px; width: 90px;
+    margin-right: 1px; width: 90px;
 }
+
+
 header h1 {
     margin: 0; 
-    margin-top: 2.9rem;
-    font-size: 1.7rem;
+    margin-top: 4.5rem;
+    font-size: 1.1rem;
 }
 
 header h2 {
     margin: 0; 
     font-weight: normal; 
-    font-size: 1.3rem;
+    font-size: .85rem;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -34,26 +36,17 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-    button {
-    margin: .5rem 46%;
-    
-    background-color: #64899B;
-    border: none;
-    font-size: 1.6rem;
-    color: black;
-    float: left;
-   
-}
 
-.hamb {
+button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;
     background-color: transparent;
     margin: .5rem 90%;
-    margin-top: -2.4rem;
+    margin-top: -2rem;
     font-size: 1.6rem;
     color: #ffffff;
+    border: none;
 }
 
 nav ul{
