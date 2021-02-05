@@ -19,14 +19,14 @@ header img {
 
 header h1 {
     margin: 0; 
-    margin-top: 4.5rem;
-    font-size: 1.1rem;
+    margin-top: 4.2rem;
+    font-size: 1.2rem;
 }
 
 header h2 {
     margin: 0; 
     font-weight: normal; 
-    font-size: .85rem;
+    font-size: .9rem;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -41,19 +41,18 @@ button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;
-    background-color: transparent;
-    margin: .5rem 90%;
-    margin-top: -2rem;
+    background-color: #64899B;;
     font-size: 1.6rem;
     color: #ffffff;
     border: none;
+    padding: .3rem 3%;
 }
 
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
   nav ul li a {
     display: block;
@@ -83,7 +82,7 @@ nav ul{
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;
-    min-height: 20rem;
+    min-height: 25rem;
 }
 
 main h2 {
@@ -91,7 +90,11 @@ main h2 {
     font-size: 1.8rem;
 }
 
-main h2 {margin-left: 1%;}
+main h2 {
+    margin-left: 1%;
+    margin-bottom: 3%;
+    margin-top: 20%;
+}
 
 .contentbox {
     display: block;
@@ -110,7 +113,7 @@ main h2 {margin-left: 1%;}
 /*----------- FOOTER --------------*/
 footer {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: .75rem;
+    font-size: .7rem;
     background-color: #899B64;
     padding: .5rem 2%;
     text-align: center;
