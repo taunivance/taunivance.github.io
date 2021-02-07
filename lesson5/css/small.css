@@ -1,0 +1,130 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- HEADER --------------*/
+
+header {
+    padding: .35rem 2%;
+    background-color: #899B64;
+}
+header img {
+    float: left; 
+    margin-right: 1px; width: 90px;
+}
+
+
+header h1 {
+    margin: 0; 
+    margin-top: 4.2rem;
+    font-size: 1.2rem;
+}
+
+header h2 {
+    margin: 0; 
+    font-weight: normal; 
+    font-size: .9rem;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+    background-color: #64899B;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+button {
+    flex-direction: row;
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: #64899B;;
+    font-size: 1.6rem;
+    color: #ffffff;
+    border: none;
+    padding: .3rem 3%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+  nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    background-color: #64899B;
+    color: black;
+    border-top:1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul li a:hover {
+        background-color: #899B64;
+        color: #010706;
+    }
+    nav ul li.active a {
+        background-color:#9B9164;
+        color: #010706;
+        font-weight: 700;
+    }
+
+    nav ul.hide {display: none;}
+    
+
+
+
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 25rem;
+}
+
+main h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.8rem;
+}
+
+main h2 {
+    margin-left: 1%;
+    margin-bottom: 3%;
+    margin-top: 20%;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000;
+    padding: 15px;
+    background-color: #eee;
+    color: #444;
+    font-family: 'Merriweather', sans-serif;
+}
+
+/*----------- COLOR-SCHEME --------------*/
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: .7rem;
+    background-color: #899B64;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #010706;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

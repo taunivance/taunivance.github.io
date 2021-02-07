@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="favicon.ico">        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <title>Weather Rain or Shine</title>
+    </head>
+
+
+    <body>
+<!-- HEADER HERE -->
+    <header class="clearfix">
+        <img class="" src="images/logo.png" alt="logo"></img>
+        <section class="headings">
+            <h1>Weather Rain or Shine</h1>
+            <h2>Bringing warmth to your home</h2>
+        </section>
+     
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+  
+        
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h2>Preston</h2>
+        <div class="contentbox">Hero w/weather summary</div>
+        <div class="contentbox">5 Day Forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+        <footer>
+            <p> 
+             © 2021 | Tauni K Vance | 
+             <span id="currentdate"></span>
+            </p>      
+            <script src="js/currentdate.js"></script>
+         </footer>
+         
+         
+    </body>
+</html>
