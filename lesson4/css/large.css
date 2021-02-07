@@ -23,7 +23,7 @@ header h1 {
     font-size: 2rem;
 
 }
-.m {
+header h2 {
 
     font-weight: normal; 
     font-size: 1.4rem;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 /*----------- NAVIGATION --------------*/
-button {display: none !important;}
+nav button {display: none !important;}
 
 nav ul {margin-left: 4.8%}
 

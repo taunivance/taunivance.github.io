@@ -36,8 +36,7 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-
-button {
+nav button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;

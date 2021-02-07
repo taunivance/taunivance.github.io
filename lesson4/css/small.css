@@ -37,7 +37,7 @@ nav {
 }
 
 
-button {
+nav button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;
