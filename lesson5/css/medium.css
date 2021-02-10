@@ -1,8 +1,13 @@
 @media only screen and (min-width: 32.5rem) {
 
+  
 
         /*----------- HEADER --------------*/
-        header img {float: left; margin-left: 7%; width: 175px;
+        header img {
+            float: left; 
+            margin-left: 7%; 
+            width: 175px; 
+            height: auto;
         }
         
         header h1 {
@@ -32,19 +37,93 @@
         /*----------- MAIN --------------*/
         
         /* update font size of headers to fit larger screen */
-            .contentbox {
+           /* .contentbox {
                 width: 615px;
+            } */
+
+            main {
+                height: 100em;
             }
 
-            main h2 {margin-left: 10%;}
+            main h1 {
+                margin-left: 43%;
+            }
+
+            main h2 {
+                margin-left: 1%;
+            }
         
         
         /*----------- TABLE --------------*/
+
+        .forecast {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .forecast h2{
+            margin-top: 4px;
+            margin-bottom: 18px;
+            text-align: center;
+        }
+
+        .foreday {
+            display: grid;
+            grid-template-columns: 110px 110px 110px 110px 110px;
+            justify-content: center;
+            align-content: center;
+            gap: 35px;
+        }
+        .box1 h3, p {
+            padding-left: 0px;
+        }
+
+        .weaicon1 {
+            width: 60px;
+        }
+        .box1 {
+            font-family: 'Merriweather', sans-serif;
+            border: 2px solid #023047;
+            width: 140px;
+            height: 195px;
+            text-align: center;
+            background: radial-gradient(#eee, #4567aa);
+        }
+
+        .pic {
+            display: block;
+            float: right;
+            margin-right: 20%;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 400px;
+            height: 300px;
+        }
+
+  
+        .article h2 {
+            margin-top: 50px;;
+        }
+        .article p {
+            margin-bottom: 50px;
+            width: 200px;
+            height: auto;
+        }
+
+        .map {
+            display: block;
+            float: right;
+            margin-right: 20%;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 300px;
+            height: auto;
+        }
+
+        
   
         footer {
-        
             font-size: 1rem;
-         
         }
     
         } /* end of media query */
