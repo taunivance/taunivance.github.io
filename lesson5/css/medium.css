@@ -42,7 +42,7 @@
             } */
 
             main {
-                height: 100em;
+                height: 125em;
             }
 
             main h1 {
@@ -90,35 +90,85 @@
             background: radial-gradient(#eee, #4567aa);
         }
 
-        .pic {
-            display: block;
-            float: right;
-            margin-right: 20%;
-            padding-left: 10px;
-            padding-bottom: 10px;
-            width: 400px;
-            height: 300px;
+        #articlecontainer {
+            width: 65%;
+	        max-width: 100% ;
+	        margin-left: auto ;
+	        margin-right: auto ;
+    
         }
 
-  
-        .article h2 {
-            margin-top: 50px;;
+        #articletext {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 1em;
+            float: left; 
+            width: 530px;
+            margin-top: .05%;
+            margin-left: 4%;
         }
-        .article p {
-            margin-bottom: 50px;
-            width: 200px;
+
+        #articleimage {
+            float: right;
+            margin-right: 5%;
+            width: 400px;
             height: auto;
         }
+
+         
+        #contact {
+            width: 65%;
+	        max-width: 100% ;
+	        margin-left: auto ;
+	        margin-right: auto ;
+    
+        }
+
+        .contactus {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 2em;
+            float: left;
+        }
+       
+        .address {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 1em;
+            float: left; 
+            width: 500px;
+            margin-left:4%;
+        }
+
+        .phone {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 1em;
+            float: left; 
+            width: 500px;
+            margin-left:4%;
+        }
+
+        .email {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 1em;
+            float: left; 
+            width: 500px;
+            margin-left:4%;
+        }
+
+        
+
+        section.contactus {
+            margin-left: 15%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 40%;
+            grid-template-rows: 1fr;
+          }
 
         .map {
-            display: block;
             float: right;
-            margin-right: 20%;
-            padding-left: 10px;
-            padding-bottom: 10px;
-            width: 300px;
-            height: auto;
-        }
+            margin-right: 70%;
+            grid-column: 3/4;
+            grid-row: 1/2;
+            width: 100%;
+          }
 
         
   
