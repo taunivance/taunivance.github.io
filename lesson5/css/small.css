@@ -87,7 +87,8 @@ main {
 main h1 {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.8rem;
-    margin-top: 1.5%;
+    margin-top: 1.8%;
+    margin-bottom: .05%;
 }
 
 main h2 {
@@ -102,6 +103,7 @@ main h2 {
     position: relative;
 }
 
+
 .image {
     background-position: center;
     background-repeat: no-repeat;
@@ -113,17 +115,18 @@ main h2 {
 
 .stats {
     position: absolute;
-	display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 15rem;
-	top: 35px;
-	left: 25px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
-    margin: 8px auto;
+    width: 13rem;
+    top: 35px;
+    left: 50px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 1rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    margin: 6px auto;
+    margin-top: 130px;
 }
 
 .stats h3 {
@@ -160,40 +163,17 @@ main h2 {
     width: 100%;
 }
 
-#articleimage{
-    width: 100%;
-
+.article{
+    padding-top: 160px;
 }
 
-.contactus1 {
-    text-align: left; 
-}
-.contactus {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-.contact1 {
-    font-size: 1.2rem;
-    grid-template-columns: 1/2;
-    grid-template-rows: 1/2;
-  }
-  
-.contact2 {
-    font-size: 1.2rem;
-    grid-template-columns: 3/4;
-    grid-template-rows: 1/2;
-  }
-  
-.map {
-    grid-column: 1/3;
+.articleimage {
     width: 100%;
-  }
+}
 
+.image2{
+    width: 100%;
+}
 
 
 /*----------- COLOR-SCHEME --------------*/

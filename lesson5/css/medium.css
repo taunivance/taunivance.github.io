@@ -41,9 +41,7 @@
                 width: 615px;
             } */
 
-            main {
-                height: 125em;
-            }
+            
 
             main h1 {
                 margin-left: 43%;
@@ -51,10 +49,24 @@
 
             main h2 {
                 margin-left: 1%;
+            
             }
         
         
         /*----------- TABLE --------------*/
+        .stats {
+            width: 15rem;
+            top: 35px;
+            left: 25px;
+            padding: 1.5rem;
+            box-shadow: 0 0 30px #111;
+            margin: 8px auto;
+        }
+        
+        .stats h3 {
+            border-bottom: 2px solid #023047;
+            margin: 5px auto;
+        }
 
         .forecast {
             display: block;
@@ -84,93 +96,87 @@
         .box1 {
             font-family: 'Merriweather', sans-serif;
             border: 2px solid #023047;
-            width: 140px;
+            width: 150px;
             height: 195px;
             text-align: center;
-            background: radial-gradient(#eee, #4567aa);
+            background: radial-gradient(#eee, #b2d0df);
         }
 
-        #articlecontainer {
-            width: 65%;
-	        max-width: 100% ;
-	        margin-left: auto ;
-	        margin-right: auto ;
-    
+        .container1 {
+            margin: 30px auto;
+            position: relative;
+            width: 1000px;
+            height: 350px;
+            background-color: #A1AF83;
+            border: 2px solid black;
         }
 
-        #articletext {
+        .article {
+            margin-left: 20px;
+            margin-top: -140px;
+        }
+
+        .articletext {
             font-family: 'Merriweather', sans-serif;
             font-size: 1em;
             float: left; 
             width: 530px;
-            margin-top: .05%;
-            margin-left: 4%;
+            margin-top: -15px;
+            margin-left: 2%;
         }
 
-        #articleimage {
+        .articleimage {
             float: right;
-            margin-right: 5%;
+            margin-right: 2%;
             width: 400px;
             height: auto;
+            margin-top: -20px;
         }
 
-         
-        #contact {
-            width: 65%;
-	        max-width: 100% ;
-	        margin-left: auto ;
-	        margin-right: auto ;
-    
+
+        .container2 {
+            margin: 25px auto;
+            position: relative;
+            width: 1000px;
+            height: 340px;
+            background-color: #64899B;
+            border: 2px solid black;
         }
 
         .contactus {
             font-family: 'Merriweather', sans-serif;
-            font-size: 2em;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        .contactcont {
+            font-family: 'Merriweather', sans-serif;
+            position: absolute;
+	        top: 50px;
+	        left: 50px;
+            
+        }
+
+        .image2 {
             float: left;
+            margin-left: 27%;
+            width: 310px;
+            height: auto;
+            margin-top: -50px;
+           
         }
-       
-        .address {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 1em;
-            float: left; 
-            width: 500px;
-            margin-left:4%;
-        }
-
-        .phone {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 1em;
-            float: left; 
-            width: 500px;
-            margin-left:4%;
-        }
-
-        .email {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 1em;
-            float: left; 
-            width: 500px;
-            margin-left:4%;
-        }
-
-        
-
-        section.contactus {
-            margin-left: 15%;
-            display: grid;
-            grid-template-columns: 1fr 1fr 40%;
-            grid-template-rows: 1fr;
-          }
 
         .map {
             float: right;
-            margin-right: 70%;
-            grid-column: 3/4;
-            grid-row: 1/2;
-            width: 100%;
-          }
+            margin-right: 3%;
+            width: 400px;
+            height: auto;
+            margin-top: -175px;
+           
+        }
 
-        
+
   
         footer {
             font-size: 1rem;
