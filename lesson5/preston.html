@@ -18,7 +18,8 @@
 
     <body>
 <!-- HEADER HERE -->
-    <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</div>
+    <div id="message">Saturday = Preston Pancakes in the Park!<br>  
+        9:00 a.m. Saturday at the city park pavilion</div>
     <header class="clearfix">
         <img class="" src="images/logo.png" alt="logo">
         <section class="headings">
@@ -146,7 +147,23 @@
                 </p>      
                 <script src="js/currentdate.js"></script>
                 <script src="js/toggle.js"></script>
-                <script src="js/banner.js"></script>
-            </footer>        
+            </footer> 
+            <script>
+                const today = new Date();
+                console.log(today);
+
+                const dayNumber = today.getDay();
+                console.log(dayNumber);
+
+
+                const element = document.getElementById("message");
+                if (dayNumber == 1) {
+                    element.classList.add ("showme");
+                } else {
+                    element.classList.add ("hideme");
+
+                }
+                
+            </script>  
     </body>
 </html>
