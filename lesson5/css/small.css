@@ -6,6 +6,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- HEADER --------------*/
+div#message {
+    background-color: red;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
 
 header {
     padding: .35rem 2%;

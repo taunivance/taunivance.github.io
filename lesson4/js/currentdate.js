@@ -22,3 +22,18 @@ const year = todaysdate.getFullYear();
 const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
 const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
 document.getElementById("currentdate").textContent = currentdate;
+
+
+const today = new Date();
+            console.log(today);
+            const dayNumber = today.getDay();
+            console.log(dayNumber)
+        
+            if (dayNumber == 6) {
+                element.classList.add ("showme");
+            } else {
+                element.classList.add ("hideme");
+
+            }
+
+const element = document.getElementsById("message");
