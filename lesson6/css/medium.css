@@ -54,6 +54,11 @@
                 margin-left: 1%;
             
             }
+
+            .herodiv {
+                width: 100%;
+                position: relative;
+            }
         
         
         /*----------- TABLE --------------*/

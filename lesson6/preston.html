@@ -50,21 +50,27 @@
 <main>
         <h1>Preston Town</h1>
         <div class="herodiv">
-            <img class="image" src="images/prestonpic.jpg" alt="Preston Picture">
+            <picture class="herodiv">
+                <source srcset="images/prestonmedium.jpg" media="(min-width: 500px) and (max-width:799px)" >
+                <source srcset="images/prestonlarge.jpg"  media="(min-width: 800px)">
+                <img class="large" src="images/prestonsmall.jpg" alt="hero images"> 
+            </picture>
             <section class="stats">
-             <h3>Weather Summary</h3>
-             <div class="grid1">
-                <p>Currently:</p>
-                <p>High:</p>
-                <p>Low:</p>
-                <p>Wind:</p>
-            </div>
-            <div class="grid2">
-                <p>Snowing</p>
-                <p>48&#176;</p>
-                <p>25&#176;</p>
-                <p>3 km/h</p>
-            </div>
+                <h3>Weather Summary</h3>
+                <div class="grid1">
+                    <p>Currently:</p>
+                    <p>Temp:</p>
+                    <p>Wind Chill:</p>
+                    <p>Humidity:</p>
+                    <p>Wind Speed:</p>
+                </div>
+                <div class="grid2">
+                    <p>Rainy</p>
+                    <p><span id="temp">48</span>&#176;</p>
+                    <p><span id="windChl"></span></p>
+                    <p>40%</p>
+                    <p><span id="windSpd">5</span>mph</p>
+                </div>
             </section>
         </div>
         <div class="forecast">
@@ -170,5 +176,6 @@
                 WebFont.load({google: {families: ["Merriweather&family"]}
             });
             </script>
+            <script src="js/windchill.js"></script>
     </body>
 </html>

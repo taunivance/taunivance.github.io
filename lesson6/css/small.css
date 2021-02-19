@@ -122,9 +122,12 @@ main h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: auto;
     margin: 10px auto;
+}
+
+.hero_img img {
+    display: block;
+    width: 100%;
 }
 
 .stats {
