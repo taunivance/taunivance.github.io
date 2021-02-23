@@ -1,0 +1,25 @@
+main {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 300px; 
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+}
+
+article img {
+    filter: blur(0em);
+    transition: filter 2s;
+    border: solid rgb(233, 7, 158);
+    border: 10px;
+    padding: 5px;
+}
+
