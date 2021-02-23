@@ -112,7 +112,7 @@ main h2 {
     margin-top: 1%;
 }
 
-.herodiv {
+main picture.herodiv {
     margin: 10px auto;
     position: relative;
 }
@@ -130,18 +130,22 @@ main h2 {
     width: 100%;
 }
 
+.small {
+    width: 100%;
+}
+
 .stats {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 13rem;
-    top: 35px;
-    left: 50px;
+    width: 14rem;
+    top: 240px;
+    left: 140px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
-    padding: 1rem;
+    padding: .075rem;
     box-shadow: 0 0 30px #111;
-    opacity: .8;
+    opacity: .7;
     margin: 6px auto;
     margin-top: 130px;
 }
@@ -181,7 +185,7 @@ main h2 {
 }
 
 .article{
-    padding-top: 160px;
+    padding-top: 200px;
 }
 
 .articleimage {

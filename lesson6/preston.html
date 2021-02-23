@@ -6,7 +6,6 @@
         <title>Weather Rain or Shine</title>
         <meta name="description" content="Weather Site Preston Page">   
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        
         <link rel="shortcut icon" href="favicon.ico">   
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/small.css" rel="stylesheet">
@@ -53,7 +52,7 @@
             <picture class="herodiv">
                 <source srcset="images/prestonmedium.jpg" media="(min-width: 500px) and (max-width:799px)" >
                 <source srcset="images/prestonlarge.jpg"  media="(min-width: 800px)">
-                <img class="large" src="images/prestonsmall.jpg" alt="hero images"> 
+                <img class="small" src="images/prestonsmall.jpg" alt="hero images"> 
             </picture>
             <section class="stats">
                 <h3>Weather Summary</h3>
@@ -154,9 +153,23 @@
                 <script src="js/currentdate.js"></script>
                 <script src="js/toggle.js"></script>
             </footer> 
+            <script>
+                const today = new Date();
+                console.log(today);
+
+                const dayNumber = today.getDay();
+                console.log(dayNumber);
+
+
+                const element = document.getElementById("message");
+                if (dayNumber == 6) {
+                    element.classList.add ("showme");
+                    } else {
+                    element.classList.add ("hideme");
+                }
+            </script>
        
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-           
             <script src="js/windchill.js"></script>
     </body>
 </html>

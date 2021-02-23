@@ -1,2 +1,3 @@
-WebFont.load({google: {families: ["Merriweather&family"]}
+WebFont.load({
+    google: {families: ['Merriweather Sans', 'sans-serif']}
 });

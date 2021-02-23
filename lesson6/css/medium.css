@@ -64,8 +64,8 @@
         /*----------- TABLE --------------*/
         .stats {
             width: 15rem;
-            top: 35px;
-            left: 25px;
+            top: 10px;
+            left: 20px;
             padding: 1.5rem;
             box-shadow: 0 0 30px #111;
             margin: 8px auto;
