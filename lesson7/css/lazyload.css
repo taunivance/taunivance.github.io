@@ -1,8 +1,6 @@
 main {
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    max-width: 300px; 
+    display: grid; 
 }
 
 h1 {
@@ -11,15 +9,13 @@ h1 {
     font-size: 20px;
 }
 
-article img[data-src] {
-    filter: blur(0.2em);
+img[data-src] {
+    filter: blur(0.6em);
 }
 
-article img {
+img {
     filter: blur(0em);
-    transition: filter 2s;
-    border: solid rgb(233, 7, 158);
-    border: 10px;
-    padding: 5px;
+    transition: filter 0.5s;
+    box-shadow: 0 0 10px pink;
 }
 
