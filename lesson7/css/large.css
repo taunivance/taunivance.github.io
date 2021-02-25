@@ -78,6 +78,11 @@ nav ul li a {
 	opacity: .7;
 }
 
+.gallerygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 
 
