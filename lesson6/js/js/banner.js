@@ -6,9 +6,8 @@ const today = new Date();
 
 
                 const element = document.getElementById("message");
-                if (dayNumber == 1) {
+                if (dayNumber == 6) {
                     element.classList.add ("showme");
-                } else {
+                    } else {
                     element.classList.add ("hideme");
-
                 }
