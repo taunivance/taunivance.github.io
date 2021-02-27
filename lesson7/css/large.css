@@ -78,9 +78,17 @@ nav ul li a {
 	opacity: .7;
 }
 
+.gallery {
+    max-width: 64rem;
+}
+
 .gallerygrid{
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.gallerygrid figure:hover {
+    box-shadow: 0 0 40px #899B64;
 }
 
 

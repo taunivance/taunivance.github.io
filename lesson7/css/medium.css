@@ -187,7 +187,15 @@
            
         }
 
+        .gallery {
+            max-width: 44rem;
+        }
 
+        .gallerygrid {
+            grid-template-columns: 1fr 1fr;
+        }
+    
+     
   
         footer {
             font-size: 1rem;

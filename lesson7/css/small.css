@@ -117,25 +117,47 @@ main picture.herodiv {
     position: relative;
 }
 
-.gallerygrid {
-    justify-content: center;
-    display: grid; 
-}
-
 .gallerytitle {
     margin-bottom: 5px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 
-img[data-src] {
-    filter: blur(0.6em);
+.gallery {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-img {
+.gallerygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    
+}
+
+figure {
+    max-width: 230px;
+    background: radial-gradient(rgb(250, 248, 248), #899B64);
+
+}
+
+figcaption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+  }
+
+.gallerygrid img[data-src] {
+    filter: blur(0.6em);
+    background: #899B64;
+}
+
+.gallerygrid figure img {
     filter: blur(0em);
     transition: filter 0.5s;
-    box-shadow: 0 0 10px pink;
 }
 
 
