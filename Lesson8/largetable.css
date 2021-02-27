@@ -1,40 +1,29 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
 
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
 
 
 /*----------- HEADER --------------*/
-header {
-    padding: .5rem 2%;
-    background-color: #899B64;
+header img {float: left; margin-right: .5px; width: 175px;
 }
-header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 
 header h1 {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: 700; 
-    font-size: 1.6rem;
-    margin-top: 30px;
-    margin-bottom: 4px;
-    margin-left: 15px;
-}
-header h2 {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: normal; font-size: 1.1rem;
-    margin-top: 4px;
-    margin-bottom: 5px;
-    margin-left: 20px;
+    margin-top: 133px;
 }
 
+/*----------- NAVIGATION --------------*/
 
+
+
+/*----------- MAIN --------------*/
+/*----------- COLOR-SCHEME --------------*/
 table {
     background-color:#AFA783;
     padding: .5rem;
@@ -52,12 +41,12 @@ table.margin {
 td {
     font-family: 'Merriweather Sans', sans-serif;
     padding: 0.5rem;
-    font-size: .75rem; 
+    font-size: 1.75rem; 
 }
 
 th {
     font-family: 'Merriweather', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-right: 1rem;
 }
 
@@ -82,7 +71,7 @@ td.back-color {background-color: #FFFFFF;}
 td.footer-color {background-color: #899B64;}
 
 td.size {
-    font-size: .75rem; 
+    font-size: 1.75rem; 
 }
 
 td.size1 {
@@ -106,5 +95,14 @@ td.size4 {
   }
 
 td.sized {
-    font-size: .6rem;
+    font-size: 1.75rem;
 }
+
+
+/*----------- FOOTER --------------*/
+footer {
+  
+    font-size: 1rem;
+ 
+} 
+} /* end of media query */

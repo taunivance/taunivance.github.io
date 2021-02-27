@@ -1,0 +1,188 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #899B64;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+header h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700; 
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+}
+header h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal; font-size: 1.1rem;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #649B76;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #010706;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #AFA783;
+    color: #010706;
+}
+nav ul li.active a {
+    background-color:#9B9164;
+    color: #010706;
+    font-weight: 600;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+
+main h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.1rem;
+}
+
+main h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.8rem;
+}
+
+main p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+
+main ul {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/*----------- COLOR-SCHEME --------------*/
+table {
+    background-color:#AFA783;
+    padding: .5rem;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-color: gray;
+    border-width: .1rem;
+    font-family: 'Merriweather', sans-serif;
+}
+
+table.margin {
+    padding: .1rem;
+}
+
+td {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0.5rem;
+    font-size: .75rem; 
+}
+
+th {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+th.ele {text-align: left;}
+
+th.exa {text-align: left;}
+
+tr td:nth-child(1) {
+    margin-left: .5rem;
+    padding-right: .5rem;
+}
+
+td.bold {
+    font-weight: 700;
+}
+
+td.head-color {background-color:#899B64;}
+td.nav-color {background-color:#6E9B64;}
+td.hover-color {background-color:#AFA783;}
+td.active-color {background-color: #9B9164;}
+td.back-color {background-color: #FFFFFF;}
+td.footer-color {background-color: #899B64;}
+
+td.size {
+    font-size: .75rem; 
+}
+
+td.size1 {
+  background-color: #899B64;
+  font-size: 2.3rem;
+}
+
+td.size2 {
+    background-color: #6E9B64;
+    font-size: .9rem;
+  }
+
+td.size3 {
+    background-color:#899B64;
+    font-size: 1.8rem;
+  }
+
+td.size4 {
+    background-color:#899B64;
+    font-size: 1rem;
+  }
+
+td.sized {
+    font-size: .6rem;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: .75rem;
+    background-color: #899B64;
+    padding: .5rem 2%;
+    text-align: center;
+    color: #010706;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
