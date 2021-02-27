@@ -2,95 +2,69 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Fill Me In">
-        <meta name="author" content="John Doe">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+        <meta name="description" content="Build Table">
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/smalltable.css" rel="stylesheet">
-        <link href="css/mediumtable.css" rel="stylesheet">
-        <link href="css/largetable.css" rel="stylesheet">
-        <title>Weather Rain or Shine</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap">
+        <title>Table Project</title>
     </head>
 
-    <body>
-<!-- HEADER HERE -->
-    <header class="clearfix">
-	<img src="images/logo.png" alt="logo">
-    <h1>Weather Rain or Shine</h1>
-        <h2>Bringing warmth to your home</h2>
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="target-audience.html">Target Audience</a></li>
-            <li class="active"><a href="color-scheme.html">Color Scheme</a></li>
-            <li><a href="typography.html">Typography</a></li>    
-        </ul>
-    </nav>
-    
+<body>  
     
 <!-- CONTENT HERE -->  
         <main>
-            <!-- page content -->
-            <h1>Color Scheme</h1>
             <table>
                 <thead>
                     <tr>
-                        <th class="ele">Element</th>
-                        <th>Color Code</th>
-                        <th class="exa">Example Text</th>
+                        <th colspan="3" class="headtitle">ACME Wildwest</th>
+                    </tr>
+                    <tr>
+                        <td>Period</td>
+                        <td>Sales</td>
+                        <td>Sales Goal</td>
                     </tr>
                 </thead>
                 <tbody>
+
                     <tr>
-                        <td>Header Background</td>
-                        <td class="head-color white-text">#899B64</td>
-                        <td class="head-color white-text">Weather Rain or Shine</td>
+                        <td>August</td>
+                        <td>$3,590</td>
+                        <td>$4,000</td>
                     </tr>
                     <tr>
-                        <td>h1, h2, h3, p</td>
-                        <td>#010706</td>
-                        <td>Bring Warmth</td>
+                        <td>September</td>
+                        <td>$4,420</td>
+                        <td>$5,000</td>
                     </tr>
                     <tr>
-                        <td>Main Background</td>
-                        <td class="back-color">#FFFFFF</td>
-                        <td class="back-color">Main Background</td>
+                        <td>October</td>
+                        <td>$4,870</td>
+                        <td>$5,000</td>
                     </tr>
                     <tr>
-                        <td>Nav Background</td>
-                        <td class="nav-color white-text">#6E9B64</td>
-                        <td class="nav-color white-text">Nav Background</td>
+                        <td>November</td>
+                        <td>$8,610</td>
+                        <td>$7,500</td>
                     </tr>
                     <tr>
-                        <td>Nav Hover</td>
-                        <td class="hover-color">#AFA783</td>
-                        <td class="hover-color">Nav Hover</td>
+                        <td>Black Friday</td>
+                        <td colspan="2">$3,200</td>
                     </tr>
                     <tr>
-                        <td>Nav Active</td>
-                        <td class="active-color white-text">#9B9164</td>
-                        <td class="active-color white-text">Nav Active</td>
+                        <td>December</td>
+                        <td>$6,820</td>
+                        <td>$7,500</td>
                     </tr>
-                    <tr>
-                        <td>Footer Background</td>
-                        <td class="footer-color white-text">#899B64</td>
-                        <td class="footer-color white-text">Footer Background</td>
-                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Complied 2.27.2021 by tvance</td>
+                        </tr>
+                    </tfoot>
                 </tbody>
             </table>
-        </main>
+        </main>  
     
-    
-<!-- FOOTER HERE -->   
-    <footer>
-        &copy; 2021 &bull; Tauni Kay Vance &bull; 123-555-6789
-    </footer>
-
 </body>
 </html>

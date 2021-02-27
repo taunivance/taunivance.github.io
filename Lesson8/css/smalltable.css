@@ -1,0 +1,73 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    font-family: "ubuntu", sans-serif;
+    text-align: center;
+}
+
+/*----------- HEADER --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+
+/*----------- MAIN --------------*/
+main {
+    padding-top: 200px;
+}
+
+
+/*----------- TABLE --------------*/
+table {
+    background-color: #e7f0ed;;
+    margin: 0 auto;
+    font-size: 1.5em;
+    box-shadow: .7em .7em 1em #628ca6;
+    width: 400px;
+}
+
+table, th, td {
+    border: 2px solid rgb(194, 193, 193);
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 7px;
+}
+
+thead tr th.headtitle {
+    color:black;
+    font-weight: 700;
+    background-color: #7fb9c2;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+thead td {
+    background-color:  #628ca6;
+    font-weight: 700;
+    color: white;
+    font-size: 1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+th, tr:nth-child(4) :last-child{
+    background-color: #628ca6;
+    color: white;
+}
+
+tbody tr th {
+    font-size: 1em;
+}
+
+tbody tr:nth-child(5) :first-child {
+    font-style: italic;
+}
+
+tfoot {
+    font-size: .6em;
+    font-weight: 500;
+    background-color: #7fb9c2;
+}
