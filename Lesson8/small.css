@@ -1,3 +1,40 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #899B64;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+header h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700; 
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+}
+header h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal; font-size: 1.1rem;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+
 table {
     background-color:#AFA783;
     padding: .5rem;
