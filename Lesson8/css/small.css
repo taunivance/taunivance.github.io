@@ -54,7 +54,7 @@ nav button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;
-    background-color: #64899B;;
+    background-color: #64899B;
     font-size: 1.6rem;
     color: #ffffff;
     border: none;
@@ -240,12 +240,23 @@ figcaption {
 }
 
 /*------------FORM-----------------------*/
+.formsize {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+.conditions {
+    margin-left: 300px;
+}
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 2px solid #64899B;
     border-radius: 10px;
     padding: .5rem 2%;
+    max-width: 500px;
+    margin-left: 300px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 form legend {
@@ -264,14 +275,15 @@ form label.top, form div {
 form label.top input, form label.top select {
     -webkit-appearance:none;
     display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
+    font-size: 1.1rem;
+    border: solid 1px #899B64;
+    border-radius: 5px;
     padding-top: .75rem;
-    color: #555;
+    color: rgb(14, 2, 2);
     width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    max-width: 40rem;
+    background-color: rgba(38, 90, 121, 0.1);
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 form label.sbs {
@@ -284,7 +296,7 @@ input[type="radio"] {
     margin-right: 5px;
   }
 
-  input[type="checkbox"] {
+input[type="checkbox"] {
     margin-right: 5px;
   }
 
@@ -292,34 +304,41 @@ input[type="radio"] {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #899B64;
     color: white;
-    border-radius: 1rem;
+    border-radius: .75rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    margin-left: 385px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(121, 3, 3) solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: rgb(1, 90, 1) solid 6px;
 }
 
-
-/*----------- FOOTER --------------*/
-footer {
-    background-color: #ddd;
-    padding: .5rem 2%;
-    text-align: center;
+.addinfo {
+    max-height: 300px;
 }
 
+.slide {
+    width: 100%;
+    max-width: 40rem;
+    padding:10px;
+    display: block;
+}
 
+.thankyou {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 300px;
 
-/*----------- COLOR-SCHEME --------------*/
+}
 
 
 

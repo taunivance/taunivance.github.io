@@ -46,54 +46,61 @@
     
 <!-- CONTENT HERE -->
 
-<main>
+<main class="formsize">
 
-    <h1>Course Proposal Application</h1>
+    <h1 class="conditions">Report Your Storm and Weather Conditions</h1>
     <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Applicant Information</legend>
-            <label class="top">First Name*<input type="text" name="fname" required></label>
-            <label class="top">Last Name*<input type="text" name="lname" required></label>
-            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <legend>Reporter Information</legend>
+            <label class="top">Full Name*<input type="text" name="fname" required></label>
             <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Website<input type="url" name="url" placeholder="http://"></label>
+            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top">Zip<input type="text" name="zip" pattern="[0-9]*"></label>
         </fieldset>
-        <fieldset>
-            <legend>Course Information</legend>
-            <div>Audience</div>
-            <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
-            <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
-            <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
 
-            <div>Software Needed</div>
-            <label class="sbs"><input type="checkbox" name="code" value="yes">Coding</label>
-            <label class="sbs"><input type="checkbox" name="client" value="yes">FTP Client</label>
-            <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-            <label class="sbs"><input type="checkbox" name="process" value="yes">Preprocessor</label>
-            
-        </fieldset>
         <fieldset>
-            <legend>Funding</legend>
-            <label class="top">Anticipated Completion Date<input type="date" name="completeDate"></label>
-            <label class="top">Course Subject
-            <select name="subject">
-            <option value="">Please Select &#9662;</option>
-            <option value="software">Software Development</option>
-            <option value="creative">Creative Professional</option>
-            <option value="info">Information Technology</option>
-            <option value="data">Data Professional</option>
-            <option value="construction">Construction</option>
-            <option value="manufacturing">Manufacturing</option>
-            <option value="business">Business Professional</option>
-            <option value="security">Cyber Security</option>
-            </select>
+            <legend>Storm Information</legend>
+            <label class="top">Storm or Weather Date<input type="date" name="completeDate"></label>
+            <label class="top">Type of Condition
+                <select name="subject">
+                <option value="">Please Select &#9662;</option>
+                <option value="software">Tornado</option>
+                <option value="creative">Hurricane</option>
+                <option value="info">Earthquake</option>
+                <option value="data">Hail Storm</option>
+                <option value="construction">Land Slide</option>
+                <option value="manufacturing">Flash Flood</option>
+                <option value="business">Thunderstorm</option>
+                <option value="security">Lightening</option>
+                </select>
             </label>
-
-            <label class="top">How Many Authors <input type="number" name="authors"></label>
-
+            <label class="top">Storm Severity:
+                <span id="severity">5</span>
+            </label>
+            <label>
+                <input class="slide" type="range" name="severity" id="severity" min="1" max="10" 
+                step="1" value="5" oninput="changeSeverity(this.value);" onchange="changeSeverity(this.value);">
+            </label>
+            <label class="top">Storm Region
+                <select name="subject">
+                <option value="">Select Region&#9662;</option>
+                <option value="software">Preston</option>
+                <option value="creative">Soda Springs</option>
+                <option value="info">Fish Haven</option>
+                </select>
+            </label>
+           
+            <label class="top">Are you in danger?</label>   
+            <label class="sbs"><input type="radio" name="audience" value="Yes">Yes</label>
+            <label class="sbs"><input type="radio" name="audience" value="No">No</label>
+            <label class="sbs"><input type="radio" name="audience" value="Maybe">Maybe</label>          
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information or Comments</legend>
+            <textarea class="addinfo" name="addedinfo" rows="40" cols="50" placeholder="Additional Comments here..."></textarea>
         </fieldset>
 
-        <input type="submit" value="Propose My Course" class="submitBtn">   
+        <input type="submit" value="Report Your Storm" class="submitBtn">   
     </form>
   
 </main>
@@ -119,5 +126,6 @@
 
             <script src="js/windchill.js"></script>
             <script src="js/banner.js"></script>
+            <script src="js/storm.js"></script>
     </body>
 </html>
