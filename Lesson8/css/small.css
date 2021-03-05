@@ -328,10 +328,20 @@ form label.top input:required:valid {
 }
 
 .slide {
-    width: 100%;
-    max-width: 40rem;
-    padding:10px;
-    display: block;
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#ratingvalue {
+    padding-left: .5rem;
+    font-weight: 700;
+}
+
+#rating {
+    min-width: 8rem;
+    width: calc(50vw - 1.25rem);
+    max-width: 11.25rem;
 }
 
 .thankyou {

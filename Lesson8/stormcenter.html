@@ -74,20 +74,35 @@
                 <option value="security">Lightening</option>
                 </select>
             </label>
-            <label class="top">Storm Severity:
-                <span id="severity">5</span>
+       
+            <label class="slide" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
             </label>
-            <label>
-                <input class="slide" type="range" name="severity" id="severity" min="1" max="10" 
-                step="1" value="5" oninput="changeSeverity(this.value);" onchange="changeSeverity(this.value);">
-            </label>
-            <label class="top">Storm Region
-                <select name="subject">
-                <option value="">Select Region&#9662;</option>
-                <option value="software">Preston</option>
-                <option value="creative">Soda Springs</option>
-                <option value="info">Fish Haven</option>
-                </select>
+
+            <datalist id="tickmarks">
+                <option value="0">
+                </option><option value="1">
+                </option><option value="2">
+                </option><option value="3">
+                </option><option value="4">
+                </option><option value="5">
+                </option><option value="6">
+                </option><option value="7">
+                </option><option value="8">
+                </option><option value="9">
+                </option><option value="10">
+                </option>
+            </datalist>
+
+            <label for="top">Storm Region
+                <input list="regions" id="myBrowser" name="myBrowser"/>
+                <datalist id="regions">
+                <option value="Preston">
+                <option value="Soda Springs">
+                <option value="Fish Haven">
+                </datalist>
             </label>
            
             <label class="top">Are you in danger?</label>   
