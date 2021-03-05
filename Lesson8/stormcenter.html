@@ -58,22 +58,26 @@
             <label class="top">Zip<input type="text" name="zip" pattern="[0-9]*"></label>
         </fieldset>
 
+       
         <fieldset>
             <legend>Storm Information</legend>
+
             <label class="top">Storm or Weather Date<input type="date" name="completeDate"></label>
-            <label class="top">Type of Condition
-                <select name="subject">
-                <option value="">Please Select &#9662;</option>
-                <option value="software">Tornado</option>
-                <option value="creative">Hurricane</option>
-                <option value="info">Earthquake</option>
-                <option value="data">Hail Storm</option>
-                <option value="construction">Land Slide</option>
-                <option value="manufacturing">Flash Flood</option>
-                <option value="business">Thunderstorm</option>
-                <option value="security">Lightening</option>
-                </select>
+            <div>
+            <label class="space" for="top" >Storm Type
+                <input list="regions" name="Please List" placeholder="Please Select"></input>
+                <datalist id="regions">
+                        <option value="Tornado">
+                        <option value="Hurricane">
+                        <option value="Earthquake">
+                        <option value="Hail Storm">
+                        <option value="Land Slide">
+                        <option value="Flash Flood">
+                        <option value="Thunderstorm">
+                        <option value="Lightening">
+                </datalist>
             </label>
+        </div>
        
             <label class="slide" for="wearating">Storm Severity: &nbsp;&nbsp;&nbsp;
                 <input type="range" id="wearating" value="5" min="1" max="10" step="1" list="ticklines"
@@ -96,20 +100,22 @@
                 </option>
             </datalist>
 
-            <label for="top">Storm Region
-                <input list="regions" id="myBrowser" name="myBrowser"></input>
-                <datalist id="regions">
-                    <option value="Preston">
-                    <option value="Soda Springs">
-                    <option value="Fish Haven">
-                </datalist>
+            <label class="top">Storm Region
+                <select name="subject">
+                    <option value="" disabled="" selected="">Select Region ▾</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
             </label>
+            
            
             <label class="top">Are you in danger?</label>   
             <label class="sbs"><input type="radio" name="audience" value="Yes">Yes</label>
             <label class="sbs"><input type="radio" name="audience" value="No">No</label>
             <label class="sbs"><input type="radio" name="audience" value="Maybe">Maybe</label>          
         </fieldset>
+
         <fieldset>
             <legend>Additional Information or Comments</legend>
             <textarea class="addinfo" name="addedinfo" rows="40" cols="50" placeholder="Additional Comments here..."></textarea>

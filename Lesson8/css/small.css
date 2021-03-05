@@ -313,6 +313,7 @@ form input.submitBtn {
     max-width: 20rem;
     margin-left: 385px;
     font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800px;
 }
 
 form label.top input:required {
@@ -330,7 +331,7 @@ form label.top input:required:valid {
 .slide {
     display: flex;
     padding-top: 1.5rem;
-    padding-bottom: 1em;
+    
 }
 
 #wearatings {
@@ -342,6 +343,10 @@ form label.top input:required:valid {
     min-width: 8rem;
     width: calc(50vw - 1.25rem);
     max-width: 11.25rem;
+}
+
+.space {
+    margin-top: 1.5rem;
 }
 
 .thankyou {
