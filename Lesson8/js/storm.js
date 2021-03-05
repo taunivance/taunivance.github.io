@@ -2,5 +2,5 @@
   
 
   function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+    document.getElementById("wearatings").innerHTML = rating;
 }

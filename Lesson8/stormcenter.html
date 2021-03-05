@@ -53,8 +53,8 @@
         <fieldset>
             <legend>Reporter Information</legend>
             <label class="top">Full Name*<input type="text" name="fname" required></label>
-            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" ></label>
             <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" ></label>
             <label class="top">Zip<input type="text" name="zip" pattern="[0-9]*"></label>
         </fieldset>
 
@@ -75,13 +75,13 @@
                 </select>
             </label>
        
-            <label class="slide" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+            <label class="slide" for="wearating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="wearating" value="5" min="1" max="10" step="1" list="ticklines"
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
+                <span id="wearatings">5</span>
             </label>
 
-            <datalist id="tickmarks">
+            <datalist id="ticklines">
                 <option value="0">
                 </option><option value="1">
                 </option><option value="2">

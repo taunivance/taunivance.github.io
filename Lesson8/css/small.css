@@ -330,15 +330,15 @@ form label.top input:required:valid {
 .slide {
     display: flex;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
 }
 
-#ratingvalue {
+#wearatings {
     padding-left: .5rem;
     font-weight: 700;
 }
 
-#rating {
+#wearating {
     min-width: 8rem;
     width: calc(50vw - 1.25rem);
     max-width: 11.25rem;
