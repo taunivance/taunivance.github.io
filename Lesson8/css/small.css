@@ -301,7 +301,6 @@ input[type="checkbox"] {
   }
 
 
-
 form input.submitBtn {
     border: none;
     background-color: #899B64;
@@ -312,8 +311,11 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
     margin-left: 385px;
+    font-weight: bold;
     font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 800px;
+    font-size: 1.2rem;
+
+    
 }
 
 form label.top input:required {
