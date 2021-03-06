@@ -313,10 +313,7 @@ form input.submitBtn {
     margin-left: 385px;
     font-weight: bold;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.2rem;
-    color: #9c2c13;
-
-    
+    font-size: 1.2rem;    
 }
 
 form label.top input:required {
