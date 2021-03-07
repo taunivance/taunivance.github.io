@@ -1,0 +1,93 @@
+header {
+    text-align: center;
+  
+}
+
+main div {
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(22, 22, 19);
+    
+}
+
+h2 {
+    font-size: 1.5em;
+    
+}
+
+
+section {
+    background: rgb(91, 91, 129);
+    border-radius: 5%;
+    width: 300px;
+    height: 450px;
+}
+
+img {
+    max-width: 75%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 32.5rem) {
+
+    main {
+        max-width: 30rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+}
+
+@media only screen and (min-width: 64rem) {
+
+    main {
+        max-width: 60rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+    }
+
+}
