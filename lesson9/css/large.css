@@ -95,7 +95,7 @@ nav ul li a {
 
 
 /*----------- INDEX --------------*/
-
+/*
 .cards {
     max-width: 64rem;
     display: grid;
@@ -103,7 +103,10 @@ nav ul li a {
 }
 .cards section {
     display: block;
-    max-width: 300px;
+    max-width: 300px;*/
+
+    #display_here {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    #display_here div {display: block;}
 }
 
 

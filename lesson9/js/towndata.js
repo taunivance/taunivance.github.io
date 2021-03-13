@@ -1,60 +1,47 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch('towndata.json')
+  .then((response) => response.json())
+  .then((myInfo) => {
+    console.log(myInfo);
+    console.log(myInfo.towns[6]);
+	
+	for (let i = 0; i < myInfo.towns.length; i++) {
+            if (i == 2 || i == 6 || i == 3) {
+                let card = document.createElement('div');
+                
+                let info = document.createElement('section');
+                let photo = document.createElement('figure');
+                
+                let name = document.createElement('h2');
+                let motto = document.createElement('h3');
+                let date = document.createElement('p');
+                let people = document.createElement('p');
+                let rain = document.createElement('p');
+                let image = document.createElement('img');
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-        console.table(jsonObject);  
-        const towns = jsonObject["towns"];
-        for (let i = 0; i < towns.length; i++) {
-          if (towns[i].name == "Preston" || towns[i].name == "Soda Srpings" || towns[i].name == "Fish Haven") 
-            let card = document.createElement("section");
-            let namediv = document.createElement("div");
-            namediv.classList.add("title");
-            
-            let name = document.createElement("h2");
-            name.textContent = towns[i].name
-            namediv.appendChild(name);
+                //info.setAttribute('class', 'info');
+                
+                name.textContent = myInfo.towns[i].name;
+                motto.textContent = myInfo.towns[i].motto;
+                date.textContent = 'Year Founded: ' + myInfo.towns[i].yearFounded;
+                people.textContent = 'Population: ' + myInfo.towns[i].currentPopulation + 'souls';
+                rain.textContent = 'Annual Rain Fall: ' + myInfo.towns[i].averageRainfall + 'in';
+                image.setAttribute('src', 'images/'+myInfo.towns[i].photo);
+                image.setAttribute('alt', myInfo.towns[i].name + ' Hometown');
+                image.setAttribute('width', '400');
+                image.setAttribute('height', '200');
+                
+                info.appendChild(name);
+                info.appendChild(motto);
+                info.appendChild(date);
+                info.appendChild(people);
+                info.appendChild(rain);
+                card.appendChild(info);
+                
+                photo.appendChild(image);
+                card.appendChild(photo);
 
-            let motto = document.createElement("h3");
-            motto.textContent = towns[i].motto
-            namediv.appendChild(motto);
-            
-            let detaildiv = document.createElement("div");
-            detaildiv.classList.add("details");
-            
-            let year = document.createElement("p");
-            year.textContent = "Year Founded: " + towns[i].yearFounded;
-            detaildiv.appendChild(year);
-            
-            let pop = document.createElement("p");
-            pop.textContent = "Population: " + towns[i].currentPopulation;
-            detaildiv.appendChild(pop);
-
-            let rain = document.createElement("p");
-            rain.textContent = "Average Rainfall: " + towns[i].averageRainfall + "in.";
-            detaildiv.appendChild(rain);
-            
-            let image = document.createElement("img");
-            
-            image.setAttribute("src", "images/" + [i].photo);
-            image.setAttribute('loading', 'lazy');
-            image.setAttribute('alt', towns[i].name);
-            image.classList.add("card-image");
-            
-
-            //child of the first item
-            card.appendChild(namediv);
-            card.appendChild(image);
-            card.appendChild(detaildiv);
-
-            document.querySelector("div.cards").appendChild(card);
+                document.getElementById('display_here').appendChild(card);
+            }
         }
-    
-    });
+  }); //end of "then" fat arrow function
 
-   
-
-
-    

@@ -200,24 +200,25 @@ figcaption {
 
 /*----------- INDEX --------------*/
 
-.cards {
-    display: block;
-    text-align: center;
-}
-.cards section {
-    background-color: #8ecae6;
-    border: 2px solid #023047;
-    margin: 5px;
-    max-width: 340px;
-    margin: 10px auto;
-}
-.cards section:hover {
-    box-shadow: 0 0 50px #000;
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
 }
 
-.card-image { 
-    width: 100%;
-}
+
+
+/*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+#display_here {background-color: rgba(255,234,0,0.1); padding: 1rem;}
+#display_here div {border: dashed 1px #F00; padding: 1rem;}
+#display_here div section {background-color: rgba(219,0,255,0.10); text-align: center;}
+#display_here div section h2 {margin: 0; color: mediumpurple;}
+#display_here div section h3 {margin: 0; color: darkorange; font-weight: normal;}
+#display_here div figure  {margin: 0; width: 100%;}
+#display_here div figure img {width: 100%; height: auto;}
+
+
+
 
 /*----------- FOOTER --------------*/
 footer {
