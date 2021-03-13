@@ -95,28 +95,36 @@ nav ul li a {
 
 
 /*----------- INDEX --------------*/
-/*
-.cards {
-    max-width: 64rem;
+
+#cards img{
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
+}
+
+#cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;  
 }
-.cards section {
+
+
+#cards div {
+    color: #0D153B;
     display: block;
-    max-width: 300px;*/
-
-    #display_here {display: grid; grid-template-columns: 1fr 1fr 1fr;}
-    #display_here div {display: block;}
+    border: #0D153B solid 2px;
+    background-color: #CCD2EC; 
 }
-
 
 
 
 
 /*----------- FOOTER --------------*/
 footer {
-  
-    font-size: 1rem;
- 
-} 
-} /* end of media query */
+    font-size: 1rem;} 
+
+
+}
+/* end of media query */

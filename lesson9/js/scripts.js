@@ -1,16 +1,18 @@
-fetch('towndata.json')
-  .then((response) => response.json())
-  .then((myInfo) => {
-    console.log(myInfo);
-    console.log(myInfo.towns[6]);
-	
-	for (let i = 0; i < myInfo.towns.length; i++) {
-            if (i == 2 || i == 6 || i == 3) {
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const towns = jsonObject['towns'];
+
+        for (let i = 0; i < towns.length; i++) {
+            if (i == 1 || i == 5 || i == 6) {
                 let card = document.createElement('div');
-                
                 let info = document.createElement('section');
                 let photo = document.createElement('figure');
-                
                 let name = document.createElement('h2');
                 let motto = document.createElement('h3');
                 let date = document.createElement('p');
@@ -18,30 +20,26 @@ fetch('towndata.json')
                 let rain = document.createElement('p');
                 let image = document.createElement('img');
 
-                //info.setAttribute('class', 'info');
-                
-                name.textContent = myInfo.towns[i].name;
-                motto.textContent = myInfo.towns[i].motto;
-                date.textContent = 'Year Founded: ' + myInfo.towns[i].yearFounded;
-                people.textContent = 'Population: ' + myInfo.towns[i].currentPopulation + 'souls';
-                rain.textContent = 'Annual Rain Fall: ' + myInfo.towns[i].averageRainfall + 'in';
-                image.setAttribute('src', 'images/'+myInfo.towns[i].photo);
-                image.setAttribute('alt', myInfo.towns[i].name + ' Hometown');
-                image.setAttribute('width', '400');
-                image.setAttribute('height', '200');
-                
+                name.textContent = towns[i].name;
+                motto.textContent = towns[i].motto;
+                date.textContent = 'Year Founded: ' + towns[i].yearFounded;
+                people.textContent = 'Population: ' + towns[i].currentPopulation;
+                rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+                image.setAttribute('src', 'images/'+towns[i].photo);
+                image.setAttribute('alt', towns[i].name + ' Hometown');
+
+                photo.appendChild(image);
+                card.appendChild(photo);
+
                 info.appendChild(name);
                 info.appendChild(motto);
                 info.appendChild(date);
                 info.appendChild(people);
                 info.appendChild(rain);
                 card.appendChild(info);
-                
-                photo.appendChild(image);
-                card.appendChild(photo);
 
-                document.getElementById('display_here').appendChild(card);
+                document.getElementById('cards').appendChild(card);
             }
         }
-  }); //end of "then" fat arrow function
 
+    });
