@@ -89,14 +89,11 @@ nav ul{
     nav ul.hide {display: none;}
     
 
-
-
-
 /*----------- MAIN --------------*/
-main {
+/*main {
     padding: 0 2%;
     min-height: 25rem;
-}
+}*/
 
 main h1 {
     font-family: 'Merriweather', sans-serif;
@@ -118,11 +115,11 @@ main picture.herodiv {
 }
 
 
-figure {
+/*figure {
     max-width: 230px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
 
-}
+}*/
 
 figcaption {
     margin-top: 10px;
@@ -197,34 +194,57 @@ figcaption {
     width: 100%;
 }
 
-
 /*----------- INDEX --------------*/
 
 /*----------- MAIN --------------*/
-main {
+/*main {
     padding: 0 2%;
     min-height: 20rem;
 }
 
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
+
+
 #cards img{
     width:300px;
-    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
+    box-shadow: 0 0 30px rgb(83, 40, 46);
+    border-radius: 3%;
+
 }
+
 
 #cards div {
     color: #0D153B;
+    font-family: 'Merriweather', sans-serif;
     display: block;
-    border: #0D153B solid 2px;
-    background-color: #CCD2EC;  
+    border: #421601 solid 5px;
+    background-color: #be7f09; 
+    margin-bottom: 20px;
 }
 
 #cards {
     text-align: center;  
+    
+}
+
+.herodiv2 {
+    margin: 10px auto;
+    position: relative;
 }
 
 
+.images3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+
+  
 
 
 /*----------- FOOTER --------------*/

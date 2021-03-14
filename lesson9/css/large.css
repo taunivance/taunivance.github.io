@@ -36,11 +36,11 @@ nav button {display: none !important;}
 
 nav ul {
     align-content: center;
-    margin-left: 18%;
+    margin-left: 21%;
 }
 
 nav ul li a {
-    padding: .5rem 3.3rem;
+    padding: .5rem 2.8rem;
 }
 
 /*----------- MAIN --------------*/
@@ -49,8 +49,17 @@ nav ul li a {
 
 .herodiv {
     margin: 10px auto;
-    position: relative;
-    margin-left: 0%;
+    position: relative;}
+
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+    margin-left: 20%;
 }
 
 
@@ -96,26 +105,43 @@ nav ul li a {
 
 /*----------- INDEX --------------*/
 
-#cards img{
-    width:300px;
-    box-shadow: 0 4px 8px 0 rgba(29, 28, 28, 0.5);
+#cards img {
+    width:250px;
+    width: 250px;
+  
+    
 }
 
 #cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin: 20px;
-    justify-content: center;
-    text-align: center;  
+    justify-content: center;  
+    width: 61%;
+    margin-left: 20%;
+    
+}
+
+#cards div {
+    display: block;
+    width: 21em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+
+          
+}
+
+.herodiv2 {
+    margin: 10px auto;
+    position: relative;
 }
 
 
-#cards div {
-    color: #0D153B;
-    display: block;
-    border: #0D153B solid 2px;
-    background-color: #CCD2EC; 
+.images3 {
+    width: 60%;
+    height: auto;
+    margin: 25px auto;
+    margin-left: 20%;
+   
 }
 
 
