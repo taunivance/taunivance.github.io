@@ -48,6 +48,7 @@ header h2 {
 nav {
     background-color: #64899B;
     font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 0px;
 }
 
 nav button {
@@ -177,6 +178,14 @@ figcaption {
     display: none;
 }
 
+.container2 {
+    text-align: center;
+}
+
+.contactcont {
+    text-align: center;
+}
+
 
 .map {
     width: 100%;
@@ -194,12 +203,8 @@ figcaption {
     width: 100%;
 }
 
-/*----------- INDEX --------------*/
-
-/*----------- MAIN --------------*/
-/*main {
-    padding: 0 2%;
-    min-height: 20rem;
+.image2{
+    margin-top: 0px;
 }
 
 
@@ -208,6 +213,7 @@ figcaption {
 
 #cards img{
     width:230px;
+    margin-top: 10px;
     box-shadow: 0 0 30px rgb(83, 40, 46);
     border-radius: 3%;
 
@@ -240,7 +246,7 @@ figcaption {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin: 10px auto;
+    margin-top: 0px;
 }
 
 
