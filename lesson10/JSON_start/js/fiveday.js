@@ -37,10 +37,19 @@ fetch(apiURL)
       forecastDayNumber+=1;
       if (forecastDayNumber===7){
         forecastDayNumber=0;
-      let theDayName = document.createElement ("span");
-      theDayName.textContent=weekDay[forecastDayNumber];
-      console.log(">"+weekDay[forecastDayNumber]);
       }
+
+      if (time.includes('19:00:00')) {
+        let theDayName = document.createElement ("span");
+        theDayName.textContent=weekDay[forecastDayNumber];
+        console.log(">"+weekDay[forecastDayNumber]);
+      }//end if
+
+      if (time.includes('19:00:00')) {
+        let theTemp = document.createElement ("p");
+        theTemp.textContent = weatherForecast.list[i].main.temp + "\xB0";
+      }//end if
+
       weatherForcast(mylist[i], weekDay[forecastDayNumber])
 
     }//end if
