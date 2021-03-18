@@ -39,16 +39,15 @@ fetch(apiURL)
         forecastDayNumber=0;
       }
 
-      if (time.includes('19:00:00')) {
+   
         let theDayName = document.createElement ("span");
         theDayName.textContent=weekDay[forecastDayNumber];
         console.log(">"+weekDay[forecastDayNumber]);
-      }//end if
+      
 
-      if (time.includes('19:00:00')) {
         let theTemp = document.createElement ("p");
         theTemp.textContent = weatherForecast.list[i].main.temp + "\xB0";
-      }//end if
+  
 
       weatherForcast(mylist[i], weekDay[forecastDayNumber])
 
@@ -56,3 +55,5 @@ fetch(apiURL)
   }//end for
 
 }); //end of "then" fat arrow function
+
+https://matthewfelton.github.io/lesson11/preston.html
