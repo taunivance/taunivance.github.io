@@ -47,45 +47,31 @@
 <!-- CONTENT HERE -->
 
 <main>
-        <h1>Preston Town</h1>
-        <div class="herodiv">
-            <picture class="herodiv">
-                <source srcset="images/prestonmedium.jpg" media="(min-width: 500px) and (max-width:799px)" >
-                <source srcset="images/prestonlarge.jpg"  media="(min-width: 800px)">
-                <img class="small" src="images/prestonsmall.jpg" alt="hero images"> 
-            </picture>
-            <section class="stats">
-                <h3>Weather Summary</h3>
-                <div class="grid1">
-                    <p>Currently:</p>
-                    <p>Temp:</p>
-                    <p>Wind Chill:</p>
-                    <p>Humidity:</p>
-                    <p>Wind Speed:</p>
-                </div>
-                <div class="grid2">
-                    <p>Rainy</p>
-                    <p><span id="temp">48</span>&#176;</p>
-                    <p><span id="windChl"></span></p>
-                    <p>40%</p>
-                    <p><span id="windSpd">5</span>mph</p>
-                </div>
-            </section>
+    <h1>Preston Town</h1>
+    <div class="herodiv">
+        <img class="image" src="images/prestonpic.jpg" alt="Preston Picture">
+        <section class="stats">
+         <h3>Weather Summary</h3>
+         <div class="grid1">
+            <p>Currently:</p>
+            <p>High:</p>
+            <p>Low:</p>
+            <p>Wind:</p>
         </div>
-
-        <div>
-            <h1>Forecast</h1>
-            <h2>Weather Conditions for <span id="place">city</span></h2>
-            <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
-            <p>Current Wind Speed is <span id="windSpeed">xx</span>mph</p>
-            <img id="weather_icon" src="images/placeholder.png" alt="current weather">
+        <div class="grid2">
+            <p>Snowing</p>
+            <p>48&#176;</p>
+            <p>25&#176;</p>
+            <p>3 km/h</p>
         </div>
-        
+        </section>
+    </div>
+      
         <div class="forecast">
             <h2>Five Day Forecast</h2>
-                <section class="foreday"  id="weatherforecast">
+                <section class="foreday">
                     <div class="box1">
-                        <h3><span id="place"></span></h3>
+                        <h3>Monday</h3>
                         <img class="weaicon1" src="images/Sunny.png" alt="weather icon">
                         <p><strong>High Temp:&#176;</strong>&#176;</p>
                     </div>

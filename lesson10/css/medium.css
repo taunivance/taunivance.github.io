@@ -113,6 +113,30 @@
             background: radial-gradient(#eee, #b2d0df);
         }
 
+        .container2 {
+            margin: 25px auto;
+            position: relative;
+            width: 975px;
+            height: 340px;
+            background-color: #64899B;
+            border: 2px solid black;
+        }
+
+        .contactus {
+            font-family: 'Merriweather', sans-serif;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        .contactcont {
+            font-family: 'Merriweather', sans-serif;
+            position: absolute;
+	        top: 50px;
+	        left: 50px;
+            
+        }
+
         .container1 {
             margin: 30px auto;
             position: relative;
@@ -145,34 +169,9 @@
         }
 
 
-        .container2 {
-            margin: 25px auto;
-            position: relative;
-            width: 765px;
-            height: 340px;
-            background-color: #64899B;
-            border: 2px solid black;
-        }
-
-        .contactus {
-            font-family: 'Merriweather', sans-serif;
-            margin-left: 45px;
-            margin-top: 20px;
-            text-align:left
-
-        }
-
-        .contactcont {
-            font-family: 'Merriweather', sans-serif;
-            position: absolute;
-	        top: 40px;
-	        left: 20px;
-            
-        }
-
         .image2 {
             float: left;
-            margin-left: 30%;
+            margin-left: 27%;
             width: 310px;
             height: auto;
             margin-top: -50px;
@@ -182,12 +181,13 @@
         .map {
             float: right;
             margin-right: 3%;
-            width: 300px;
+            width: 400px;
             height: auto;
-            margin-top: -115px;
+            margin-top: -175px;
            
         }
 
+        
         .gallery {
             max-width: 44rem;
         }

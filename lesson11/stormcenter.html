@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Weather Rain or Shine</title>
+        <meta name="description" content="Weather Site Preston Page">   
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" href="favicon.ico">   
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        
+    </head>
+
+
+    <body>
+<!-- HEADER HERE -->
+    <div id="message">Saturday = Preston Pancakes in the Park!<br>  
+        9:00 a.m. Saturday at the city park pavilion</div>
+    <header class="clearfix">
+        <img class="" src="images/logo.png" alt="logo">
+        <section class="headings">
+            <h1>Weather Rain or Shine</h1>
+            <h2>Bringing warmth to your home</h2>
+        </section>
+     
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+
+<main class="formsize">
+
+    <h1 class="conditions">Report Your Storm and Weather Conditions</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Reporter Information</legend>
+            <label class="top">Full Name*<input type="text" name="fname" required></label>
+            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" ></label>
+            <label class="top">Zip<input type="text" name="zip" pattern="[0-9]*"></label>
+        </fieldset>
+
+       
+        <fieldset>
+            <legend>Storm Information</legend>
+
+            <label class="top">Storm or Weather Date<input type="date" name="completeDate"></label>
+            <div>
+            <label class="space" for="top" >Storm Type</label>
+                <input list="regions" id="top" name="Please List" placeholder="Please Select">
+                <datalist id="regions">
+                        <option value="Tornado">
+                        <option value="Hurricane">
+                        <option value="Earthquake">
+                        <option value="Hail Storm">
+                        <option value="Land Slide">
+                        <option value="Flash Flood">
+                        <option value="Thunderstorm">
+                        <option value="Lightening">
+                </datalist>
+            
+            </div>
+       
+            <label class="slide" for="wearating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="wearating" value="5" min="1" max="10" step="1" list="ticklines"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="wearatings">5</span>
+            </label>
+
+            <datalist id="ticklines">
+                <option value="0">
+                </option><option value="1">
+                </option><option value="2">
+                </option><option value="3">
+                </option><option value="4">
+                </option><option value="5">
+                </option><option value="6">
+                </option><option value="7">
+                </option><option value="8">
+                </option><option value="9">
+                </option><option value="10">
+                </option>
+            </datalist>
+
+            <label class="top">Storm Region
+                <select name="subject">
+                    <option value="" disabled="" selected="">Select Region ▾</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </label>
+            
+           
+            <label class="top">Are you in danger?</label>   
+            <label class="sbs"><input type="radio" name="audience" value="Yes">Yes</label>
+            <label class="sbs"><input type="radio" name="audience" value="No">No</label>
+            <label class="sbs"><input type="radio" name="audience" value="Maybe">Maybe</label>          
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information or Comments</legend>
+            <label class="top">Enter comments here
+            <textarea class="addinfo" name="addedinfo" rows="40" cols="50"></textarea>
+            </label>
+            
+        </fieldset>
+
+        <input type="submit" value="Report Your Storm" class="submitBtn">   
+    </form>
+  
+</main>
+    
+<!-- FOOTER HERE -->   
+            <footer>
+                <p> 
+                © 2021 &#8226; Tauni K Vance &#8226;
+                <span id="currentdate"></span>
+                </p>      
+                <script src="js/currentdate.js"></script>
+                <script src="js/toggle.js"></script>
+            </footer> 
+            <script>
+                
+            </script>
+       
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            
+            <script>
+                WebFont.load({google: {families: ["Merriweather"]}});
+            </script>
+
+            <script src="js/windchill.js"></script>
+            <script src="js/banner.js"></script>
+            <script src="js/storm.js"></script>
+    </body>
+</html>

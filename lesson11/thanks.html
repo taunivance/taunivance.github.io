@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Weather Rain or Shine</title>
+        <meta name="description" content="Weather Site Preston Page">   
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" href="favicon.ico">   
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        
+    </head>
+
+
+    <body>
+<!-- HEADER HERE -->
+    <div id="message">Saturday = Preston Pancakes in the Park!<br>  
+        9:00 a.m. Saturday at the city park pavilion</div>
+    <header class="clearfix">
+        <img class="" src="images/logo.png" alt="logo">
+        <section class="headings">
+            <h1>Weather Rain or Shine</h1>
+            <h2>Bringing warmth to your home</h2>
+        </section>
+     
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+    
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1 class="conditions">Report Your Storm and Weather Conditions</h1>
+            <p class="thankyou">Thanks for submitting your weather condition. We will review and respond immediately if we have any concerns.</p>
+    
+              
+            
+        </main>
+        
+    <!-- FOOTER HERE -->   
+    <footer>
+        <p> 
+        © 2021 &#8226; Tauni K Vance &#8226;
+        <span id="currentdate"></span>
+        </p>      
+        <script src="js/currentdate.js"></script>
+        <script src="js/toggle.js"></script>
+    </footer> 
+    <script src="js/scripts.js"></script>
+    </body>
+    </html>

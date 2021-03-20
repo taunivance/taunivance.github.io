@@ -116,11 +116,11 @@ main picture.herodiv {
 }
 
 
-/*figure {
+figure {
     max-width: 230px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
 
-}*/
+}
 
 figcaption {
     margin-top: 10px;

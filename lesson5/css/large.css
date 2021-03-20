@@ -75,6 +75,30 @@ nav ul li a {
 	opacity: .7;
 }
 
+.container2 {
+    margin: 25px auto;
+    position: relative;
+    width: 975px;
+    height: 340px;
+    background-color: #64899B;
+    border: 2px solid black;
+}
+
+.contactus {
+    font-family: 'Merriweather', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
 
 
 
