@@ -8,7 +8,7 @@ fetch(apiURL)
     console.log(weatherInfo);
     console.log(weatherInfo.city.name);
 
-    document.getElementById("townName").innerHTML = weatherInfo.city.name;
+    document.getElementById("place").innerHTML = weatherInfo.city.name;
   
     const d = new Date();
     const todayDayNumber = d.getDay();

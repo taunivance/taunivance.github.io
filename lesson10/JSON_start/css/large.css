@@ -19,7 +19,7 @@
 
 
 /*----------- MAIN --------------*/
-section#waetherforecast {
+section#weatherforecast {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 

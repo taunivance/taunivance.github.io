@@ -59,9 +59,14 @@ main {
     min-height: 20rem;
 }
 
-section#waetherforecast {
+section#weatherforecast {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /*----------- FOOTER --------------*/
