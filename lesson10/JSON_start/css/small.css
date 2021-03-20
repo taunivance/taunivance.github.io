@@ -59,6 +59,10 @@ main {
     min-height: 20rem;
 }
 
+section#waetherforecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 /*----------- FOOTER --------------*/
 footer {
