@@ -59,6 +59,47 @@ main {
     min-height: 20rem;
 }
 
+section#weatherforecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.forecast {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.forecastBlock {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}
+
+.forecastBlock div {
+    text-align: center;
+    border: 2px solid #000;
+    max-width: 320px;
+    border-radius: 15px;
+}
+  
+.forecastBlock div h3 {
+    background-color: #154c87;
+    margin: 0;
+    padding: 1rem 0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 13px 13px 0 0;
+}
+
+.forecastBlock div img {
+    width: 96px;
+    height: auto;
+}
+
+.forecastBlock div p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
 
 /*----------- FOOTER --------------*/
 footer {
