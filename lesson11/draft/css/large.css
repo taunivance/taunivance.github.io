@@ -155,6 +155,7 @@ nav ul li a {
     width: 61%;
     margin-left: 20%;
     
+    
 }
 
 #cards div {
@@ -162,6 +163,7 @@ nav ul li a {
     width: 21em;
     padding-top: 15px;
     margin-bottom: 5px;
+    margin: 5px;
 
           
 }
@@ -179,10 +181,6 @@ nav ul li a {
     margin-left: 20%;
    
 }
-
-
-
-
 
 
 /*----------- FOOTER --------------*/

@@ -116,7 +116,7 @@ main picture.herodiv {
 }
 
 
-figure {
+figure.color {
     max-width: 230px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
 
@@ -128,6 +128,27 @@ figcaption {
     font-family: 'Merriweather Sans', sans-serif;
     
   }
+
+
+.gallerytitle {
+    margin-bottom: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+.gallery {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.gallerygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    
+}
 
 .gallerygrid img[data-src] {
     filter: blur(0.6em);
@@ -254,7 +275,6 @@ figcaption {
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
 
-
 #cards img{
     width:230px;
     margin-top: 10px;
@@ -271,12 +291,25 @@ figcaption {
     border: #421601 solid 5px;
     background-color: #be7f09; 
     margin-bottom: 20px;
+    
 }
 
 #cards {
     text-align: center;  
     
 }
+
+#cards section h3 {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+#cards section h2 {
+    font-size: 26px;
+    line-height: 22px;
+}
+
+
 
 .herodiv2 {
     margin: 10px auto;
@@ -293,8 +326,125 @@ figcaption {
     margin-top: 0px;
 }
 
+/*----------- LAYOUT FOR FORM  --------------*/
+ 
 
-  
+.formsize {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+.conditions {
+    margin-left: 300px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #64899B;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 500px;
+    margin-left: 300px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance:none;
+    display: block;
+    font-size: 1.1rem;
+    border: solid 1px #899B64;
+    border-radius: 5px;
+    padding-top: .75rem;
+    color: rgb(14, 2, 2);
+    width: 100%;
+    max-width: 40rem;
+    background-color: rgba(38, 90, 121, 0.1);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+  }
+
+input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #899B64;
+    color: white;
+    border-radius: .75rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    margin-left: 385px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;    
+}
+
+form label.top input:required {
+    border-left: rgb(121, 3, 3) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(1, 90, 1) solid 6px;
+}
+
+.addinfo {
+    max-height: 300px;
+}
+
+.slide {
+    display: flex;
+    padding-top: 1.5rem;
+    
+}
+
+#wearatings {
+    padding-left: .5rem;
+    font-weight: 700;
+}
+
+#wearating {
+    min-width: 8rem;
+    width: calc(50vw - 1.25rem);
+    max-width: 11.25rem;
+}
+
+.space {
+    margin-top: 1.5rem;
+}
+
+.thankyou {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 300px;
+
+}
+
+
 
 
 /*----------- FOOTER --------------*/

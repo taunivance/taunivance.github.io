@@ -1,0 +1,21 @@
+main {
+    justify-content: center;
+    display: grid; 
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+}
+
+img[data-src] {
+    filter: blur(0.6em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    box-shadow: 0 0 10px pink;
+}
+
