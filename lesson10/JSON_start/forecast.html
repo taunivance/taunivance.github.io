@@ -4,8 +4,6 @@
 <meta charset="utf-8">
 <meta name="description" content="Fill Me In">
 <meta name="author" content="John Doe">
-<link rel="icon" type="image/x-icon" href="favicon.ico"/>
-<link rel="preconnect" href="https://fonts.gstatic.com">
 
 <!-- This start file was build by Paul Cheney  -->
 <title>HTML5 Start Site by Paul Cheney</title>
@@ -40,8 +38,8 @@
     <nav class="clearfix">
         <ul >
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Forecast</a></li>
-            <li><a href="#">Report a Storm</a></li>
+            <li> <a href="index.html">Forecast</a></li>
+            <li class="active"><a href="forecast.html">5 Day forecast</a></li>
             <li><a href="#">Contact Us</a></li>    
         </ul>
     </nav>
@@ -49,27 +47,15 @@
     
 <!-- CONTENT HERE -->
     <main>
-        
-        <h1>Five Day Forecast</h1>
-        <!--<h2>Weather Conditions for <span id="place">city</span></h2>-->
-        <h2>Weather for <span id="place">city</span> at lunch time for the next 5 Days.</h2>
-        
+    
+        <h2>Weather for <span id="townName">town</span> at lunch time for the next 5 days.</h2>
         <section id="weatherforecast"></section>
-  
     </main>
     
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 2018 &bull; Paul Cheney &bull; 123-555-6789
+        &copy; 2021 &bull; Matthew Felton &bull; 123-555-6789
     </footer>
-
-            <script src="js/fiveday.js"></script>
-
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-            
-            <script>
-                WebFont.load({google: {families: ["Merriweather"]}});
-            </script>
-
+<script src="js/fiveday.js"></script>
 </body>
 </html>
