@@ -228,9 +228,6 @@ figcaption {
     display: none;
 }
 
-
-
-
 .article{
     padding-top: 160px;
 }
@@ -253,7 +250,6 @@ figcaption {
 
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
-
 
 #cards img{
     width:230px;
@@ -292,6 +288,8 @@ figcaption {
     height: auto;
     margin-top: 0px;
 }
+
+/*----------- FIVE DAY FORECAST --------------*/
 
 
   
