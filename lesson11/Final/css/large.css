@@ -1,0 +1,192 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, footer {
+        margin: auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header img {
+    float: left;  
+    margin-left: 19%;
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 40px;
+    font-weight: 700; 
+    font-size: 2rem;
+
+}
+header h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal; 
+    font-size: 1.2rem;
+
+}
+
+/*----------- NAVIGATION --------------*/
+nav button {display: none !important;}
+
+nav ul {
+    align-content: center;
+    margin-left: 21%;
+}
+
+nav ul li a {
+    padding: .5rem 2.8rem;
+}
+
+/*----------- MAIN --------------*/
+
+
+.stats {
+	position: absolute;
+    font-family: 'Merriweather', sans-serif;
+	top: 40px;
+	left: 22%;
+    background-color: #64899B;
+	background: radial-gradient(rgb(250, 248, 248), #60889c);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .7;
+}
+
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;}
+
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+    margin-left: 20%;
+}
+
+
+.large {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    
+}
+
+.stats {
+	position: absolute;
+    font-family: 'Merriweather', sans-serif;
+	top: 40px;
+	left: 22%;
+    background-color: #64899B;
+	background: radial-gradient(rgb(250, 248, 248), #60889c);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .7;
+}
+
+.gallery {
+    max-width: 64rem;
+}
+
+.gallerygrid{
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.gallerygrid figure:hover {
+    box-shadow: 0 0 40px #899B64;
+}
+
+
+.container2 {
+    margin: 25px auto;
+    position: relative;
+    width: 975px;
+    height: 340px;
+    background-color: #64899B;
+    border: 2px solid black;
+}
+
+.contactus {
+    font-family: 'Merriweather', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+
+
+/*----------- INDEX --------------*/
+
+#cards img {
+    width:250px;
+    width: 250px;
+  
+    
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;  
+    width: 61%;
+    margin-left: 20%;
+    
+    
+}
+
+#cards div {
+    display: block;
+    width: 21em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin: 5px;
+
+          
+}
+
+.herodiv2 {
+    margin: 10px auto;
+    position: relative;
+}
+
+
+.images3 {
+    width: 60%;
+    height: auto;
+    margin: 25px auto;
+    margin-left: 20%;
+   
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    font-size: 1rem;} 
+
+
+}
+/* end of media query */
