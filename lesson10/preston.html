@@ -51,22 +51,23 @@
     <div class="herodiv">
         <img class="image" src="images/prestonpic.jpg" alt="Preston Picture">
         <section class="stats">
-         <h3>Weather Summary</h3>
-         <div class="grid1">
-            <p>Currently:</p>
-            <p>Current:</p>
-            <p>Wind Chill:</p>
-            <p>Humidity:</p>
-            <p>Wind Speed:</p>
-        </div>
-        <div class="grid2">
-            <p><span id="currently"></span></p>
-            <p><span id="temp"></span>&#176;</p>
-            <p><span id="windChill"></span>&#176;</p>
-            <p><span id="humidity"></span></p>
-            <p><span id="windSpeed"></span>"mph"</p>
-        </div>
-        </section>
+            <h3>Weather Summary</h3>
+            <div class="grid1">
+               <p>Current:</p>
+               <p>High:</p>
+               <p>Wind Chill:</p>
+               <p>Humidity:</p>
+               <p>Wind Chill:</p>
+           </div>
+           <div class="grid2">
+               <p><span id="current"></span>&#176;</p>
+               <p><span id="highTemp"></span>&#176;</p>
+               <p><span id="chill"></span>&#176;</p>
+               <p><span id="humid"></span>%</p>
+               <p><span id="windSpeed">xx</span>mph</p>
+           </div>
+           </section>
+        
     </div>
 
         <div class="forecast">
@@ -136,7 +137,7 @@
                 WebFont.load({google: {families: ["Merriweather"]}});
             </script>
 
-            <script src="js/windchill.js"></script>
+            <script src="js/summary.js"></script>
             <script src="js/banner.js"></script>
             <script src="js/fiveday.js"></script>
             

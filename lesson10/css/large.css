@@ -50,7 +50,7 @@ nav ul li a {
 	position: absolute;
     font-family: 'Merriweather', sans-serif;
 	top: 40px;
-	left: 22%;
+	left: 10%;
     background-color: #64899B;
 	background: radial-gradient(rgb(250, 248, 248), #60889c);
 	border: 1px solid #000;
@@ -86,10 +86,10 @@ nav ul li a {
     
 }
 
-.stats {
+section.stats {
 	position: absolute;
     font-family: 'Merriweather', sans-serif;
-	top: 40px;
+	top: -30px;
 	left: 22%;
     background-color: #64899B;
 	background: radial-gradient(rgb(250, 248, 248), #60889c);
@@ -98,6 +98,7 @@ nav ul li a {
 	box-shadow: 0 0 30px #111;
 	opacity: .7;
 }
+
 
 .gallery {
     max-width: 64rem;
