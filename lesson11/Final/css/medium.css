@@ -78,42 +78,8 @@
             margin: 5px auto;
         }
 
-        .forecast {
-            display: block;
-            margin-top: 15px;
-        }
-
-        .forecast h2{
-            margin-top: 4px;
-            margin-bottom: 18px;
-            text-align: center;
-        }
-
-        .foreday {
-            display: grid;
-            margin-right: 4%;
-            grid-template-columns: 110px 110px 110px 110px 110px;
-            justify-content: center;
-            align-content: center;
-            gap: 35px;
-        }
-        .box1 h3, p {
-            padding-left: 0px;
-        }
-
-        .weaicon1 {
-            width: 60px;
-        }
-        .box1 {
-            font-family: 'Merriweather', sans-serif;
-            border: 2px solid #023047;
-            width: 150px;
-            height: 195px;
-            text-align: center;
-            background: radial-gradient(#eee, #b2d0df);
-        }
-
-        .container2 {
+  
+       .container2 {
             margin: 25px auto;
             position: relative;
             width: 975px;
@@ -196,6 +162,8 @@
             grid-template-columns: 1fr 1fr;
         }
 
+        /*----------- HOME PAGE TOWNS --------------*/
+
 
         #cards div {
             margin-top: 20px;
@@ -222,9 +190,55 @@
             line-height : 17px;
         }
 
+   
+
+        /*----------- FIVE DAY FORECAST --------------*/
+
+        .forecast h2{
+            text-align: center;
+        }
+
+        .forecast {
+            display: block;
+            
+        }
+
+        .forecasts {
+            grid-template-columns: 140px 140px 140px 140px 140px;
+
+            display: grid;
+            gap: 15px;
+            justify-content: center;
+            text-align: center;
+    
+        }
+
+        .forecasts p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+
+        #weatherforecast div {
+            line-height: 2em;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 800;
+            border: 2px solid #023047;
+            text-align: center;
+            background: radial-gradient(#eee, #b2d0df);
+            
+        }
+
+        #weatherforecast img{
+            margin-top: 5px;
+            width: 70%;
+
+        }
+
         footer {
             font-size: 1rem;
         }
+
 
     }
     

@@ -36,8 +36,8 @@
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>    
         </ul>
@@ -50,52 +50,28 @@
     <h1>Preston Town</h1>
     <div class="herodiv">
         <img class="image" src="images/prestonpic.jpg" alt="Preston Picture">
-        <section class="stats">
-         <h3>Weather Summary</h3>
-         <div class="grid1">
-            <p>Currently:</p>
-            <p>High:</p>
-            <p>Low:</p>
-            <p>Wind:</p>
-        </div>
-        <div class="grid2">
-            <p>Snowing</p>
-            <p>48&#176;</p>
-            <p>25&#176;</p>
-            <p>3 km/h</p>
-        </div>
-        </section>
+        <section class="stats" id=>
+            <h3>Weather Summary</h3>
+            <div class="grid1">
+               <p>Current:</p>
+               <p>High:</p>
+               <p>Wind Chill:</p>
+               <p>Humidity:</p>
+               <p>Wind Chill:</p>
+           </div>
+           <div class="grid2">
+               <p><span id="current"></span>&#176;</p>
+               <p><span id="highTemp"></span>&#176;</p>
+               <p><span id="chill"></span>&#176;</p>
+               <p><span id="humid"></span>%</p>
+               <p><span id="windSpeed">xx</span>mph</p>
+           </div>
+        </section> 
     </div>
-      
+
         <div class="forecast">
-            <h2>Five Day Forecast</h2>
-                <section class="foreday">
-                    <div class="box1">
-                        <h3>Monday</h3>
-                        <img class="weaicon1" src="images/Sunny.png" alt="weather icon">
-                        <p><strong>High Temp:&#176;</strong>&#176;</p>
-                    </div>
-                    <div class="box1">
-                        <h3>Tuesday</h3>
-                        <img class="weaicon1" src="images/clouds.png" alt="weather icon">
-                        <p><strong>High Temp:&#176;</strong>&#176;</p>
-                    </div>
-                    <div class="box1">
-                        <h3>Wednesday</h3>
-                        <img class="weaicon1" src="images/clouds.png" alt="weather icon">
-                        <p><strong>High Temp:&#176;</strong>&#176;</p>
-                    </div>
-                    <div class="box1">
-                        <h3>Thursday</h3>
-                        <img class="weaicon1" src="images/umbrella.png" alt="weather icon">
-                        <p><strong>High Temp:&#176;</strong>&#176;</p>
-                    </div>
-                    <div class="box1">
-                        <h3>Friday</h3>
-                        <img class="weaicon1" src="images/umbrella.png" alt="weather icon">
-                        <p><strong>High Temp:&#176;</strong>&#176;</p>
-                    </div>
-                </section>
+            <h2>Weather for <span id="place">town</span> at lunch time for the next 5 days.</h2>
+            <section class="forecasts" id="weatherforecast"></section>
         </div>
             
         <div class="container1">
@@ -158,9 +134,9 @@
                 WebFont.load({google: {families: ["Merriweather"]}});
             </script>
 
-            <script src="js/windchill.js"></script>
             <script src="js/banner.js"></script>
             <script src="js/fiveday.js"></script>
+            <script src="js/webfont.js"></script> 
             <script src="js/toggle.js"></script>
     </body>
 </html>
