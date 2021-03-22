@@ -164,10 +164,37 @@ section.stats {
     margin-top: -40px;
 }
 
-/*----------- FIVE  --------------*/
+/*----------- Form  --------------*/
 
 
+form fieldset {
+ 
+    max-width: 500px;
+    margin-left: 330px;
 
+}
+
+.conditions {
+    margin-top: 20px;
+    margin-left: 330px;
+    font-size: 20px;
+}
+
+label.top {
+    max-width: 450px;
+}
+
+textarea.addinfo {
+    max-width: 450px;
+}
+
+form input.submitBtn {
+    width: 96%;
+    max-width: 15rem;
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 1rem;    
+}
 
 
 
