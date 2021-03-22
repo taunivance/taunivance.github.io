@@ -113,10 +113,13 @@ main h2 {
 main picture.herodiv {
     margin: 10px auto;
     position: relative;
+    
 }
 
+/*----------- GALLERY --------------*/
 
-figure {
+
+figure.color {
     max-width: 230px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
 
@@ -129,7 +132,7 @@ figcaption {
     
   }
 
-  .gallerytitle {
+.gallerytitle {
     margin-bottom: 5px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
@@ -158,6 +161,8 @@ figcaption {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+
 
 .herodiv {
     margin: 10px auto;
@@ -227,24 +232,6 @@ section.stats {
     width: 100%;
 }
 
-
-.grid1 {
-    grid-column: 1/2;
-    margin: 0;
-    text-align: right;
-    font-weight: 700;
-    line-height: .9;
-}
-
-.grid2 {
-    grid-column: 2/3;
-    margin: 0;
-    text-align: left;
-    font-weight: 600;
-    line-height: .9;
-    padding-left: 5px;
-}
-
 .forecast {
     display: none;
 }
@@ -256,7 +243,6 @@ section.stats {
 
 .image2{
     width: 100%;
-    margin-top: 0px;
 }
 .map {
     width: 100%;
@@ -285,15 +271,28 @@ section.stats {
     color: #0D153B;
     font-family: 'Merriweather', sans-serif;
     display: block;
-    border: #421601 solid 5px;
-    background-color: #be7f09; 
+    border: #64899B solid 5px;
+    background-color: #9B9164; 
     margin-bottom: 20px;
+    
 }
 
 #cards {
     text-align: center;  
     
 }
+
+#cards section h3 {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+#cards section h2 {
+    font-size: 26px;
+    line-height: 22px;
+}
+
+
 
 .herodiv2 {
     margin: 10px auto;

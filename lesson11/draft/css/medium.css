@@ -63,7 +63,7 @@
            
         
         
-        /*----------- TABLE --------------*/
+        /*----------- FORECAST --------------*/
         .stats {
             width: 15rem;
             top: 10px;
@@ -113,6 +113,8 @@
             background: radial-gradient(#eee, #b2d0df);
         }
 
+        /*-----------  --------------*/
+
         .container2 {
             margin: 25px auto;
             position: relative;
@@ -146,6 +148,8 @@
             border: 2px solid black;
         }
 
+        /*----------- ARTICLE --------------*/
+
         .article {
             margin-left: 20px;
             margin-top: -140px;
@@ -178,6 +182,8 @@
            
         }
 
+        /*----------- CONTACT INFO --------------*/
+
         .map {
             float: right;
             margin-right: 3%;
@@ -195,6 +201,8 @@
         .gallerygrid {
             grid-template-columns: 1fr 1fr;
         }
+
+        /*----------- TOWN CARDS --------------*/
 
 
         #cards div {
@@ -221,6 +229,8 @@
             margin-top: 30px;   
             line-height : 17px;
         }
+
+        /*----------- FOOTER --------------*/
 
         footer {
             font-size: 1rem;

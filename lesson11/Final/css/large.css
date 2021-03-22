@@ -114,37 +114,13 @@ section.stats {
 }
 
 
-.container2 {
-    margin: 25px auto;
-    position: relative;
-    width: 975px;
-    height: 340px;
-    background-color: #64899B;
-    border: 2px solid black;
-}
-
-.contactus {
-    font-family: 'Merriweather', sans-serif;
-    margin-left: 20px;
-    margin-top: 20px;
-
-}
-
-.contactcont {
-    font-family: 'Merriweather', sans-serif;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    
-}
 
 
-
-/*----------- INDEX --------------*/
+/*----------- TOWN CARDS --------------*/
 
 #cards img {
-    width:250px;
-    width: 250px;
+    width:235px;
+    margin-top: 10px;
   
     
 }
@@ -154,24 +130,25 @@ section.stats {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;  
     width: 61%;
-    margin-left: 20%;
+    margin-left: 19.5%;
+    
     
 }
 
 #cards div {
     display: block;
-    width: 21em;
+    width: 20em;
     padding-top: 15px;
     margin-bottom: 5px;
+    margin: 5px;
 
           
 }
 
-
-
 .herodiv2 {
     margin: 10px auto;
     position: relative;
+    margin-top: 0;
 }
 
 
@@ -181,6 +158,10 @@ section.stats {
     margin: 25px auto;
     margin-left: 20%;
    
+}
+
+.image2 {
+    margin-top: -40px;
 }
 
 /*----------- FIVE  --------------*/
