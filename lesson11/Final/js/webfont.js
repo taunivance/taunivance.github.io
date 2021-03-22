@@ -1,3 +1,5 @@
 WebFont.load({
-    google: {families: ['Merriweather Sans', 'sans-serif']}
-});
+    google: {
+      families: ['Merriweather Sans','sans-serif']
+    }
+  });

@@ -1,4 +1,4 @@
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=558500&units=imperial&appid=2b46ec7de5911d2fd80baa005669e116";
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=2b46ec7de5911d2fd80baa005669e116";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -61,7 +61,7 @@ fetch(apiURL)
   }); //end of "then" fat arrow function
 
 
-          const apiURL2 = "https://api.openweathermap.org/data/2.5/weather?id=558500&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial";
+          const apiURL2 = "https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial";
           fetch(apiURL2)
           .then((response) => response.json())
           .then((weatherinfo) => {
