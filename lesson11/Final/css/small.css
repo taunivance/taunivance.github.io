@@ -343,10 +343,11 @@ form fieldset {
     max-width: 500px;
     margin-left: 10px;
     font-family: 'Merriweather Sans', sans-serif;
+    background: radial-gradient(rgb(250, 248, 248), #899B64);
 }
 
 form legend {
-    color: #445ba9;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
     max-width: 300px;
@@ -355,8 +356,9 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #072635;
+    
+    
 }
 
 form label.top input, form label.top select {
@@ -371,6 +373,7 @@ form label.top input, form label.top select {
     max-width: 40rem;
     background-color: rgba(38, 90, 121, 0.1);
     font-family: 'Merriweather Sans', sans-serif;
+    background: radial-gradient(rgb(250, 248, 248), #cfd3c8);
 }
 
 label.top {
@@ -418,6 +421,7 @@ form label.top input:required:valid {
 .addinfo {
     max-height: 300px;
     max-width: 280px;
+    background: radial-gradient(rgb(250, 248, 248), #cfd3c8);
 }
 
 .slide {

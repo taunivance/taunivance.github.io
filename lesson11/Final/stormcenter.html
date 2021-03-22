@@ -51,16 +51,16 @@
     <h1 class="conditions">Report Your Storm and Weather Conditions</h1>
     <form method="get" action="thanks.html">
         <fieldset>
-            <legend>Reporter Information</legend>
+            <legend class="formtext">Reporter Information</legend>
             <label class="top">Full Name*<input type="text" name="fname" required></label>
-            <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" ></label>
+            <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
             <label class="top">Zip<input type="text" name="zip" pattern="[0-9]*"></label>
         </fieldset>
 
        
         <fieldset>
-            <legend>Storm Information</legend>
+            <legend class="formtext">Storm Information</legend>
 
             <label class="top">Storm or Weather Date<input type="date" name="completeDate"></label>
             <div>
@@ -117,7 +117,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>Additional Information or Comments</legend>
+            <legend class="formtext">Additional Information or Comments</legend>
             <label class="top">Enter comments here
             <textarea class="addinfo" name="addedinfo" rows="40" cols="50"></textarea>
             </label>

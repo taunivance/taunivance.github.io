@@ -154,14 +154,24 @@
            
         }
 
+        .gallerytitle {
+            text-align: center;
+            margin-left: 70px;
+        }
         
         .gallery {
-            max-width: 44rem;
+            max-width: 38rem;
+            margin-left: 50px;
+    
         }
 
         .gallerygrid {
             grid-template-columns: 1fr 1fr;
+            
+            
         }
+
+    
 
         /*----------- HOME PAGE TOWNS --------------*/
 
@@ -236,9 +246,46 @@
 
         }
 
+        form fieldset {
+ 
+            max-width: 500px;
+            margin-left: 110px;
+        
+        }
+
+        .formtext {
+            font-size: 16px;
+            padding-bottom: 15px;
+            font-weight: 800;
+        }
+        
+        .conditions {
+            margin-top: 20px;
+            margin-left: 150px;
+            font-size: 20px;
+        }
+        
+        label.top {
+            max-width: 450px;
+        }
+        
+        textarea.addinfo {
+            max-width: 450px;
+        }
+        
+        form input.submitBtn {
+            width: 96%;
+            max-width: 15rem;
+            margin-left: 245px;
+            font-weight: bold;
+            font-size: 1rem;    
+        }
+
         footer {
             font-size: 1rem;
         }
+
+        
 
 
     }
