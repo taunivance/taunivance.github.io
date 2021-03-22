@@ -162,6 +162,10 @@ figcaption {
     transition: filter 0.5s;
 }
 
+.gallerygrid img {
+    width: 230px;
+}
+
 
 
 .herodiv {
