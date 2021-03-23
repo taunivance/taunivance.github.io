@@ -26,7 +26,9 @@
 
         nav ul.hide {display: block;}
         
-        nav ul {margin-left: 10%}
+        nav ul {
+            margin-left: 10%
+        }
         
         nav ul li {
             float: left;
@@ -47,7 +49,7 @@
             
 
             main h1 {
-                margin-left: 43%;
+                margin-left: 42%;
             }
 
             main h2 {
@@ -56,22 +58,31 @@
             }
 
             .herodiv {
-                width: 100%;
+                width: 125%;
                 position: relative;
                 margin-top: 0;
+            }
+
+            img.image {
+                margin-left: 140px;
             }
 
            
         
         
         /*----------- TABLE --------------*/
-        .stats {
-            width: 15rem;
-            top: 10px;
-            left: 20px;
+        section.stats {
+            position: absolute;
+            font-family: 'Merriweather', sans-serif;
+            top: 40px;
+            left: 10%;
+            background-color: #64899B;
+            background: radial-gradient(rgb(250, 248, 248), #60889c);
+            border: 1px solid #000;
             padding: 1.5rem;
             box-shadow: 0 0 30px #111;
-            margin: 8px auto;
+            opacity: .7;
+            margin-left: 20px;
         }
         
         .stats h3 {
@@ -207,6 +218,7 @@
 
         .forecast h2{
             text-align: center;
+            margin-top: 50px;
         }
 
         .forecast {
@@ -216,17 +228,20 @@
 
         .forecasts {
             grid-template-columns: 140px 140px 140px 140px 140px;
-
             display: grid;
             gap: 15px;
             justify-content: center;
             text-align: center;
-    
         }
 
         .forecasts p {
             margin-top: 5px;
-            margin-bottom: 5px;
+    
+        }
+
+        .sntance {
+            margin-top: 100px;
+          
         }
 
 
@@ -234,9 +249,9 @@
             line-height: 2em;
             font-family: 'Merriweather', sans-serif;
             font-weight: 800;
-            border: 2px solid #023047;
+            border: 4px solid #023047;
             text-align: center;
-            background: radial-gradient(#eee, #b2d0df);
+            background: radial-gradient(#eee, #64899B);
             
         }
 
