@@ -45,6 +45,28 @@ nav ul li a {
 
 /*----------- MAIN --------------*/
 
+main h1 {
+    margin-top: 20px;
+}
+
+section.stats {
+    width: 30rem;
+    top: -35px;
+    left: 350px;
+    padding: 1rem;
+    margin: 6px auto;
+    margin-top: 75px;
+    
+}
+
+.stats h3 {
+    border-bottom: 2px solid #023047;
+    grid-column: 1/3;
+    margin: 5px auto;
+    text-align: left;
+
+}
+
 .herodiv {
     margin: 10px auto;
     position: relative;}
@@ -58,6 +80,10 @@ nav ul li a {
     height: auto;
     margin: 10px auto;
     margin-left: 20%;
+}
+
+img.image {
+    margin-left: 140px;
 }
 
 
@@ -74,20 +100,46 @@ nav ul li a {
 section.stats {
 	top: -30px;
 	left: 10%;
+    margin-left: 20px;
+    margin-top: 75px;
 }
 
 
-.gallery {
-    max-width: 64rem;
+
+
+main.gallery {
+    margin-left: 175px;
+   
 }
 
 .gallerygrid{
     grid-template-columns: 1fr 1fr 1fr;
-   
+    
 }
 
 .gallerygrid figure:hover {
     box-shadow: 0 0 40px #899B64;
+}
+
+figure.color {
+    margin: 25px;
+}
+
+h1.gallerytitle {
+    margin-left: 360px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.gallerygrid img {
+    width: 280px;
+}
+/*----------- FIVE DAY FORCAST --------------*/
+
+
+.forecasts {
+    grid-template-columns: 140px 140px 140px 140px 140px;
+
 }
 
 
@@ -125,23 +177,29 @@ section.stats {
 .herodiv2 {
     margin: 10px auto;
     position: relative;
-    margin-top: 0;
 }
 
 
 .images3 {
-    width: 60%;
+    width: 78%;
     height: auto;
-    margin: 25px auto;
-    margin-left: 20%;
+    margin-left: 11%;
    
 }
 
 .image2 {
     margin-top: -50px;
 }
+
+
+
 img.map {
-    margin-top: -175px;
+    float: right;
+    margin-right: 3%;
+    width: 400px;
+    height: auto;
+    margin-top: -160px;
+   
 }
 
 /*----------- Form  --------------*/
@@ -149,13 +207,13 @@ img.map {
 
 form fieldset {
     max-width: 500px;
-    margin-left: 550px;
+    margin-left: 350px;
 
 }
 
 .conditions {
     margin-top: 20px;
-    margin-left: 580px;
+    margin-left: 380px;
     font-size: 20px;
 }
 
@@ -168,13 +226,79 @@ textarea.addinfo {
 }
 
 form input.submitBtn {
-    margin-left: 675px;
+    margin-left: 470px;
     
 
 }
 
 
+.container2 {
+    margin: 25px auto;
+    position: relative;
+    width: 975px;
+    height: 340px;
+    background-color: #64899B;
+    border: 2px solid black;
+}
 
+.contactus {
+    font-family: 'Merriweather', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: left;
+    
+}
+
+.container1 {
+    margin: 30px auto;
+    position: relative;
+    width: 975px;
+    height: 350px;
+    background-color: #A1AF83;
+    border: 2px solid black;
+}
+
+/*----------- ARTICLE --------------*/
+
+.article {
+    margin-left: 20px;
+    margin-top: -140px;
+}
+
+.articletext {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -15px;
+    margin-left: 2%;
+}
+
+.articleimage {
+    float: right;
+    margin-right: 2%;
+    width: 400px;
+    height: auto;
+    margin-top: -20px;
+}
+
+
+.image2 {
+    float: left;
+    margin-left: 27%;
+    width: 310px;
+    height: auto;
+    margin-top: -50px;
+   
+}
 
 
 /*----------- FOOTER --------------*/

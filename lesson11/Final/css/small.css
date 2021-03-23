@@ -34,13 +34,13 @@ header img {
 header h1 {
     margin: 0; 
     margin-top: 4.2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 header h2 {
     margin: 0; 
     font-weight: normal; 
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -99,7 +99,7 @@ main {
 main h1 {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.8rem;
-    margin-top: 1.8%;
+    margin-top: 10%;
     margin-bottom: .05%;
 }
 
@@ -116,11 +116,22 @@ main picture.herodiv {
     
 }
 
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    margin-top: 0;
+}
+
+
 /*----------- GALLERY --------------*/
 
 
 figure.color {
-    max-width: 280px;
+    max-width: 370px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
 
 }
@@ -132,12 +143,12 @@ figcaption {
     
   }
 
-.gallerytitle {
+h1.gallerytitle {
     margin-top: 30px;
-    margin-bottom: 5px;
+    margin-bottom: -5px;
     font-family: 'Merriweather', sans-serif;
     font-size: 30px;
-    margin-left: 450px;
+    margin-left: 10px;
 }
 
 .gallery {
@@ -167,7 +178,8 @@ figcaption {
 }
 
 .gallerygrid img {
-    width: 280px;
+    width: 370px;
+   
 }
 
 
@@ -178,29 +190,21 @@ figcaption {
 }
 
 
-.image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-}
-
 
 section.stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 30rem;
+    font-family: 'Merriweather', sans-serif;
+    width: 22rem;
     top: -35px;
-    left: 350px;
+    left: 150px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1rem;
     box-shadow: 0 0 30px #111;
     opacity: .8;
     margin: 6px auto;
-    margin-top: 75px;
+    margin-top: 5px;
     
 }
 
@@ -245,13 +249,14 @@ section.stats {
 }
 
 .article{
-    padding-top: 160px;
+    padding-top: 20px;
 }
 
 
 .image2{
     width: 100%;
 }
+
 .map {
     width: 100%;
 }
@@ -303,7 +308,7 @@ section.stats {
 
 
 .herodiv2 {
-    margin: 10px auto;
+    margin: 0;
     position: relative;
 }
 
@@ -316,8 +321,6 @@ section.stats {
     height: auto;
     margin-top: 0px;
 }
-
-/*----------- FIVE DAY FORECAST --------------*/
 
 
 
@@ -356,7 +359,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #072635;
+    color: #022e44;
     
     
 }
@@ -449,6 +452,19 @@ form label.top input:required:valid {
     font-family: 'Merriweather Sans', sans-serif;
     margin-left: 300px;
 
+}
+
+
+.contactus {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    
 }
 
 /*----------- FOOTER --------------*/

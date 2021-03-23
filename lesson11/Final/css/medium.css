@@ -6,7 +6,7 @@
         header img {
             float: left; 
             margin-left: 7%; 
-            width: 175px; 
+            width: 200px; 
             height: auto;
         }
         
@@ -39,17 +39,12 @@
             padding: .8rem .9rem;
         }
         
-        /*----------- MAIN --------------*/
-        
-        /* update font size of headers to fit larger screen */
-           /* .contentbox {
-                width: 615px;
-            } */
-
-            
+        /*----------- MAIN --------------*/        
 
             main h1 {
-                margin-left: 42%;
+                margin-left: 38%;
+                padding-top: 20px;
+                margin-top: 20px;
             }
 
             main h2 {
@@ -64,25 +59,20 @@
             }
 
             img.image {
-                margin-left: 140px;
+                margin-left: -15px;
             }
 
            
-        
-        
+
         /*----------- TABLE --------------*/
         section.stats {
             position: absolute;
-            font-family: 'Merriweather', sans-serif;
             top: 40px;
             left: 10%;
-            background-color: #64899B;
-            background: radial-gradient(rgb(250, 248, 248), #60889c);
-            border: 1px solid #000;
             padding: 1.5rem;
-            box-shadow: 0 0 30px #111;
-            opacity: .7;
-            margin-left: 20px;
+            margin-left: 80px;
+            margin-top: 10px;
+            width: 24rem;
         }
         
         .stats h3 {
@@ -90,11 +80,16 @@
             margin: 5px auto;
         }
 
+        .sntance {
+            font-size: 22px;
+            margin-top: 100px;
+        }
+
   
        .container2 {
             margin: 25px auto;
             position: relative;
-            width: 985px;
+            width: 730px;
             height: 340px;
             background-color: #64899B;
             border: 4px solid #9B9164;
@@ -102,6 +97,7 @@
 
         .contactus {
             font-family: 'Merriweather', sans-serif;
+            text-align: left;
             margin-left: 20px;
             margin-top: 20px;
 
@@ -111,14 +107,15 @@
             font-family: 'Merriweather', sans-serif;
             position: absolute;
 	        top: 50px;
-	        left: 50px;
+	        left: 25px;
+            text-align: left;
             
         }
 
         .container1 {
             margin: 30px auto;
             position: relative;
-            width: 985px;
+            width: 730px;
             height: 350px;
             background-color: #A1AF83;
             border: 4px solid#9B9164;
@@ -131,48 +128,52 @@
 
         .articletext {
             font-family: 'Merriweather', sans-serif;
-            font-size: 1em;
+            font-size: 12px;
             float: left; 
-            width: 510px;
-            margin-top: -15px;
+            width: 310px;
+            margin-top: -5px;
             margin-left: 2%;
         }
 
         .articleimage {
             float: right;
-            margin-right: 2%;
-            width: 400px;
+            margin-right: 3%;
+            width: 350px;
             height: auto;
-            margin-top: -25px;
+            margin-top: -2\15px;
         }
 
 
         .image2 {
             float: left;
-            margin-left: 27%;
-            width: 310px;
+            margin-left: 30%;
+            width: 250px;
             height: auto;
-            margin-top: -10px;
+            margin-top: -45px;
            
         }
 
         .map {
             float: right;
             margin-right: 3%;
-            width: 400px;
+            width: 300px;
             height: auto;
-            margin-top: -185px;
+            margin-top: -70px;
            
         }
 
-        .gallerytitle {
+        h1.gallerytitle {
             text-align: center;
-            margin-left: 70px;
+            margin-left: -40px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+
+          
         }
         
         .gallery {
             max-width: 38rem;
-            margin-left: 50px;
+            margin-left: 100px;
     
         }
 
@@ -180,6 +181,15 @@
             grid-template-columns: 1fr 1fr;
             
             
+        }
+
+        figure.color {
+            margin: 15px;
+            max-width: 280px;
+        }
+
+        .gallerygrid img {
+            width: 280px;
         }
 
     
@@ -227,7 +237,7 @@
         }
 
         .forecasts {
-            grid-template-columns: 140px 140px 140px 140px 140px;
+            grid-template-columns: 130px 130px 130px 130px 130px;
             display: grid;
             gap: 15px;
             justify-content: center;
@@ -237,11 +247,6 @@
         .forecasts p {
             margin-top: 5px;
     
-        }
-
-        .sntance {
-            margin-top: 100px;
-          
         }
 
 
