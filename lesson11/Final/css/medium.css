@@ -53,7 +53,7 @@
             }
 
             .herodiv {
-                width: 125%;
+                width: 110%;
                 position: relative;
                 margin-top: 0;
             }
@@ -66,6 +66,7 @@
 
         /*----------- TABLE --------------*/
         section.stats {
+            font-size: 14px;
             position: absolute;
             top: 40px;
             left: 10%;
@@ -99,7 +100,20 @@
         }
 
         .contactus {
-            font-family: 'Merriweather', sans-serif;
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        .contactus2 {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        .contactus3 {
             text-align: left;
             margin-left: 20px;
             margin-top: 20px;
@@ -261,6 +275,10 @@
 
         .gallerygrid img {
             width: 280px;
+        }
+
+        figcaption {
+            margin-left: -10px;
         }
 
         /*----------- HOME PAGE TOWNS --------------*/
