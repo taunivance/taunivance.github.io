@@ -352,6 +352,7 @@
         #weatherforecast img{
             margin-top: 5px;
             width: 70%;
+            height: auto;
 
         }
 
@@ -413,4 +414,11 @@
 
     }
     
+    
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
         /* end of media query */

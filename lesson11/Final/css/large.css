@@ -147,6 +147,7 @@ h1.gallerytitle {
 
 #cards img {
     width:235px;
+    height: auto;
     margin-top: 10px;
   
     
@@ -397,3 +398,10 @@ footer {
 
 }
 /* end of media query */
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

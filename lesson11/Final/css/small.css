@@ -27,7 +27,9 @@ header {
 }
 header img {
     float: left; 
-    margin-right: 3px; width: 90px;
+    margin-right: 3px; 
+    width: 90px;
+    height: auto;
 }
 
 
@@ -250,6 +252,7 @@ section.stats {
 .hero_img img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .small {
@@ -279,19 +282,23 @@ p.author2 {
 
 .image2{
     width: 100%;
+    height: auto;
 }
 
 .map {
     width: 100%;
+    height: auto;
     margin-top: 20px;
 }
 
 .articleimage {
     width: 100%;
+    height: auto;
 }
 
 .articleimage2 {
     width: 100%;
+    height: auto;
 }
 
 
