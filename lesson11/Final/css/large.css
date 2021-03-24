@@ -201,7 +201,7 @@ img.map {
     margin-right: 3%;
     width: 400px;
     height: auto;
-    margin-top: -160px;
+    margin-top: -175px;
    
 }
 
@@ -278,6 +278,11 @@ form input.submitBtn {
     margin-top: -5px;
 }
 
+.article3 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
 .articletext {
     font-family: 'Merriweather', sans-serif;
     font-size: 1em;
@@ -292,7 +297,17 @@ form input.submitBtn {
     font-size: 1em;
     float: left; 
     width: 530px;
-    margin-top: -260px;
+    margin-top: -20px;
+    margin-left: 2%;
+
+}
+
+.articletext3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -10px;
     margin-left: 2%;
 
 }
@@ -310,7 +325,15 @@ form input.submitBtn {
     margin-right: 4%;
     width: 350px;
     height: auto;
-    margin-top: -270px;
+    margin-top: -250px;
+}
+
+.articleimage3 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -240px;
 }
 
 
@@ -322,6 +345,7 @@ form input.submitBtn {
     margin-top: -50px;
    
 }
+
 
 .container1 {
     margin: 30px auto;
@@ -336,7 +360,9 @@ form input.submitBtn {
 p.author {
     font-family: 'Merriweather', sans-serif;
     margin-top: 275px;
-    margin-left: 250px;
+    font-size: 12px;
+    font-style: italic;
+    
 }
 
 p.author2 {
@@ -344,6 +370,15 @@ p.author2 {
     font-size: 10px;
     margin-top: 275px;
     margin-left: 280px;
+    font-style: italic;
+}
+
+p.author3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 10px;
+    margin-top: 270px;
+    margin-left: 620px;
+    font-style: italic;
 }
 
 

@@ -132,12 +132,41 @@
             margin-top: -10px;
         }
 
+        .article2 {
+            margin-left: 12px;
+            margin-top: 20px;
+        }
+
+        .article3 {
+            margin-left: 12px;
+            margin-top: 30px;
+        }
+
+
         .articletext {
             font-family: 'Merriweather', sans-serif;
             font-size: 12px;
             float: left; 
             width: 310px;
             margin-top: -15px;
+            margin-left: 2%;
+        }
+
+        .articletext2 {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 12px;
+            float: left; 
+            width: 310px;
+            margin-top: -5px;
+            margin-left: 2%;
+        }
+
+        .articletext3 {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 12px;
+            float: left; 
+            width: 310px;
+            margin-top: -5px;
             margin-left: 2%;
         }
 
@@ -149,9 +178,38 @@
             margin-top: -30px;
         }
 
+        .articleimage2 {
+            float: right;
+            margin-right: 3%;
+            width: 350px;
+            height: auto;
+            margin-top: -10px;
+        }
+
+        .articleimage3 {
+            float: right;
+            margin-right: 3%;
+            width: 350px;
+            height: auto;
+            margin-top: -5px;
+        }
+
         p.author {
             margin-left: 350px;
             font-size: 14px;
+            font-style: italic;
+        }
+
+        p.author2 {
+            margin-left: 350px;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        p.author3 {
+            margin-left: 350px;
+            font-size: 14px;
+            font-style: italic;
         }
 
 
