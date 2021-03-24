@@ -266,12 +266,7 @@ section.stats {
 
 /*----------- ARTICLE  --------------*/
 
-h2.article{
-    padding-top: 20px;
-}
-
-h2.article4{
-    padding-top: -20px;
+.article4{
     margin-left: 8px;
 
 }
@@ -285,7 +280,6 @@ h2.article4{
 p.author {
     font-size: 12px;
     margin-left: 4px;
-    padding-top: -10px;
 }
 
 p.author2 {
