@@ -292,6 +292,11 @@ form input.submitBtn {
     margin-top: 25px;
 }
 
+.article4 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .articletext {
     font-family: 'Merriweather', sans-serif;
     font-size: 1em;
@@ -312,6 +317,16 @@ form input.submitBtn {
 }
 
 .articletext3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -10px;
+    margin-left: 2%;
+
+}
+
+.articletext4 {
     font-family: 'Merriweather', sans-serif;
     font-size: 1em;
     float: left; 
@@ -343,6 +358,14 @@ form input.submitBtn {
     width: 350px;
     height: auto;
     margin-top: -240px;
+}
+
+.articleimage4 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -10px;
 }
 
 

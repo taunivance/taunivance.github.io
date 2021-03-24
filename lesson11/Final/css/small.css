@@ -263,8 +263,23 @@ section.stats {
     display: none;
 }
 
+
+/*----------- ARTICLE  --------------*/
+
 h2.article{
     padding-top: 20px;
+}
+
+h2.article4{
+    padding-top: -20px;
+    margin-left: 8px;
+
+}
+
+.container1 {
+    margin-top: 20px;
+    height: 680px
+
 }
 
 p.author {
@@ -279,6 +294,44 @@ p.author2 {
     font-style: italic;
 }
 
+p.author4 {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+.articleimage {
+    width: 100%;
+    height: auto;
+}
+
+
+.articleimage2 {
+    width: 100%;
+    height: auto;
+}
+
+.articleimage3 {
+    width: 100%;
+    height: auto;
+}
+
+.articleimage4 {
+    width: 100%;
+    height: auto;
+}
+
+
+.articletext4 {
+    width: 300px;
+    margin-top: -10px;
+    margin-left: 2%;
+
+}
+
+/*----------- CONTACT INFO  --------------*/
 
 .image2{
     width: 100%;
@@ -291,16 +344,46 @@ p.author2 {
     margin-top: 20px;
 }
 
-.articleimage {
-    width: 100%;
-    height: auto;
+
+.contactus {
+    margin-top: 270px;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+
 }
 
-.articleimage2 {
-    width: 100%;
-    height: auto;
+.contactus2 {
+    margin-top: 190px;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+
 }
 
+.contactus3 {
+    margin-top: 160px;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+
+}
+
+.contactus4 {
+    margin-top: 40px;
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center;
+    
+}
+
+.container2 {
+    margin: 25px auto;
+    position: relative;
+    margin-top: -130px;
+}
 
 
 /*----------- UPCOMING EVENTS  --------------*/
@@ -508,44 +591,6 @@ form label.top input:required:valid {
 }
 
 
-.contactus {
-    margin-top: 150px;
-    font-family: 'Merriweather', sans-serif;
-    text-align: center;
-
-}
-
-.contactus2 {
-    margin-top: 120px;
-    font-family: 'Merriweather', sans-serif;
-    text-align: center;
-
-}
-
-.contactus3 {
-    margin-top: 40px;
-    font-family: 'Merriweather', sans-serif;
-    text-align: center;
-
-}
-
-.contactcont {
-    font-family: 'Merriweather', sans-serif;
-    text-align: center;
-    
-}
-
-.container1 {
-    margin-top: 20px;
-    height: 680px
-
-}
-
-.container2 {
-    margin: 25px auto;
-    position: relative;
-    margin-top: 10px;
-}
 
 /*----------- FOOTER --------------*/
 footer {

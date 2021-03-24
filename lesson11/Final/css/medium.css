@@ -156,6 +156,11 @@
             margin-top: 30px;
         }
 
+        .article4 {
+            margin-left: 12px;
+            margin-top: 30px;
+        }
+
 
         .articletext {
             font-family: 'Merriweather', sans-serif;
@@ -176,6 +181,15 @@
         }
 
         .articletext3 {
+            font-family: 'Merriweather', sans-serif;
+            font-size: 12px;
+            float: left; 
+            width: 310px;
+            margin-top: -5px;
+            margin-left: 2%;
+        }
+
+        .articletext4 {
             font-family: 'Merriweather', sans-serif;
             font-size: 12px;
             float: left; 
@@ -208,6 +222,14 @@
             margin-top: -5px;
         }
 
+        .articleimage4 {
+            float: right;
+            margin-right: 3%;
+            width: 350px;
+            height: auto;
+            margin-top: -5px;
+        }
+
         p.author {
             margin-left: 350px;
             font-size: 14px;
@@ -221,6 +243,12 @@
         }
 
         p.author3 {
+            margin-left: 350px;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        p.author4 {
             margin-left: 350px;
             font-size: 14px;
             font-style: italic;
@@ -406,7 +434,7 @@
 
         /*-----------FOOTER  --------------*/
         footer {
-            font-size: 1rem;
+            font-size: 14px;
         }
 
         
