@@ -275,6 +275,7 @@
 
         .gallerygrid img {
             width: 280px;
+            height: auto;
         }
 
         figcaption {
