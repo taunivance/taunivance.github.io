@@ -265,9 +265,27 @@ section.stats {
     width: 100%;
 }
 
+/*----------- UPCOMING EVENTS  --------------*/
 
+.eventbox {
+    font-family: 'Merriweather', sans-serif;
+    border-bottom: 2px solid #023047;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 410px;
+    background: radial-gradient(#eee,  #9B9164);
+    padding: 1rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    max-width: 400px;
+    padding: 30px;
+    border: solid #a3944e 10px;
+}
 
-
+.eventbox h2 {
+    border-bottom: 2px solid #a3944e;
+    
+}
 
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
 

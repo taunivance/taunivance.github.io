@@ -39,10 +39,10 @@
             padding: .8rem .9rem;
         }
         
-        /*----------- MAIN --------------*/        
+        /*----------- MAIN--------------*/        
 
             main h1 {
-                margin-left: 38%;
+                margin-left: 36%;
                 padding-top: 20px;
                 margin-top: 20px;
             }
@@ -85,6 +85,8 @@
             margin-top: 100px;
         }
 
+        /*-----------CONTACT US  --------------*/
+
   
        .container2 {
             margin: 25px auto;
@@ -93,6 +95,7 @@
             height: 340px;
             background-color: #64899B;
             border: 4px solid #9B9164;
+            border-radius: 1%;
         }
 
         .contactus {
@@ -119,11 +122,14 @@
             height: 350px;
             background-color: #A1AF83;
             border: 4px solid#9B9164;
+            border-radius: 1%;
         }
+
+        /*-----------ARTICLE  --------------*/
 
         .article {
             margin-left: 20px;
-            margin-top: -140px;
+            margin-top: -10px;
         }
 
         .articletext {
@@ -131,7 +137,7 @@
             font-size: 12px;
             float: left; 
             width: 310px;
-            margin-top: -5px;
+            margin-top: -15px;
             margin-left: 2%;
         }
 
@@ -140,7 +146,12 @@
             margin-right: 3%;
             width: 350px;
             height: auto;
-            margin-top: -2\15px;
+            margin-top: -30px;
+        }
+
+        p.author {
+            margin-left: 350px;
+            font-size: 14px;
         }
 
 
@@ -161,6 +172,8 @@
             margin-top: -70px;
            
         }
+
+        /*-----------GALLERY  --------------*/
 
         h1.gallerytitle {
             text-align: center;
@@ -191,8 +204,6 @@
         .gallerygrid img {
             width: 280px;
         }
-
-    
 
         /*----------- HOME PAGE TOWNS --------------*/
 
@@ -228,7 +239,8 @@
 
         .forecast h2{
             text-align: center;
-            margin-top: 50px;
+            margin-top: 30px;
+            margin-left: -20px;
         }
 
         .forecast {
@@ -248,7 +260,7 @@
             margin-top: 5px;
     
         }
-
+        
 
         #weatherforecast div {
             line-height: 2em;
@@ -265,6 +277,19 @@
             width: 70%;
 
         }
+
+        /*----------- UPCOMING EVENTS --------------*/
+
+        .eventbox {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            margin-left: 170px;
+            padding: 1rem;
+            max-width: 400px;
+        }
+
+        /*-----------FORM  --------------*/
 
         form fieldset {
  
@@ -301,6 +326,7 @@
             font-size: 1rem;    
         }
 
+        /*-----------FOOTER  --------------*/
         footer {
             font-size: 1rem;
         }

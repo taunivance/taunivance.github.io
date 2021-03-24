@@ -105,7 +105,7 @@ section.stats {
 }
 
 
-
+/*----------- GALLERY  --------------*/
 
 main.gallery {
     margin-left: 175px;
@@ -139,9 +139,12 @@ h1.gallerytitle {
 
 .forecasts {
     grid-template-columns: 140px 140px 140px 140px 140px;
+    margin-left: -70px;
 
 }
 
+
+/*----------- UPCOMING EVENTS  --------------*/
 
 
 
@@ -202,7 +205,15 @@ img.map {
    
 }
 
-/*----------- Form  --------------*/
+
+/*----------- UPCOMING EVENTS  --------------*/
+
+
+.eventbox {
+    margin-left: 410px;
+}
+
+/*----------- FORM  --------------*/
 
 
 form fieldset {
@@ -231,6 +242,8 @@ form input.submitBtn {
 
 }
 
+/*----------- CONTACT OFFICE  --------------*/
+
 
 .container2 {
     margin: 25px auto;
@@ -238,7 +251,8 @@ form input.submitBtn {
     width: 975px;
     height: 340px;
     background-color: #64899B;
-    border: 2px solid black;
+    border: 4px solid #9B9164;
+    border-radius: 1%;
 }
 
 .contactus {
@@ -257,20 +271,11 @@ form input.submitBtn {
     
 }
 
-.container1 {
-    margin: 30px auto;
-    position: relative;
-    width: 975px;
-    height: 350px;
-    background-color: #A1AF83;
-    border: 2px solid black;
-}
-
 /*----------- ARTICLE --------------*/
 
 .article {
     margin-left: 20px;
-    margin-top: -140px;
+    margin-top: -5px;
 }
 
 .articletext {
@@ -282,12 +287,30 @@ form input.submitBtn {
     margin-left: 2%;
 }
 
+.articletext2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -260px;
+    margin-left: 2%;
+
+}
+
 .articleimage {
     float: right;
-    margin-right: 2%;
-    width: 400px;
+    margin-right: 4%;
+    width: 350px;
     height: auto;
     margin-top: -20px;
+}
+
+.articleimage2 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -270px;
 }
 
 
@@ -298,6 +321,29 @@ form input.submitBtn {
     height: auto;
     margin-top: -50px;
    
+}
+
+.container1 {
+    margin: 30px auto;
+    position: relative;
+    width: 975px;
+    height: 350px;
+    background-color: #A1AF83;
+    margin-top: 50px;
+    border: 4px solid#9B9164;
+}
+
+p.author {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 275px;
+    margin-left: 250px;
+}
+
+p.author2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 10px;
+    margin-top: 275px;
+    margin-left: 280px;
 }
 
 
