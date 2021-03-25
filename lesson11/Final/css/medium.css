@@ -410,11 +410,7 @@
             font-weight: 800;
         }
         
-        .conditions {
-            margin-top: 20px;
-            margin-left: 150px;
-            font-size: 20px;
-        }
+       
         
         label.top {
             max-width: 450px;
@@ -430,6 +426,17 @@
             margin-left: 245px;
             font-weight: bold;
             font-size: 1rem;    
+        }
+
+        .thankyou {
+            margin-left: 220px;
+            font-size: 20px;
+        
+        }
+        
+        .conditions {
+            margin-left: 220px;
+            font-size: 24px;
         }
 
         /*-----------FOOTER  --------------*/
