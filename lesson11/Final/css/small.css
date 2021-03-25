@@ -463,11 +463,6 @@ p.author4 {
     min-height: 10rem;
 }
 
-.conditions {
-    margin-top: 20px;
-    margin-left: 25px;
-    font-size: 20px;
-}
 
 form fieldset {
     margin: 2rem 0;
@@ -581,8 +576,16 @@ form label.top input:required:valid {
 
 .thankyou {
     font-family: 'Merriweather Sans', sans-serif;
-    margin-left: 300px;
+    margin-left: 90px;
+    font-size: 14px;
 
+}
+
+.conditions {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
 }
 
 
