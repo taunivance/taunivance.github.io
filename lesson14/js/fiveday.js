@@ -10,8 +10,8 @@
             document.getElementById("current").innerHTML = weatherinfo.current.temp;
             document.getElementById("humid").innerHTML = weatherinfo.current.humidity;
             ;
-            let condition = `${current.weather[0].description}`;
-            document.getElementById("condition").innerHTML = current.replace(/^\w/, (c) =>
+            let condition = `${weatherinfo.current.weather[0].description}`;
+            document.getElementById("condition").innerHTML = condition.replace(/^\w/, (c) =>
             c.toUpperCase()
           );
            
