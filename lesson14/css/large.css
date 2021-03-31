@@ -1,0 +1,425 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, footer {
+        margin: auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+header img {
+    float: left;  
+    margin-left: 10%;
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 40px;
+    font-weight: 700; 
+    font-size: 2rem;
+
+}
+header h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: normal; 
+    font-size: 1.2rem;
+
+}
+
+/*----------- NAVIGATION --------------*/
+nav button {display: none !important;}
+
+nav ul {
+    align-content: center;
+    margin-left: 12.5%;
+}
+
+nav ul li a {
+    padding: .5rem 2.7rem;
+}
+
+/*----------- MAIN --------------*/
+
+main h1 {
+    margin-top: 20px;
+}
+
+section.stats {
+    font-size: 16px;
+    width: 30rem;
+    top: -35px;
+    left: 350px;
+    padding: 1rem;
+    margin: 6px auto;
+    margin-top: 75px;
+    
+}
+
+
+.stats h3 {
+    border-bottom: 2px solid #023047;
+    grid-column: 1/3;
+    margin: 5px auto;
+    text-align: left;
+
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 68%;
+    height: auto;
+    margin: 10px auto;
+    margin-left: 20%;
+}
+
+img.image {
+    margin-left: 140px;
+}
+
+
+.large {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    
+}
+
+
+
+
+/*----------- GALLERY  --------------*/
+
+main.gallery {
+    margin-left: 175px;
+   
+}
+
+.gallerygrid{
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.gallerygrid figure:hover {
+    box-shadow: 0 0 40px #899B64;
+}
+
+figure.color {
+    margin: 25px;
+}
+
+h1.gallerytitle {
+    margin-left: 360px;
+  
+}
+
+
+/*----------- FIVE DAY FORCAST --------------*/
+
+
+.forecasts {
+    grid-template-columns: 140px 140px 140px 140px 140px;
+    margin-left: -70px;
+
+}
+
+
+/*----------- UPCOMING EVENTS  --------------*/
+
+
+
+/*----------- TOWN CARDS --------------*/
+
+#cards img {
+    width:235px;
+    height: auto;
+    margin-top: 10px;
+  
+    
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;  
+    width: 61%;
+    margin-left: 19.5%;
+    
+    
+}
+
+#cards div {
+    display: block;
+    width: 20em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin: 5px;
+
+          
+}
+
+.herodiv2 {
+    margin: 10px auto;
+    position: relative;
+}
+
+
+.images3 {
+    width: 78%;
+    height: auto;
+    margin-left: 11%;
+   
+}
+
+.image2 {
+    margin-top: -50px;
+}
+
+
+
+img.map {
+    float: right;
+    margin-right: 3%;
+    width: 400px;
+    height: auto;
+    margin-top: -175px;
+   
+}
+
+
+/*----------- UPCOMING EVENTS  --------------*/
+
+
+.eventbox {
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+/*----------- FORM  --------------*/
+
+
+form fieldset {
+    max-width: 500px;
+    margin-left: 350px;
+
+}
+
+
+
+
+
+textarea.addinfo {
+    max-width: 450px;
+}
+
+form input.submitBtn {
+    margin-left: 470px;
+    
+
+}
+
+/*----------- CONTACT OFFICE  --------------*/
+
+
+.container2 {
+    margin: 25px auto;
+    position: relative;
+    width: 975px;
+    height: 340px;
+    background-color: #64899B;
+    border: 4px solid #9B9164;
+    border-radius: 1%;
+}
+
+.contactus {
+    
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactus2 {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactus3 {
+    
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contactcont {
+    font-family: 'Merriweather', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: left;
+    
+}
+
+/*----------- ARTICLE --------------*/
+
+.article {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.article3 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.article4 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.articletext {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -15px;
+    margin-left: 2%;
+}
+
+.articletext2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -20px;
+    margin-left: 2%;
+
+}
+
+.articletext3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -10px;
+    margin-left: 2%;
+
+}
+
+.articletext4 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    float: left; 
+    width: 530px;
+    margin-top: -10px;
+    margin-left: 2%;
+
+}
+
+.articleimage {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.articleimage2 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -250px;
+}
+
+.articleimage3 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -240px;
+}
+
+.articleimage4 {
+    float: right;
+    margin-right: 4%;
+    width: 350px;
+    height: auto;
+    margin-top: -10px;
+}
+
+
+.image2 {
+    float: left;
+    margin-left: 27%;
+    width: 310px;
+    height: auto;
+    margin-top: -50px;
+   
+}
+
+
+.container1 {
+    margin: 30px auto;
+    position: relative;
+    width: 975px;
+    height: 350px;
+    background-color: #A1AF83;
+    margin-top: 50px;
+    border: 4px solid#9B9164;
+}
+
+p.author {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 275px;
+    font-size: 12px;
+    font-style: italic;
+    
+}
+
+p.author2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 10px;
+    margin-top: 275px;
+    margin-left: 280px;
+    font-style: italic;
+}
+
+p.author3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 10px;
+    margin-top: 270px;
+    margin-left: 620px;
+    font-style: italic;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    font-size: 1rem;} 
+
+
+}
+/* end of media query */
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

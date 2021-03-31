@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Weather Rain or Shine</title>
+        <meta name="description" content="Weather Site Preston Page">   
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" href="favicon.ico">   
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        
+    </head>
+
+
+    <body>
+<!-- HEADER HERE -->
+    <div id="message">Saturday = Preston Pancakes in the Park!<br>  
+        9:00 a.m. Saturday at the city park pavilion</div>
+    <header class="clearfix">
+        <img class="" src="images/logo.png" alt="logo">
+        <section class="headings">
+            <h1>Weather Rain or Shine</h1>
+            <h2>Bringing warmth to your home</h2>
+        </section>
+     
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>    
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+
+<main>
+    <div class="herodiv">
+        <section class="stats">
+            <h3>Weather Summary</h3>
+            <div class="grid1">
+               <p>Current Temp:</p>
+               <p>Current Condition:</p>
+               <p>Humidity:</p>
+           </div>
+           <div class="grid2">
+               <p><span id="current"></span>&#176;</p>
+               <p><span id="condition"></span>&#176;</p>
+               <p><span id="humid"></span>%</p>
+           </div>
+        </section> 
+    </div>
+
+        <div class="forecast">
+            <h2>Weather for <span id="place">town</span> at lunch time for the next 5 days.</h2>
+            <section class="forecasts" id="weatherforecast"></section>
+        </div>
+
+        
+                
+           
+</main>
+    
+<!-- FOOTER HERE -->   
+          
+            
+       
+
+            <script src="js/fiveday.js"></script>
+           
+
+    </body>
+</html>
