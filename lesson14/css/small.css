@@ -6,21 +6,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 /*----------- HEADER --------------*/
-div#message{
-
-    background-color: rgb(238, 111, 26);
-    text-align: center;
-    font-size: 12px;
-    padding: 10px;
-    font-weight: 800;
-    font-family: 'Merriweather Sans', sans-serif;
-    
-}
-
-div.showme {display: block;}
-div.hideme {display: none;}
-
-
 header {
     padding: .35rem 2%;
     background-color: #899B64;
@@ -43,6 +28,34 @@ header h2 {
     margin: 0; 
     font-weight: normal; 
     font-size: 1rem;
+}
+
+.alert {
+    background-color: darkred;
+    color: #ffffff;
+    text-align: center;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+.alert h1{
+    margin: 0;
+    padding: 20px;
+}
+.alert p{
+    margin: 0;
+    padding-bottom: 10px;;
+}
+.alert button {
+    background-color: #ffffff;
+    color: darkred;
+    border: 2px solid darkred;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.disabled {
+    display: none;
 }
 
 /*----------- NAVIGATION --------------*/
