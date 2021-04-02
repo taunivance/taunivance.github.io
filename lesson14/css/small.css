@@ -30,33 +30,33 @@ header h2 {
     font-size: 1rem;
 }
 
-.alert {
-    background-color: darkred;
+.alertbanner {
+    font-family: Oswald;
+    background-color: rgb(71, 1, 1);
     color: #ffffff;
     text-align: center;
-    max-width: 64rem;
     margin: 0 auto;
 }
-.alert h1{
-    margin: 0;
-    padding: 20px;
-}
-.alert p{
-    margin: 0;
-    padding-bottom: 10px;;
-}
-.alert button {
-    background-color: #ffffff;
-    color: darkred;
-    border: 2px solid darkred;
-    display: block;
-    width: 100%;
-    padding: 10px;
+.alertbanner h1 {
+    margin-top: 0;
+    padding-top: 10px;
 }
 
-.disabled {
-    display: none;
+.alertbanner p {
+    margin: 0;
 }
+
+button#alertExit.alertbutton {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/*.disabled {
+    display: none;
+}*/
 
 /*----------- NAVIGATION --------------*/
 

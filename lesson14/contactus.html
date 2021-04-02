@@ -19,17 +19,20 @@
 <!-- HEADER HERE -->
    
 
-        <div id="exit" class="alertbanner">
-            <h1>Warning: Severe Weather Alert <span id="alertEvent"></span></h1>
-            <p><span id="wthrAlert"></span></p>
-            <button id="alertExit" class="alertbutton" onclick="removeAlert()">Exit</button> 
+        <div id="close" class="alert">
+            <h1>Alert <span id="alertevent"></span></h1>
+            <p><span id="wthralert"></span></p>
+            <button id="alertClose" class="" onclick="removeAlert()">Close Weather Alert</button> 
         </div>
-     
-     <header class="clearfix">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+
+    <header class="clearfix">
         <img class="" src="images/logo.png" alt="logo">
         <section class="headings">
-            <h1>Riverside Chamber of Commerce</h1>
-            <h2>Motto</h2>
+            <h1>Weather Rain or Shine</h1>
+            <h2>Bringing warmth to your home</h2>
         </section>
      
     </header>
@@ -41,10 +44,10 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="riverside.html">Riverside</a></li>
-            <li><a href="membership.html">Membership</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="contactus.html">Contact Us</a></li> 
+            <li class="active"><a href="preston.html">Riverside</a></li>
+            <li><a href="sodasprings.html">Membership</a></li>
+            <li><a href="fishhaven.html">Directory</a></li>
+            <li><a href="stormcenter.html">Contact Us</a></li> 
         </ul>
     </nav>
     
@@ -83,9 +86,8 @@
             
        
 
-            <script src="js/weather.js"></script>
+            <script src="js/fiveday.js"></script>
             <script src="js/currentdate.js"></script>
-            <script src="js/webfont.js"></script>
             
            
 

@@ -15,11 +15,6 @@
             c.toUpperCase()
           );
            
-          
-
-          
-            
-         
 });
 
 const apiURL2 = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.441792&lon=-94.037689&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial';
@@ -54,13 +49,6 @@ function addDays(date, days) {
   .then((weatherInfo) => {
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
-  
-    if (weatherInfo.alert == undefined){
-      document.getElementById("close").classList.add("disabled");
-    } else {
-      document.getElementById('weatheralert').textContent = weatherInfo.alerts[0].description;
-      document.getElementById("alerttitle").textContent = weatherInfo.alerts[0].event;
-    }
 
     var i;
 
@@ -97,7 +85,29 @@ function addDays(date, days) {
    
         }); 
 
-        function removeAlert() {
-    
-          document.getElementById("close").classList.add("disabled");
+        const apiURL3 = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.441792&lon=-94.037689&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial';
+          
+        fetch(apiURL3)
+        .then((response) => response.json())
+        .then((weatherinfo) => {
+          //Once it comes back, display it to the console.
+          console.log(weatherinfo);
+
+       
+
+        if (weatherinfo.alert == undefined){
+          document.getElementById("exit").classList.add("disabled");
+          
+        } else {
+          document.getElementById('wthrAlert').textContent = weatherInfo.alerts[0].description;
+          document.getElementById("alertEvent").textContent = weatherInfo.alerts[0].event;
         }
+
+      
+           
+      });
+
+      function removeAlert() {
+    
+        document.getElementById("exit").classList.add("disabled");
+      }

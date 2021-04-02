@@ -1,5 +1,5 @@
 WebFont.load({
     google: {
-      families: ['Merriweather Sans','sans-serif']
+      families: ['Oswald', sans-serif]
     }
   });
