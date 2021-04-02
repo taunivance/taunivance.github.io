@@ -15,24 +15,23 @@
     </head>
 
 
-    <body>
+<body>
 <!-- HEADER HERE -->
-   
-
-        <div id="exit" class="alertbanner">
+<header>
+    <div id="exit" class="alertbanner">
             <h1>Warning: Severe Weather Alert <span id="alertEvent"></span></h1>
-            <p><span id="wthrAlert"></span></p>
+            <p><span id="wthralert"></span></p>
             <button id="alertExit" class="alertbutton" onclick="removeAlert()">Exit</button> 
+    </div>
+    <div class="clearfix">
+        <img class="headerpic" src="images/nationalcem.jpg" alt="National Cemetery">
+        <div><img class="logo" src="images/logo.png" alt="logo"></div>
+        <div>
+            <h1 class="title">Riverside Chamber of Commerce</h1>
+            <h2 class="motto">Motto</h2>
         </div>
-     
-     <header class="clearfix">
-        <img class="" src="images/logo.png" alt="logo">
-        <section class="headings">
-            <h1>Riverside Chamber of Commerce</h1>
-            <h2>Motto</h2>
-        </section>
-     
-    </header>
+    </div>
+</header>
     
     
 <!-- NAVIGATION HERE -->
@@ -50,9 +49,8 @@
     
     
 <!-- CONTENT HERE -->
-
 <main>
-    <div class="herodiv">
+    <div>
         <section class="stats">
             <h3>Weather Summary</h3>
             <div class="grid1">
@@ -84,7 +82,6 @@
        
 
             <script src="js/weather.js"></script>
-            <script src="js/currentdate.js"></script>
             <script src="js/webfont.js"></script>
             
            

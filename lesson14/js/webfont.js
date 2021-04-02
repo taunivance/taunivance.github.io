@@ -1,5 +1,6 @@
 WebFont.load({
-    google: {
-      families: ['Oswald', sans-serif]
-    }
+    google: {families: ['Oswald', 'sans-serif']
+  }
   });
+
+
