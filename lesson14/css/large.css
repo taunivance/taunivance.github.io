@@ -24,11 +24,11 @@ nav button {display: none !important;}
 
 nav ul {
     align-content: center;
-    margin-left: 12.5%;
+    margin-left: 6%;
 }
 
 nav ul li a {
-    padding: .5rem 2.7rem;
+    padding: .5rem 2rem;
 }
 
 /*----------- MAIN --------------*/
