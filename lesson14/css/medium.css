@@ -2,6 +2,93 @@
 
   
 
+        /*----------- FIVE DAY FORECAST --------------*/
+
+        .forecast h2 {
+            text-align: center;
+            margin-top: -50px;
+            margin-left: -400px;
+        }
+
+        .forecast {
+            display: block;
+            margin-left: 350px;
+            margin-top: 30px;
+            
+        }
+
+        .forecasts {
+            grid-template-columns: 130px 130px 130px;
+            display: grid;
+            gap: 15px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .forecasts p {
+            margin-top: 5px;
+    
+        }
+        
+
+        #weatherforecast div {
+            line-height: 2em;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 800;
+            border: 4px solid #023047;
+            text-align: center;
+            background: radial-gradient(#eee, #64899B);
+            
+        }
+
+        #weatherforecast img{
+            margin-top: 5px;
+            width: 70%;
+            height: auto;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /*----------- HEADER --------------*/
         header img {
             float: left; 
@@ -339,50 +426,6 @@
         }
 
    
-
-        /*----------- FIVE DAY FORECAST --------------*/
-
-        .forecast h2{
-            text-align: center;
-            margin-top: 30px;
-            margin-left: -20px;
-        }
-
-        .forecast {
-            display: block;
-            
-        }
-
-        .forecasts {
-            grid-template-columns: 130px 130px 130px 130px 130px;
-            display: grid;
-            gap: 15px;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .forecasts p {
-            margin-top: 5px;
-    
-        }
-        
-
-        #weatherforecast div {
-            line-height: 2em;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 800;
-            border: 4px solid #023047;
-            text-align: center;
-            background: radial-gradient(#eee, #64899B);
-            
-        }
-
-        #weatherforecast img{
-            margin-top: 5px;
-            width: 70%;
-            height: auto;
-
-        }
 
         /*----------- UPCOMING EVENTS --------------*/
 
