@@ -22,13 +22,10 @@
 /*----------- NAVIGATION --------------*/
 nav button {display: none !important;}
 
-nav ul {
-    align-content: center;
-    margin-left: 6%;
-}
+
 
 nav ul li a {
-    padding: .5rem 2rem;
+    padding: .5rem 3.6rem;
 }
 
 /*----------- MAIN --------------*/
@@ -77,8 +74,9 @@ nav ul li a {
 
 /*----------- FOOTER --------------*/
 footer {
-    font-size: 1rem;} 
+    font-size: 1rem;
 
+}
 
 }
 /* end of media query */

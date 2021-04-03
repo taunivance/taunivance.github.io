@@ -100,19 +100,30 @@ div.navi {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
 }
 
 nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: center;
+   
 }
+
+nav li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 nav ul li a{
     display: block;
-    padding: .8rem 2%;
+    padding: .8rem 2rem;
     text-decoration: none;
-    margin-left: 55px;
     background-color: #0f025a;
     color: white;
     border-top:1px solid rgba(0,0,0,0.3);
