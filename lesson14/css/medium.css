@@ -1,59 +1,82 @@
 @media only screen and (min-width: 32.5rem) {
 
+    
+/*----------- HEADER --------------*/
+
+        
+/*----------- NAVIGATION --------------*/
+nav button {display: none;}
+
+nav ul.hide {display: block;}
+        
+nav ul {
+    margin-left: 10%
+}
+        
+nav ul li {
+    float: left;
+        }
+
+nav ul li a {
+    border: none;
+    padding: .8rem .9rem;
+}
+        
+/*----------- MAIN--------------*/        
+
+
+    
+
   
 
-        /*----------- FIVE DAY FORECAST --------------*/
+/*----------- THREE DAY FORECAST --------------*/
 
-        .forecast h2 {
-            text-align: center;
-            margin-top: -50px;
-            margin-left: -400px;
-        }
+.forecast h2 {
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -400px;
+}
 
-        .forecast {
-            display: block;
-            margin-left: 350px;
-            margin-top: 30px;
-            
-        }
+.forecast {
+    display: block;
+    margin-left: 350px;
+    margin-top: 30px;
+}
 
-        .forecasts {
-            grid-template-columns: 130px 130px 130px;
-            display: grid;
-            gap: 15px;
-            justify-content: center;
-            text-align: center;
-        }
+.forecasts {
+    grid-template-columns: 130px 130px 130px;
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
 
-        .forecasts p {
-            margin-top: 5px;
-    
-        }
+.forecasts p {
+    margin-top: 5px;
+}
         
 
-        #weatherforecast div {
-            line-height: 2em;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 800;
-            border: 4px solid #023047;
-            text-align: center;
-            background: radial-gradient(#eee, #64899B);
-            
-        }
+#weatherforecast div {
+    line-height: 2em;
+    font-family: 'raleway';
+    font-weight: 800;
+    border: 4px solid #023047;
+    text-align: center;
+    background: radial-gradient(#eee, #64899B);
+}
 
-        #weatherforecast img{
-            margin-top: 5px;
-            width: 70%;
-            height: auto;
-
-        }
+#weatherforecast img{
+    margin-top: 5px;
+    width: 70%;
+    height: auto;
+}
 
 
 
 
 
 
-
+/*-----------  --------------*/
 
 
 
@@ -89,410 +112,15 @@
 
 
 
-        /*----------- HEADER --------------*/
-        header img {
-            float: left; 
-            margin-left: 7%; 
-            width: 200px; 
-            height: auto;
-        }
-        
-        header h1 {
-            margin-top: 133px;
-        }
-        header h1 {font-size: 2.3rem;}
-        header h2 {font-size: 1.3rem;}
 
-        div#message{  
-            font-size: 24px;
-            padding: 20px;
-        }
-        
-        /*----------- NAVIGATION --------------*/
-        nav button {display: none;}
 
-        nav ul.hide {display: block;}
-        
-        nav ul {
-            margin-left: 10%
-        }
-        
-        nav ul li {
-            float: left;
-        }
 
-        nav ul li a {
-            border: none;
-            padding: .8rem .9rem;
-        }
-        
-        /*----------- MAIN--------------*/        
 
-            main h1 {
-                margin-left: 36%;
-                padding-top: 20px;
-                margin-top: 20px;
-            }
 
-            main h2 {
-                margin-left: 1%;
-            
-            }
 
-            .herodiv {
-                width: 110%;
-                position: relative;
-                margin-top: 0;
-            }
-
-            img.image {
-                margin-left: -15px;
-            }
 
            
 
-        /*----------- TABLE --------------*/
-        section.stats {
-            font-size: 14px;
-            position: absolute;
-            top: 40px;
-            left: 10%;
-            padding: 1.5rem;
-            margin-left: 80px;
-            margin-top: 10px;
-            width: 24rem;
-        }
-        
-        .stats h3 {
-            border-bottom: 2px solid #023047;
-            margin: 5px auto;
-        }
-
-        .sntance {
-            font-size: 22px;
-            margin-top: 100px;
-        }
-
-        /*-----------CONTACT US  --------------*/
-
-  
-       .container2 {
-            margin: 25px auto;
-            position: relative;
-            width: 730px;
-            height: 340px;
-            background-color: #64899B;
-            border: 4px solid #9B9164;
-            border-radius: 1%;
-        }
-
-        .contactus {
-            text-align: left;
-            margin-left: 20px;
-            margin-top: 20px;
-
-        }
-
-        .contactus2 {
-            text-align: left;
-            margin-left: 20px;
-            margin-top: 20px;
-
-        }
-
-        .contactus3 {
-            text-align: left;
-            margin-left: 20px;
-            margin-top: 20px;
-
-        }
-
-        .contactcont {
-            font-family: 'Merriweather', sans-serif;
-            position: absolute;
-	        top: 50px;
-	        left: 25px;
-            text-align: left;
-            
-        }
-
-        .container1 {
-            margin: 30px auto;
-            position: relative;
-            width: 730px;
-            height: 350px;
-            background-color: #A1AF83;
-            border: 4px solid#9B9164;
-            border-radius: 1%;
-        }
-
-        /*-----------ARTICLE  --------------*/
-
-        .article {
-            margin-left: 20px;
-            margin-top: 20px;
-        }
-
-        .article2 {
-            margin-left: 12px;
-            margin-top: 20px;
-        }
-
-        .article3 {
-            margin-left: 12px;
-            margin-top: 30px;
-        }
-
-        .article4 {
-            margin-left: 12px;
-            margin-top: 30px;
-        }
-
-
-        .articletext {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 12px;
-            float: left; 
-            width: 310px;
-            margin-top: -15px;
-            margin-left: 2%;
-        }
-
-        .articletext2 {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 12px;
-            float: left; 
-            width: 310px;
-            margin-top: -5px;
-            margin-left: 2%;
-        }
-
-        .articletext3 {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 12px;
-            float: left; 
-            width: 310px;
-            margin-top: -5px;
-            margin-left: 2%;
-        }
-
-        .articletext4 {
-            font-family: 'Merriweather', sans-serif;
-            font-size: 12px;
-            float: left; 
-            width: 310px;
-            margin-top: -5px;
-            margin-left: 2%;
-        }
-
-        .articleimage {
-            float: right;
-            margin-right: 3%;
-            width: 350px;
-            height: auto;
-            margin-top: -30px;
-        }
-
-        .articleimage2 {
-            float: right;
-            margin-right: 3%;
-            width: 350px;
-            height: auto;
-            margin-top: -10px;
-        }
-
-        .articleimage3 {
-            float: right;
-            margin-right: 3%;
-            width: 350px;
-            height: auto;
-            margin-top: -5px;
-        }
-
-        .articleimage4 {
-            float: right;
-            margin-right: 3%;
-            width: 350px;
-            height: auto;
-            margin-top: -5px;
-        }
-
-        p.author {
-            margin-left: 350px;
-            font-size: 14px;
-            font-style: italic;
-        }
-
-        p.author2 {
-            margin-left: 350px;
-            font-size: 14px;
-            font-style: italic;
-        }
-
-        p.author3 {
-            margin-left: 350px;
-            font-size: 14px;
-            font-style: italic;
-        }
-
-        p.author4 {
-            margin-left: 350px;
-            font-size: 14px;
-            font-style: italic;
-        }
-
-
-        .image2 {
-            float: left;
-            margin-left: 30%;
-            width: 250px;
-            height: auto;
-            margin-top: -45px;
-           
-        }
-
-        .map {
-            float: right;
-            margin-right: 3%;
-            width: 300px;
-            height: auto;
-            margin-top: -70px;
-           
-        }
-
-        /*-----------GALLERY  --------------*/
-
-        h1.gallerytitle {
-            text-align: center;
-            margin-left: -40px;
-            margin-top: 30px;
-            margin-bottom: 5px;
-
-          
-        }
-        
-        .gallery {
-            max-width: 38rem;
-            margin-left: 100px;
-    
-        }
-
-        .gallerygrid {
-            grid-template-columns: 1fr 1fr;
-            
-            
-        }
-
-        figure.color {
-            margin: 15px;
-            max-width: 280px;
-        }
-
-        .gallerygrid img {
-            width: 280px;
-            height: auto;
-        }
-
-        figcaption {
-            margin-left: -10px;
-        }
-
-        /*----------- HOME PAGE TOWNS --------------*/
-
-
-        #cards div {
-            margin-top: 20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-
-        #cards div:nth-child(2) figure {
-            grid-column: 2;
-            grid-row: 1;
-        }
-
-        #cards div:nth-child(2) section {
-            grid-column: 1;
-        }
-     
-        #cards img{
-            margin-top: 15px;
-            margin-bottom: 10px;
-        }
-
-        #cards section {
-            margin-top: 30px;   
-            line-height : 17px;
-        }
-
-   
-
-        /*----------- UPCOMING EVENTS --------------*/
-
-        .eventbox {
-            margin-top: 50px;
-            margin-bottom: 50px;
-            text-align: center;
-            margin-left: 170px;
-            padding: 1rem;
-            max-width: 400px;
-        }
-
-        /*-----------FORM  --------------*/
-
-        form fieldset {
- 
-            max-width: 500px;
-            margin-left: 110px;
-        
-        }
-
-        .formtext {
-            font-size: 16px;
-            padding-bottom: 15px;
-            font-weight: 800;
-        }
-        
-       
-        
-        label.top {
-            max-width: 450px;
-        }
-        
-        textarea.addinfo {
-            max-width: 450px;
-        }
-        
-        form input.submitBtn {
-            width: 96%;
-            max-width: 15rem;
-            margin-left: 245px;
-            font-weight: bold;
-            font-size: 1rem;    
-        }
-
-        .thankyou {
-            margin-left: 220px;
-            font-size: 20px;
-        
-        }
-        
-        .conditions {
-            margin-left: 220px;
-            font-size: 24px;
-        }
-
-        /*-----------FOOTER  --------------*/
-        footer {
-            font-size: 14px;
-        }
-
-        
-
-
-    }
-    
-    
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
