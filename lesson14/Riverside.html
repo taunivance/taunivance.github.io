@@ -14,38 +14,36 @@
         
     </head>
 
-
 <body>
 <!-- HEADER HERE -->
-<header>
-    <div id="exit" class="alertbanner">
+
+   <div id="exit" class="alertbanner">
             <h1>Warning: Severe Weather Alert <span id="alertEvent"></span></h1>
             <p><span id="wthralert"></span></p>
             <button id="alertExit" class="alertbutton" onclick="removeAlert()">Exit</button> 
     </div>
-    <div class="clearfix">
-        <img class="headerpic" src="images/nationalcem.jpg" alt="National Cemetery">
-        <div><img class="logo" src="images/logo.png" alt="logo"></div>
-        <div>
-            <h1 class="title">Riverside Chamber of Commerce</h1>
-            <h2 class="motto">Motto</h2>
-        </div>
-    </div>
-</header>
-    
-    
-<!-- NAVIGATION HERE -->
+    <div class="header">
+        <img src="images/nationalcem.jpg" alt="National Cemetery">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <h1 class="title">Riverside Chamber of Commerce</h1>
+        <h2 class="motto">Motto</h2>
+    </div>  
 
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="riverside.html">Riverside</a></li>
-            <li><a href="membership.html">Membership</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="contactus.html">Contact Us</a></li> 
-        </ul>
-    </nav>
+    <!-- NAVIGATION HERE -->
+    <div class="navi">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="riverside.html">Riverside</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contactus.html">Contact Us</a></li> 
+            </ul>
+        </nav>
+    </div>
+
+
     
     
 <!-- CONTENT HERE -->
@@ -76,15 +74,19 @@
            
 </main>
     
-<!-- FOOTER HERE -->   
-          
-            
-       
+<!-- FOOTER HERE -->  
+    <footer>
+        <p> 
+        © 2021 &#8226; Tauni K Vance &#8226;<span id="currentdate"></span>
+        </p>      
+        <script src="js/currentdate.js"></script>
+        <script src="js/toggle.js"></script>
+    </footer>  
 
-            <script src="js/weather.js"></script>
-            <script src="js/webfont.js"></script>
-            
-           
+        
+        <script src="js/weather.js"></script>
+        <script src="js/webfont.js"></script>
+ 
 
     </body>
 </html>
