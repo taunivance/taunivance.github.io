@@ -343,6 +343,43 @@ main picture.herodiv {
 
 
 
+  .business {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.businesses {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin-left: -45px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 figure.color {
     max-width: 370px;
     background: radial-gradient(rgb(250, 248, 248), #899B64);
