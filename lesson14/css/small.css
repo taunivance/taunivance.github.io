@@ -129,7 +129,7 @@ nav ul li a{
     }
 
     nav ul.hide {display: none;}
-    
+
 
 /*----------- EVENTS --------------*/
 
@@ -360,8 +360,6 @@ figcaption {
 /*----------- UPCOMING EVENTS  --------------*/
 
 
-}
-
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
 
 
@@ -371,14 +369,13 @@ figcaption {
 
 /*----------- FOOTER --------------*/
 footer {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'raleway';
     font-size: .7rem;
     background-color: #0f025a;
     padding: .5rem 2%;
     text-align: center;
     color: white;
 }
-
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
