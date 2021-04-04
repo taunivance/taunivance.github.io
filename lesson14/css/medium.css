@@ -32,15 +32,15 @@ nav ul li a {
 /*----------- THREE DAY FORECAST --------------*/
 
 .forecast h2 {
+    font-family: 'Raleway';
     text-align: center;
     margin-top: -50px;
-    margin-left: -400px;
 }
 
 .forecast {
     display: block;
-    margin-left: 350px;
-    margin-top: 30px;
+    margin-top: -980px;
+    margin-left: 15px;
 }
 
 .forecasts {
@@ -60,9 +60,9 @@ nav ul li a {
     line-height: 2em;
     font-family: 'raleway';
     font-weight: 800;
-    border: 4px solid #023047;
+    border: 1px solid #023047;
     text-align: center;
-    background: radial-gradient(#eee, #64899B);
+    background: radial-gradient(#eee, #fb7404);
 }
 
 #weatherforecast img{
@@ -72,11 +72,11 @@ nav ul li a {
 }
 
 
-
-
-
-
-/*-----------  --------------*/
+/*-----------BUSINESS ADVERTISEMENT  --------------*/
+div.businessgrid {
+    grid-template-columns: 1fr 1fr;
+    
+}
 
 
 

@@ -86,7 +86,7 @@ nav button {
     flex-direction: row;
     align-self: flex-end;
     justify-self: flex-end;
-    background-color: #64899B;;
+    background-color: #000099;
     font-size: 1.6rem;
     color: #ffffff;
     border: none;
@@ -94,7 +94,7 @@ nav button {
 }
 
 div.navi {
-    background-color: #0f025a;
+    background-color: #000099;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -124,17 +124,17 @@ nav ul li a{
     display: block;
     padding: .8rem 2rem;
     text-decoration: none;
-    background-color: #0f025a;
+    background-color: #000099;
     color: white;
     border-top:1px solid rgba(0,0,0,0.3);
     }
 
     nav ul li a:hover {
-        background-color: #899B64;
+        background-color: #fb7404;
         color: #010706;
     }
     nav ul li.active a {
-        background-color:#9B9164;
+        background-color:#4C4CB7;
         color: #010706;
         font-weight: 700;
     }
@@ -142,34 +142,21 @@ nav ul li a{
     nav ul.hide {display: none;}
 
 
-/*----------- EVENTS --------------*/
-
-main section.event {
-    display: block;
-    position: relative;
-    background: orange;
-    width: 325px;
-    height: auto;
-    left: 230px;
-    top: 200px;
-
-}
-
-
 /*----------- WEATHER SUMMARY --------------*/
 
-main section.stats {
+section.stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: 'Merriweather', sans-serif;
-    width: 20rem;
+    font-family: 'raleway', sans-serif;
+    width: 24rem;
     top: 610px;
-    left: 260px;
-    background: radial-gradient(#eee, #fc9036);
+    left: 160px;
+    background: radial-gradient(white, #000099);
     border: 1px solid #000;
     padding: 1rem;
     opacity: .8;
-    margin: 6px auto;
+    margin-left: 170px;
+    margin-top: 30px;
 }
 
 
@@ -200,6 +187,42 @@ div.grid2 {
 
 }
 
+/*----------- EVENTS --------------*/
+
+main section.event {
+    font-family: 'raleway';
+    display: block;
+    position: relative;
+    background: orange;
+    width: 350px;
+    height: auto;
+    right: -1160px;
+    top: -485px;
+    padding: .8rem 20px;
+  
+
+}
+
+/*----------- CONTACT US--------------*/
+.contactus {
+    font-family: 'raleway', sans-serif;
+    display: block;
+    position: relative;
+    background: #000099;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: auto;
+    right: -1160px;
+    top: -465px;
+    padding: .5rem 20px;
+}
+
+.contactus h1 {
+    font-size: 24px;
+
+
+}
 
 /*----------- THREE DAY FORECAST--------------*/
 
@@ -209,11 +232,52 @@ div.grid2 {
 }
 
 
+/*----------- MISSION --------------*/
 
+.mission {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    background: orange;
+    width: 385px;
+    height: auto;
+    margin-left: 170px;
+    top: 30px;
+    padding: .5rem 20px;
+}
+
+section.mission h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+
+}
+
+/*----------- MEMBERSHIP --------------*/
+
+.member {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    background: #000099;
+    color: white;
+    width: 385px;
+    height: auto;
+    margin-left: 170px;
+    top: 50px;
+    padding: .5rem 20px;
+}
+
+section.member h1 {
+    font-size: 24px;
+
+
+}
 
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
+    padding: 0;
     min-height: 25rem;
 }
 
@@ -223,11 +287,11 @@ main {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 350px;
+    max-width: 500px;
     position: relative;
     margin: auto;
-    margin-right: 200px;
-    top: -280px;
+    margin-right: 592px;
+    top: -995px;
   }
   
   /* Hide the images by default */
@@ -268,7 +332,7 @@ main {
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 45px;
     width: 100%;
     text-align: center;
   }
@@ -288,8 +352,8 @@ main {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
+    margin: 10px 2px;
+    background-color:#0f025a;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -329,31 +393,36 @@ main {
     margin: 0 auto;
 }
 
-
-
-div.businesses {
+.businessgrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 10px;
+    max-width: 800px;
 }
 
-.businesses img {
-    width: 75%;
+.businessgrid img {
+    width: 250px;
     height: auto;
+   
 }
-
 
 h1.businesstitle {
     margin-top: 50px;
     margin-bottom: -5px;
     font-family: 'raleway';
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
 
 }
 
+figure.color:hover {
+    max-width: 370px;
+    background: radial-gradient(rgb(250, 248, 248), #4C4CB7);
+
+}
 
 
 figcaption {
@@ -383,7 +452,7 @@ footer {
     font-family: 'raleway';
     font-size: .7rem;
     background-color: #0f025a;
-    padding: .5rem 2%;
+    padding: .5rem;
     text-align: center;
     color: white;
 }

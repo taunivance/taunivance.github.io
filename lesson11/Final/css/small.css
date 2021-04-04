@@ -170,15 +170,6 @@ h1.gallerytitle {
     
 }
 
-.gallerygrid img[data-src] {
-    filter: blur(0.6em);
-    background: #899B64;
-}
-
-.gallerygrid figure img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
 
 .gallerygrid img {
     width: 370px;

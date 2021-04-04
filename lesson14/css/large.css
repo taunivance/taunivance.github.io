@@ -25,12 +25,16 @@ nav button {display: none !important;}
 
 
 nav ul li a {
-    padding: .5rem 3.6rem;
+    padding: .5rem 5.4rem;
 }
 
-/*----------- MAIN --------------*/
+/*----------- BUSINESS ADVERTISMENT --------------*/
 
-
+div.businessgrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+ 
+}
 
 
 
@@ -42,7 +46,8 @@ nav ul li a {
 
 
 .forecasts {
-    grid-template-columns: 140px 140px 140px;
+    grid-template-columns: 160px 160px 160px;
+
  
 
 }
@@ -75,6 +80,8 @@ nav ul li a {
 /*----------- FOOTER --------------*/
 footer {
     font-size: 1rem;
+
+
 
 }
 
