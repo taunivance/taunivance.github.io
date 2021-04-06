@@ -78,6 +78,11 @@ div.businessgrid {
     
 }
 
+/*----------- DIRECTORY LIST --------------*/
+.bgrid2 {
+    grid-template-columns: 1fr 1fr;
+}
+
 
 
 

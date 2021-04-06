@@ -433,6 +433,43 @@ figcaption {
     text-align: center;
   }
 
+
+/*----------- DIRECTORY LIST --------------*/
+#switch img{
+    width: 50%;
+}
+
+h1.bgrid {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    font-family: 'raleway', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.bgrid {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bgrid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin-left: -45px;
+    margin-bottom: 30px;
+    
+}
+
+
+.gallerygrid img {
+    width: 370px;
+    height: auto;
+   
+}
+
 /*----------- CONTACT INFO  --------------*/
 
 
