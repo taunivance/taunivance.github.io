@@ -55,6 +55,13 @@ div.businessgrid {
 
 }
 
+/*----------- BOARD OF DIRECTORS  --------------*/
+
+.board {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: ;
+}
+
 
 /*----------- UPCOMING EVENTS  --------------*/
 

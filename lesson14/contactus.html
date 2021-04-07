@@ -14,82 +14,96 @@
         
     </head>
 
-
-    <body>
+<body>
 <!-- HEADER HERE -->
-   
 
-        <div id="close" class="alert">
-            <h1>Alert <span id="alertevent"></span></h1>
+   <div id="exit" class="alertbanner">
+            <h1>Warning: Severe Weather Alert <span id="alertEvent"></span></h1>
             <p><span id="wthralert"></span></p>
-            <button id="alertClose" class="" onclick="removeAlert()">Close Weather Alert</button> 
-        </div>
+            <button id="alertExit" class="alertbutton" onclick="removeAlert()">Exit</button> 
+    </div>
+    <div class="header">
+        <img src="images/nationalcem.jpg" alt="National Cemetery">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <h1 class="title">Riverside Chamber of Commerce</h1>
+        <h2 class="motto">Motto</h2>
+    </div>  
+
+    <!-- NAVIGATION HERE -->
+    <div class="navi">
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-
-    <header class="clearfix">
-        <img class="" src="images/logo.png" alt="logo">
-        <section class="headings">
-            <h1>Weather Rain or Shine</h1>
-            <h2>Bringing warmth to your home</h2>
-        </section>
-     
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Riverside</a></li>
-            <li><a href="sodasprings.html">Membership</a></li>
-            <li><a href="fishhaven.html">Directory</a></li>
-            <li><a href="stormcenter.html">Contact Us</a></li> 
-        </ul>
-    </nav>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="riverside.html">Riverside</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contactus.html">Contact Us</a></li> 
+            </ul>
+        </nav>
+    </div>
     
     
 <!-- CONTENT HERE -->
 
 <main>
-    <div class="herodiv">
-        <section class="stats">
-            <h3>Weather Summary</h3>
-            <div class="grid1">
-               <p>Current Temp:</p>
-               <p>Current Condition:</p>
-               <p>Humidity:</p>
-           </div>
-           <div class="grid2">
-               <p><span id="current"></span>&#176;</p>
-               <p><span id="condition"></span></p>
-               <p><span id="humid"></span>%</p>
-           </div>
-           </section> 
-    </div>
-
-        <div class="forecast">
-            <h2>3 Day Forecast</h2>
-            <section class="forecasts" id="weatherforecast"></section>
-        </div>
+        <td valign="top">
+            <div>
+                <h3>Accounting</h3>
+                <p class="height1">Accounting Manager</p><a href="mailto:lRoy@Riverside-Chamber.com">LaWanda Roy</a>
+                <p class="height1">Phone: 951-683-7100 ext. 230</p>
+            </div>
+            
+            <div class="space">
+                <h3>Administration</h3>
+                <p class="height1">Vice President</p> <a href="mailto:nAdcock@Riverside-Chamber.com">Nicholas Adcock</a>
+                <p class="height1">Phone: 951-683-7100 ext. 217</p>
+            </div>
+            <div class="space">
+                <h3>Front Desk Coordinator</h3>
+                <p class="height1">Phone: 951-683-7100 ext. 208<p>
+            </div>
+            <div>
+                <b>Communications</b><br>
+                <i>Communications Manager,</i><br>
+                <a href="mailto:bWiekamp@Riverside-Chamber.com">Bethany Wiekamp</a><br>
+                &nbsp; Phone: 951-683-7100 ext. 227<br>
+            </div>
+            <div>
+                <b>Community Development</b><br>
+                <i>Community Development Coordinator,</i> <br>
+                <a href="mailto:jJimenez@Riverside-Chamber.com">Jesse Jimenez</a><br>
+                &nbsp; Phone: 951-683-7100 ext. 218<br><br>
+            </div>
+            <div>
+                <b>Divisions</b><br>
+                <i>Business Project Coordinator,</i> <a href="mailto:jdoan@riverside-chamber.com"> Janet Doan</a><br>
+                &nbsp; Phone: 951-683-7100 ext. 216<br><br>    
+            </div>
+         </td>
+  
 
         
                 
            
 </main>
+
+<!-- FOOTER HERE -->  
+<footer>
+    <p> 
+    © 2021 &#8226; Tauni K Vance &#8226;<span id="currentdate"></span>
+    </p>      
+    <script src="js/currentdate.js"></script>
+    <script src="js/toggle.js"></script>
+</footer>  
+
     
-<!-- FOOTER HERE -->   
-          
-            
-       
+    <script src="js/weather.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/slide.js"></script>
+   
 
-            <script src="js/fiveday.js"></script>
-            <script src="js/currentdate.js"></script>
-            
-           
 
-    </body>
+
+</body>
 </html>

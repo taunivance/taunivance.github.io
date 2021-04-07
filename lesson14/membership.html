@@ -51,7 +51,7 @@
 
     <h1 class="formtitle">Join our Team, and Help Build Our Comunity</h1>
     <form method="get" action="thanks.html">
-        <fieldset>
+        <fieldset class="fieldset1">
             <legend>Member Information</legend>
             <label class="top">First Name*<input type="text" name="fname" required></label>
             <label class="top">Last Name*<input type="text" name="lname" required></label>
@@ -62,8 +62,10 @@
             <label class="top">Business Address<input type="text" name="fname"></label>
             <label class="top">Business Website<input type="email" name="email" placeholder="someone@gmail.com" required ></label>
         </fieldset>
+    </form>
 
-        <fieldset>
+    <form>
+        <fieldset class="fieldset2">
             <legend>Business Description</legend>
             <label class="top">Description
             <textarea class="addinfo" name="addedinfo" rows="40" cols="50"></textarea>
@@ -72,15 +74,35 @@
     </form>
 
      <form>
-        <fieldset class="fieldset">
+        <fieldset class="fieldset3">
             <h1 class="membership">Membership Levels</h1> 
-            <div><span class="style"></span>Non-profit members get a 10% discount on Advertising. Access to Directory Listing.</div>
+            <div>
+                <span class="style"></span>
+            </div>
+            <div class="non">
+                <p>Non-profit members get a 10% discount on Advertising. Access to Directory Listing.</p>
+            </div>
             <p>Not-profit ($100)</p>
-            <div><span class="style1"></span>Bronze members get 20% discount on Advertising. Access to Directory Listing.</div>  
+            <div>
+                <span class="style1"></span>
+            </div> 
+            <div class="non">
+                <p>Bronze members get 20% discount on Advertising. Access to Directory Listing.<p></p>
+            </div> 
             <p>Bronze ($200)</p>
-            <div><span class="style2"></span>Silver members get 30% discount on Advertising. Access to Directory Listing.</div>
+            <div>
+                <span class="style2"></span>
+            </div>
+            <div class="non">
+                <p>Silver members get 30% discount on Advertising. Access to Directory Listing.</p>
+            </div>
             <p>Silver ($400)</p>
-            <div><span class="style3"></span>Gold members get 40% discount on Advertising. Access to Directory Listing.</div>
+            <div>
+                <span class="style3"></span>
+            </div>
+            <div class="non">
+                <p>Gold members get 40% discount on Advertising. Access to Directory Listing.</p>
+            </div>
             <p>Gold ($1000)</p>
             <h2 class="membership">Choose Your Membership</h2> 
             <label class="sbs"><input type="radio" name="audience" value="Non-profit ($100)">Non-profit ($100)</label>

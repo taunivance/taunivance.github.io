@@ -471,7 +471,39 @@ h1.bgrid {
 }
 
 /*----------- CONTACT INFO  --------------*/
+.height1 {
+    line-height: 1px;
+}
 
+div.space {
+    margin-top: 30px;
+}
+
+/*----------- BOARD OF DIRECTORS  --------------*/
+
+.boardtitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.boardgrid {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    font-family: 'raleway';
+
+}
 
 
 /*----------- UPCOMING EVENTS  --------------*/
@@ -487,9 +519,9 @@ h1.bgrid {
     margin-left: 220px;
     margin-top: 30px;
 }
-.formsize {
+main.formsize {
     padding: 0 2%;
-    min-height: 10rem;
+    height: 10rem;
 }
 
 .membership {
@@ -501,6 +533,14 @@ h1.bgrid {
     margin-top: -200px;
 }
 
+.fieldset1 {
+    margin-bottom: 30px;
+}
+
+.fieldset2 {
+    margin-bottom: 60px;
+}
+
 .style {
     display:inline-block;
     border:1px solid black;
@@ -508,6 +548,11 @@ h1.bgrid {
     height:50px;
     background-color:#e3e5e4;
     margin-right: 10px;
+}
+
+.non {
+    margin-left: 60px;
+    margin-top: -86px;
 }
 
 .style1 {
@@ -537,9 +582,9 @@ h1.bgrid {
     margin-right: 10px;
 }
 
-fieldset.fieldset {
+fieldset.fieldset3 {
     margin-left: 890px;
-    margin-top: -1190px;
+    margin-top: -1070px;
 }
 
 form fieldset {
