@@ -14,71 +14,90 @@
         
     </head>
 
-
-    <body>
+<body>
 <!-- HEADER HERE -->
-   
 
-        <div id="close" class="alert">
-            <h1>Alert <span id="alertevent"></span></h1>
+   <div id="exit" class="alertbanner">
+            <h1>Warning: Severe Weather Alert <span id="alertEvent"></span></h1>
             <p><span id="wthralert"></span></p>
-            <button id="alertClose" class="" onclick="removeAlert()">Close Weather Alert</button> 
-        </div>
+            <button id="alertExit" class="alertbutton" onclick="removeAlert()">Exit</button> 
+    </div>
+    <div class="header">
+        <img src="images/nationalcem.jpg" alt="National Cemetery">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <h1 class="title">Riverside Chamber of Commerce</h1>
+        <h2 class="motto">Motto</h2>
+    </div>  
+
+    <!-- NAVIGATION HERE -->
+    <div class="navi">
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-
-    <header class="clearfix">
-        <img class="" src="images/logo.png" alt="logo">
-        <section class="headings">
-            <h1>Weather Rain or Shine</h1>
-            <h2>Bringing warmth to your home</h2>
-        </section>
-     
-    </header>
-    
-    
-<!-- NAVIGATION HERE -->
-
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Riverside</a></li>
-            <li><a href="sodasprings.html">Membership</a></li>
-            <li><a href="fishhaven.html">Directory</a></li>
-            <li><a href="stormcenter.html">Contact Us</a></li> 
-        </ul>
-    </nav>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="riverside.html">Riverside</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contactus.html">Contact Us</a></li> 
+            </ul>
+        </nav>
+    </div>
     
     
 <!-- CONTENT HERE -->
 
-<main>
-    <div class="herodiv">
-        <section class="stats">
-            <h3>Weather Summary</h3>
-            <div class="grid1">
-               <p>Current Temp:</p>
-               <p>Current Condition:</p>
-               <p>Humidity:</p>
-           </div>
-           <div class="grid2">
-               <p><span id="current"></span>&#176;</p>
-               <p><span id="condition"></span></p>
-               <p><span id="humid"></span>%</p>
-           </div>
-           </section> 
+
+<main class="formsize">
+
+    <h1 class="formtitle">Join our Team, and Help Build Our Comunity</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Member Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" required></label>
+            <label class="top">Title<input type="text" name="fname"></label>
+            <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required ></label>
+            <label class="top">Cell Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Business Name<input type="text" name="fname" required></label>
+            <label class="top">Business Address<input type="text" name="fname"></label>
+            <label class="top">Business Website<input type="email" name="email" placeholder="someone@gmail.com" required ></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Description</legend>
+            <label class="top">Description
+            <textarea class="addinfo" name="addedinfo" rows="40" cols="50"></textarea>
+            </label>
+        </fieldset>
+    </form>
+
+     <form>
+        <fieldset class="fieldset">
+            <h1 class="membership">Membership Levels</h1> 
+            <div><span class="style"></span>Non-profit members get a 10% discount on Advertising. Access to Directory Listing.</div>
+            <p>Not-profit ($100)</p>
+            <div><span class="style1"></span>Bronze members get 20% discount on Advertising. Access to Directory Listing.</div>  
+            <p>Bronze ($200)</p>
+            <div><span class="style2"></span>Silver members get 30% discount on Advertising. Access to Directory Listing.</div>
+            <p>Silver ($400)</p>
+            <div><span class="style3"></span>Gold members get 40% discount on Advertising. Access to Directory Listing.</div>
+            <p>Gold ($1000)</p>
+            <h2 class="membership">Choose Your Membership</h2> 
+            <label class="sbs"><input type="radio" name="audience" value="Non-profit ($100)">Non-profit ($100)</label>
+            <label class="sbs"><input type="radio" name="audience" value="Bronze ($200)">Bronze ($200)</label>
+            <label class="sbs"><input type="radio" name="audience" value="Silver ($400)">Silver ($400)</label>  
+            <label class="sbs"><input type="radio" name="audience" value="Gold ($1000)">Gold ($1000)</label>          
+        </fieldset>
+    </form>
+
+    <div>
+        <input type="submit" value="Submit Membership" class="submitBtn">   
     </div>
 
-        <div class="forecast">
-            <h2>3 Day Forecast</h2>
-            <section class="forecasts" id="weatherforecast"></section>
-        </div>
-
+       
         
-                
-           
+    
+  
 </main>
     
 <!-- FOOTER HERE -->   
@@ -88,6 +107,8 @@
 
             <script src="js/fiveday.js"></script>
             <script src="js/currentdate.js"></script>
+            <script src="js/storm.js"></script>
+
             
            
 

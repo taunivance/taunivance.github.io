@@ -480,7 +480,172 @@ h1.bgrid {
 /*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
 
 
-/*----------- LAYOUT FOR FORM  --------------*/
+/*------------FORM-----------------------*/
+.formtitle {
+    font-family: "raleway";
+    font-size: 30px;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+.formsize {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+.membership {
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+#text {
+    margin-top: -200px;
+}
+
+.style {
+    display:inline-block;
+    border:1px solid black;
+    width:50px;
+    height:50px;
+    background-color:#e3e5e4;
+    margin-right: 10px;
+}
+
+.style1 {
+    border:1px solid black;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background-color:#cd7f32;
+    margin-right: 10px;
+}
+
+.style2 {
+    border:1px solid black;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background-color:#c0c0c0;
+    margin-right: 10px;
+}
+
+.style3 {
+    border:1px solid black;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    background-color: #d3af37;
+    margin-right: 10px;
+}
+
+fieldset.fieldset {
+    margin-left: 890px;
+    margin-top: -1190px;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 3px solid #000099;
+    padding: .5rem 2%;
+    max-width: 500px;
+    margin-left: 220px;
+    font-family: 'raleway', sans-serif;
+    margin-bottom: 100px;
+}
+
+form legend {
+    color: #000099;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance:none;
+    display: block;
+    font-size: 1.1rem;
+    border: solid 1.5px #000099;
+    padding-top: .75rem;
+    color: rgb(14, 2, 2);
+    width: 100%;
+    max-width: 40rem;
+    background-color: rgba(38, 90, 121, 0.1);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+form label.sbs {
+    display: block;
+    margin-top: 10px;
+    padding: .50rem 0;
+    color: #555;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+  }
+
+input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+
+input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #000099;
+    color: white;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    margin-left: 980px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;    
+}
+
+form label.top input:required {
+    border-left: rgb(121, 3, 3) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(1, 90, 1) solid 6px;
+}
+
+.addinfo {
+    max-height: 300px;
+}
+
+
+#wearatings {
+    padding-left: .5rem;
+    font-weight: 700;
+}
+
+#wearating {
+    min-width: 8rem;
+    width: calc(50vw - 1.25rem);
+    max-width: 11.25rem;
+}
+
+.space {
+    margin-top: 1.5rem;
+}
+
+.thankyou {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 300px;
+
+}
+
+
 
 
 
