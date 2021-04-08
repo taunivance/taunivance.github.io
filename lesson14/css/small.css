@@ -203,7 +203,7 @@ main section.event {
 
 }
 
-/*----------- CONTACT US--------------*/
+/*----------- CONTACT US BUTTON --------------*/
 .contactus {
     font-family: 'raleway', sans-serif;
     display: block;
@@ -220,7 +220,6 @@ main section.event {
 
 .contactus h1 {
     font-size: 24px;
-
 
 }
 
@@ -471,6 +470,49 @@ h1.bgrid {
 }
 
 /*----------- CONTACT INFO  --------------*/
+.contacttitle {
+    font-family: "raleway";
+    font-size: 30px;
+    margin-left: 135px;
+    margin-top: 80px;
+}
+
+legend.black {
+    color:rgb(14, 2, 2)
+}
+
+.map1{
+    position: fixed, no-repeat;
+    left: 50%;
+    margin-left:65%;
+    margin-top: -350px;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'raleway';
+    }
+
+.map2{
+    font-family: "raleway";
+    font-size: 30px;
+}
+
+.fieldset4 {
+    margin-bottom: 75px;
+    margin-left: 135px;
+}
+
+fieldset.fieldset4 {
+    border: 3px solid black;
+}
+
+.tabtitle {
+    text-align: center;
+    margin-left: -140px;
+    margin-bottom: 0;
+    font-family: raleway;
+    margin-top: -50px;
+}
+
 .height1 {
     line-height: 1px;
 }
@@ -478,6 +520,56 @@ h1.bgrid {
 div.space {
     margin-top: 30px;
 }
+
+td.margin1 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+td.margin2 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+td.margin3 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+table {
+    margin: 0 auto;
+    font-family: "raleway";
+    margin-bottom: 50px;
+   
+}
+
+input.submitBtn2 {
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .75rem 1.5rem;
+    margin-top: -40px;
+    width: 50%;
+    max-width: 15rem;
+    margin-left: 280px;
+    font-weight: bold;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.2rem;    
+}
+
+.addinfo1 {
+    max-height: 200px;
+}
+
+h2 a.link {
+    margin-left: 40%;
+}
+
+
 
 /*----------- BOARD OF DIRECTORS  --------------*/
 
