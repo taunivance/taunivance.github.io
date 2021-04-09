@@ -17,15 +17,15 @@ weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
-console.log(weekday[3]);
+//console.log(weekday[3]);
           
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.9534&lon=-117.3962&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial';          
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.5653&lon=-117.2346&appid=2b46ec7de5911d2fd80baa005669e116&units=imperial';          
           
 fetch(apiURL)
 .then((response) => response.json())
 .then((weatherinfo) => {
 //Once it comes back, display it to the console.
-console.log(weatherinfo);          
+//console.log(weatherinfo);         
           
 document.getElementById("current").innerHTML = weatherinfo.current.temp;
 document.getElementById("humid").innerHTML = weatherinfo.current.humidity;       
