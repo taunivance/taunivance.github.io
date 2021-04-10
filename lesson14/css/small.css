@@ -388,7 +388,41 @@ main {
 .demotitle {
     text-align: center;
     font-family: "raleway";
+    padding-top: 20px;
+    padding-bottom: 20px;
 
+}
+
+.demotitle0 {
+    text-align: center;
+    font-family: "raleway";
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+section.demoinfo0 {
+    display: grid;
+    align-content: center;
+    width: 1200px;
+    margin-left: 160px;
+}
+
+.info0 {
+    grid-column: 2/3;
+    margin: 0;
+    font-family: "raleway";
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 500px;
+}
+
+
+img.demoimage0 {
+    grid-column: 1/2;
+    width: 75%;
 }
 
 section.demoinfo {
@@ -406,12 +440,45 @@ section.demoinfo {
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
-    width: 400px;
+    width: 500px;
 }
+
+p.info {
+    padding-top: 15px;
+}
+
 
 img.demoimage {
     grid-column: 2/3;
     width: 75%;
+}
+
+section.demoinfo4 {
+    display: grid;
+    align-content: center;
+    width: 1200px;
+    margin-left: 150px;
+    padding-top: 30px;
+
+}
+
+img.demoimage4 {
+    grid-column: 1/2;
+    width: 75%;
+}
+
+.info4 {
+    grid-column: 2/3;
+    margin: 0;
+    font-family: "raleway";
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    width: 500px;
+}
+
+p.info4 {
+    padding-top: 15px;
 }
 
 
@@ -431,7 +498,7 @@ section.demoinfo2 {
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
-    width: 400px;
+    width: 500px;
 }
 
 .info22 {
@@ -441,26 +508,26 @@ section.demoinfo2 {
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
-    width: 400px;
+    width: 500px;
 }
+
 
 section.demoinfo3 {
     display: grid;
     align-content: center;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+    margin-left: ;
+    margin-left: 225px;
+    margin-top: 60px;
+    padding-left: -10px;
 }
 
-.info3 {
+img.demoimage3 {
     grid-column: 1/2;
     margin: 0;
-    font-family: "raleway";
-    font-size: 20px;
     text-align: left;
     padding-left: 5px;
-    width: 400px;
+    width: 600px;
 }
 
 .info33 {
@@ -469,8 +536,44 @@ section.demoinfo3 {
     font-family: "raleway";
     font-size: 20px;
     text-align: left;
+    width: 500px;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+section.demoinfo5 {
+    display: grid;
+    align-content: center;
+    width: 1200px;
+    margin-left: ;
+    margin-left: 225px;
+    margin-top: 60px;
+    padding-left: -10px;
+    padding-bottom: 30px;
+}
+
+img.demoimage5 {
+    grid-column: 1/2;
+    margin: 0;
+    text-align: left;
     padding-left: 5px;
-    width: 400px;
+    width: 600px;
+}
+
+img.demoimage6 {
+    grid-column: 2/3;
+    margin: 0;
+    width: 500px;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+img.demoimage7 {
+    grid-column: 2/3;
+    margin: 0;
+    width: 500px;
+    margin-left: -20px;
+    margin-top: -270px;
 }
 
 
