@@ -5,7 +5,7 @@
         margin: auto;
     }
 
-/*----------- WEATHER SUMMARY --------------*/
+/*----------- HEADER --------------*/
 
     img.logo {
         width: 170px;
@@ -102,14 +102,17 @@ main section.event {
 /*----------- DEMOGRAPHICS --------------*/
 
 .demotitle {
-     padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
+    margin-top: 30px;
 
 }
 
 .demotitle0 {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
 
 }
 
@@ -120,14 +123,16 @@ section.demoinfo0 {
 
 .info0 {
     margin: 0;
-     padding-top: 10px;
+    padding-top: 10px;
     padding-left: 5px;
     width: 500px;
+    font-size: 20px;
 }
 
 
 img.demoimage0 {
     width: 75%;
+    margin-left: 100px;
 }
 
 section.demoinfo {
@@ -149,7 +154,9 @@ p.info {
 
 
 img.demoimage {
-    width: 75%;
+    width: 45%;
+    margin-left: 600px;
+    margin-top: -400px;
 }
 
 section.demoinfo4 {
@@ -160,7 +167,8 @@ section.demoinfo4 {
 }
 
 img.demoimage4 {
-    width: 75%;
+    width: 95%;
+    margin-left: 50px;
 }
 
 .info4 {
@@ -181,14 +189,18 @@ section.demoinfo2 {
     margin-top: 50px;
 }
 
-.info2 {
+p.info2 {
+    grid-column: 1/2;
+    margin: 0;
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
     width: 500px;
 }
 
-.info22 {
+p.info22 {
+    grid-column: 2/3;
+    margin: 0;
     font-size: 20px;
     text-align: left;
     padding-left: 5px;
@@ -197,6 +209,8 @@ section.demoinfo2 {
 
 
 section.demoinfo3 {
+    display: grid;
+    align-content: center;
     width: 1200px;
     margin-left: 120px;
     margin-top: 60px;
@@ -204,12 +218,22 @@ section.demoinfo3 {
 }
 
 img.demoimage3 {
+    grid-column: 1/2;
+    margin: 0;
     text-align: left;
     padding-left: 5px;
     width: 600px;
 }
 
+h3.info33 {
+    font-size: 20px;
+    max-width: 500px;
+    margin-left: -20px;
+}
+
 .info33 {
+    grid-column: 2/3;
+    margin: 0;
     font-size: 20px;
     text-align: left;
     width: 500px;
@@ -218,6 +242,8 @@ img.demoimage3 {
 }
 
 section.demoinfo5 {
+    display: grid;
+    align-content: center;
     width: 1200px;
     margin-left: 120px;
     margin-top: 30px;
@@ -226,6 +252,7 @@ section.demoinfo5 {
 }
 
 img.demoimage5 {
+    grid-column: 1/2;
     margin: 0;
     text-align: left;
     padding-left: 5px;
@@ -233,6 +260,7 @@ img.demoimage5 {
 }
 
 img.demoimage6 {
+    grid-column: 2/3;
     margin: 0;
     width: 500px;
     margin-left: -20px;
@@ -240,6 +268,7 @@ img.demoimage6 {
 }
 
 img.demoimage7 {
+    grid-column: 2/3;
     margin: 0;
     width: 500px;
     margin-left: -20px;
@@ -260,6 +289,8 @@ div.businessgrid {
 h1.businesstitle {
     margin-top: 50px;
     margin-bottom: -5px;
+    font-size: 40px;
+   
  
 }
 
@@ -272,14 +303,14 @@ h1.businesstitle {
 .member {
     width: 350px;
     height: auto;
-    margin-left: 462px;
+    margin-left: 473px;
     top: -110px;
     padding: .5rem 20px;
 }
 
 fieldset.fieldset3 {
     margin-left: 670px;
-    margin-top: -1490px;
+    margin-top: -1495px;
     
 }
 
@@ -490,7 +521,7 @@ img.linkedin {
 .contactus {
     width: 350px;
     height: auto;
-    right: -463px;
+    right: -473px;
     top: -680px;
     padding: .5rem 20px;
 }
@@ -521,13 +552,7 @@ nav ul li a {
     padding: .5rem 3.5rem;
 }
 
-/*----------- BUSINESS ADVERTISMENT --------------*/
 
-div.businessgrid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   
- 
-}
 
 
 
@@ -572,6 +597,12 @@ footer {
     font-size: 1rem;
     text-align: center;
 
+}
+
+.social {
+    margin-left: 500px;
+    max-width: 300px;
+ 
 }
 
 }
