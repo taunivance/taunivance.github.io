@@ -5,7 +5,7 @@
         "address": "PO Box 1283",
         "city": "Riverside, California 92502",
         "phone":9513784483,
-        "companyurl": "http://www.100bmie.org/",
+        "companyurl": "http://www.100bmie.org",
         "imageurl": "images/blackmen.jpg"
       },
       {
@@ -13,7 +13,7 @@
         "address": "36377 Riverside Ave #203",
         "city": "Riverside, California 92506",
         "phone":9513001200,
-        "companyurl": "http://www.cancer.org/",
+        "companyurl": "http://www.cancer.org",
         "imageurl": "images/americancancer.jpg"
       },
       {
@@ -21,7 +21,7 @@
         "address": "1015 E Alessandro #150",
         "city": "Riverside, California 92508",
         "phone":9516534200,
-        "companyurl": "http://www.angelicasflorist.com/",
+        "companyurl": "http://www.angelicasflorist.com",
         "imageurl": "images/angelas.jpg"
       },
       {
@@ -29,7 +29,7 @@
         "address": "JRDC Bldg 390/2325 Graeber Blvd",
         "city": "March Air Reserve Base, California 92518",
         "phone":7577075253,
-        "companyurl": "http://bobhope.uso.org/",
+        "companyurl": "http://bobhope.uso.org",
         "imageurl": "images/bobhope.jpg"
       },
       {
@@ -37,7 +37,7 @@
         "address": "3044 Horace St",
         "city": "Riverside, California 92506",
         "phone":9512487700,
-        "companyurl": "http://www.csdr-cde.ca.gov/",
+        "companyurl": "http://www.csdr-cde.ca.gov",
         "imageurl": "images/csd.jpg"
       },
       {
@@ -45,7 +45,7 @@
         "address": "3877 12th St",
         "city": "Riverside, California 92501",
         "phone":9512476064,
-        "companyurl": "http://bobhope.uso.org/",
+        "companyurl": "http://bobhope.uso.org",
         "imageurl": "images/childnet.jpg"
       },
       {
@@ -53,7 +53,7 @@
         "address": "PO Box 55131",
         "city": "Riverside, California 92517",
         "phone":9513249603,
-        "companyurl": "http://www.naacp-riverside.org/",
+        "companyurl": "http://www.naacp-riverside.org",
         "imageurl": "images/naacp.jpg"
       },
       {
@@ -61,7 +61,7 @@
         "address": "PO Box 209",
         "city": "Riverside, California 92502",
         "phone":9513841866,
-        "companyurl": "http://www.raahsinc.org/",
+        "companyurl": "http://www.raahsinc.org",
         "imageurl": "images/aahs.jpg"
       }
     ]

@@ -36,7 +36,7 @@ fetch(requestURL)
             busInfo.appendChild(phone);
 
             let weblink = document.createElement("p");
-            weblink.innerHTML = businesses[i].companyurl;
+            weblink.innerHTML = "<a href='" + businesses[i].companyurl + "'>Our Website</a>";
             busInfo.appendChild(weblink);
             
             let image = document.createElement("img");

@@ -36,12 +36,16 @@ div.businessgrid {
  
 }
 
+
+
 /*----------- DIRECTORY LIST --------------*/
 .bgrid2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-
+.directoryList.hide2{
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
 
 
 
@@ -85,6 +89,7 @@ form label.sbs {
 
 
 /*----------- CONTACT OFFICE  --------------*/
+
 
 
 

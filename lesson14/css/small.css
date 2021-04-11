@@ -57,29 +57,49 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     
 }
 
+div.cbox {
+    display: inline-block;
+    position: absolute;
+    width: 470px;
+    height: 170px;
+    background-color:white;
+    opacity: 90%;
+    margin-top: -190px;
+    margin-left: 135px;
+ 
+}
+
 img.logo {
-    width: 190px;
+    width: 170px;
     height: auto;
     position: absolute;
-    top: 100px;
-    left: 140px
+    top: 12px;
+    left: 10px;
+    
 }
 
 h1.title {
     position: absolute;
+    font-family: "playfair";
+    color:black;
+    font-weight: 500;
+    font-size: 22px;
     top: 100px;
-    left: 140px;
-    background-color: aliceblue; 
-    width: 500px;
+    left: 165px;
 }
 
 h2.motto {
     position: absolute;
-    top: 100px;
-    left: 140px
+    font-family: "playfair";
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    top: 118px;
+    left: 165px
 }
 
 
@@ -126,7 +146,7 @@ nav li {
 
 nav ul li a{
     display: block;
-    padding: .8rem 2rem;
+    padding: .9rem 2rem;
     text-decoration: none;
     background-color: #000099;
     color: white;
@@ -152,14 +172,14 @@ section.stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: 'raleway', sans-serif;
-    width: 24rem;
+    width: 20rem;
     top: 610px;
     left: 160px;
     background: radial-gradient(white, #000099);
     border: 1px solid #000;
     padding: 1rem;
     opacity: .8;
-    margin-left: 170px;
+    margin-left: 135px;
     margin-top: 30px;
 }
 
@@ -198,9 +218,9 @@ main section.event {
     background: orange;
     width: 350px;
     height: auto;
-    right: -1160px;
-    top: -485px;
-    padding: .8rem 20px;
+    right: -820px;
+    top: -521px;
+    padding: .2rem 20px;
   
 
 }
@@ -215,8 +235,8 @@ main section.event {
     color: white;
     width: 350px;
     height: auto;
-    right: -1160px;
-    top: -465px;
+    right: -463px;
+    top: -680px;
     padding: .5rem 20px;
 }
 
@@ -241,11 +261,11 @@ main section.event {
     text-align: center;
     font-family: 'raleway', sans-serif;
     background: orange;
-    width: 385px;
+    width: 320px;
     height: auto;
-    margin-left: 170px;
-    top: 30px;
-    padding: .5rem 20px;
+    margin-left: 135px;
+    top: 15px;
+    padding: .5px 20px;
 }
 
 section.mission h3 {
@@ -263,15 +283,15 @@ section.mission h3 {
     font-family: 'raleway', sans-serif;
     background: #000099;
     color: white;
-    width: 385px;
+    width: 350px;
     height: auto;
-    margin-left: 170px;
-    top: 50px;
+    margin-left: 462px;
+    top: -110px;
     padding: .5rem 20px;
 }
 
 section.member h1 {
-    font-size: 24px;
+    font-size: 22px;
 
 
 }
@@ -288,11 +308,11 @@ main {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 500px;
+    max-width: 350px;
     position: relative;
     margin: auto;
-    margin-right: 592px;
-    top: -995px;
+    margin-right: 530px;
+    top: -1009px;
   }
   
   /* Hide the images by default */
@@ -547,7 +567,7 @@ section.demoinfo5 {
     width: 1200px;
     margin-left: ;
     margin-left: 225px;
-    margin-top: 60px;
+    margin-top: 30px;
     padding-left: -10px;
     padding-bottom: 30px;
 }
@@ -631,6 +651,10 @@ figcaption {
     width: 50%;
 }
 
+main.bgrid {
+    margin-top: 100px;
+}
+
 h1.bgrid {
     margin-top: 30px;
     margin-bottom: -5px;
@@ -656,11 +680,67 @@ h1.bgrid {
 }
 
 
-.gallerygrid img {
-    width: 370px;
-    height: auto;
-   
+/*------------DIRECTORY TOGGLE-----------------------*/
+
+#listbutton{
+    display: none;
 }
+
+div.togbutton {
+    margin: 1% 78% auto;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+input#list.display.currentView {
+    width: 50px;
+    height: auto;
+
+}
+
+input#grid.display.currentView {
+    width: 70px;
+    height: auto;
+}
+
+input#list.display {
+    width: 50px;
+    height: auto;
+}
+
+input#grid.display {
+    width: 70px;
+    height: auto;
+}
+
+
+.directoryList {
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    text-align: left;
+    margin-left: 10px;
+
+}
+.directoryList section{
+    padding-top: 30px;
+}
+.directoryList img {
+    float: left;
+    padding-right: 5px;
+}
+.directoryList h2 {
+    font-size: 1em;
+}
+.directoryList p {
+    font-size: .8em;;
+}
+
+
+
+
 
 /*----------- CONTACT INFO  --------------*/
 .contacttitle {
@@ -789,12 +869,6 @@ h2 a.link {
     font-family: 'raleway';
 
 }
-
-
-/*----------- UPCOMING EVENTS  --------------*/
-
-
-/*----------- LAYOUT FOR THE TOWN CARDS  --------------*/
 
 
 /*------------FORM-----------------------*/
@@ -976,9 +1050,6 @@ form label.top input:required:valid {
 }
 
 
-
-
-
 /*----------- FOOTER --------------*/
 footer {
     font-family: 'raleway';
@@ -987,6 +1058,32 @@ footer {
     padding: .5rem;
     text-align: center;
     color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    max-width: 300px;
+ 
+}
+
+img.facebook {
+    width: 40px; 
+   
+
+}
+
+img.instagram {
+    width: 40px;
+  
+    
+}
+
+img.linkedin {
+    width: 40px;
+    
+    
 }
 
 

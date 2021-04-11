@@ -21,13 +21,8 @@ nav ul li a {
     border: none;
     padding: .8rem .9rem;
 }
-        
-/*----------- MAIN--------------*/        
 
 
-    
-
-  
 
 /*----------- THREE DAY FORECAST --------------*/
 
@@ -39,8 +34,8 @@ nav ul li a {
 
 .forecast {
     display: block;
-    margin-top: -980px;
-    margin-left: 15px;
+    margin-top: -780px;
+    margin-left: -35px;
 }
 
 .forecasts {
@@ -83,11 +78,51 @@ div.businessgrid {
     grid-template-columns: 1fr 1fr;
 }
 
+.directoryList.hide2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.hide2 section{
+    padding: 0;
+    margin: 0;
+
+}
+
+.togbutton {
+    display: block;
+    margin-left: 80%;
+}
+
+.directoryList {
+    margin: 2% auto;
+   max-width: 30rem;
+}
+.directoryList section{
+    padding-top: 50px;
+}
+.directoryList img {
+    float: left;
+    padding-right: 5px;
+    width: 140px;
+}
+.directoryList h2 {
+    font-size: 1.5em;
+}
+.directoryList p {
+    font-size: 1em;;
+}
+
 /*----------- BOARD OF DIRECTORS  --------------*/
 
 .board {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+
+
 
 
 
