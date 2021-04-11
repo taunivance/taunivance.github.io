@@ -877,15 +877,24 @@ h2 a.link {
 /*------------FORM-----------------------*/
 .formtitle {
     font-family: 'raleway', sans-serif;
-    font-size: 30px;
-    margin-left: 160px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 23px;
     margin-top: 30px;
 }
 
 
 .membership {
-    margin-left: -10px;
+    margin-left: -1px;
     margin-top: 10px;
+}
+
+h2.membership {
+    font-size: 20px;
+}
+
+h1.membership {
+    font-size: 26px;
 }
 
 #text {
@@ -894,11 +903,14 @@ h2 a.link {
 
 .fieldset1 {
     margin-bottom: 30px;
+    margin-left: 24px;
 }
 
 .fieldset2 {
     margin-bottom: 500px;
+    margin-left: 24px;
 }
+
 
 .style {
     display:inline-block;
@@ -942,8 +954,9 @@ h2 a.link {
 }
 
 fieldset.fieldset3 {
-    margin-left: 670px;
-    margin-top: -1490px;
+    margin-left: 25px;
+    margin-top: -490px;
+    margin-bottom: -200px;
     
 }
 
@@ -966,7 +979,7 @@ form legend {
     font-weight: 600;
 }
 
-form label.topp, form div {
+form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: #9c2c13;
@@ -974,7 +987,7 @@ form label.topp, form div {
     font-size: 1rem;
 }
 
-form label.topp input, form label.topp select {
+form label.top input, form label.top select {
     -webkit-appearance:none;
     display: block;
     font-family: 'raleway', sans-serif;
@@ -985,7 +998,7 @@ form label.topp input, form label.topp select {
     width: 100%;
     max-width: 40rem;
     background-color: rgba(38, 90, 121, 0.1);
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 form label.sbs {
@@ -1020,18 +1033,18 @@ input.submitBtn {
     margin-bottom: 200px;
 }
 
-form label.topp input:required {
+form label.top input:required {
     border-left: rgb(121, 3, 3) solid 6px;
 }
 
-form label.topp input:required:valid {
+form label.top input:required:valid {
     border-left: rgb(1, 90, 1) solid 6px;
 }
 
 .addinfo {
     max-height: 300px;
+    width: 275px;
 }
-
 
 .space {
     margin-top: 1.5rem;
