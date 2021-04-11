@@ -425,7 +425,7 @@ section.demoinfo0 {
     display: grid;
     align-content: center;
     width: 1200px;
-    margin-left: 160px;
+    margin-left: 40px;
 }
 
 .info0 {
@@ -449,8 +449,8 @@ section.demoinfo {
     display: grid;
     align-content: center;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
+ 
 }
 
 .info {
@@ -477,7 +477,7 @@ section.demoinfo4 {
     display: grid;
     align-content: center;
     width: 1200px;
-    margin-left: 150px;
+    margin-left: 50px;
     padding-top: 30px;
 
 }
@@ -506,8 +506,7 @@ section.demoinfo2 {
     display: grid;
     align-content: center;
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 120px;
     margin-top: 50px;
 }
 
@@ -537,7 +536,7 @@ section.demoinfo3 {
     align-content: center;
     width: 1200px;
     margin-left: ;
-    margin-left: 225px;
+    margin-left: 120px;
     margin-top: 60px;
     padding-left: -10px;
 }
@@ -566,7 +565,7 @@ section.demoinfo5 {
     align-content: center;
     width: 1200px;
     margin-left: ;
-    margin-left: 225px;
+    margin-left: 120px;
     margin-top: 30px;
     padding-left: -10px;
     padding-bottom: 30px;
@@ -612,11 +611,11 @@ img.demoimage7 {
     text-align: center;
     margin-bottom: 30px;
     margin-left: 10px;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 .businessgrid img {
-    width: 250px;
+    width: 175px;
     height: auto;
    
 }
@@ -625,7 +624,7 @@ h1.businesstitle {
     margin-top: 50px;
     margin-bottom: -5px;
     font-family: 'raleway';
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
 
 }
@@ -1044,10 +1043,17 @@ form label.top input:required:valid {
 }
 
 .thankyou {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'raleway', sans-serif;
     margin-left: 300px;
 
 }
+
+.conditions {
+    margin-left: 300px;
+}
+
+
+
 
 
 /*----------- FOOTER --------------*/
