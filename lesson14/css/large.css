@@ -485,7 +485,14 @@ h2 a.link {
     margin-left: -60px;
 }
 
+/*----------- DIRECTORY LIST --------------*/
+.bgrid2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.directoryList.hide2{
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
 
 /*------------DIRECTORY TOGGLE-----------------------*/
 
@@ -502,9 +509,44 @@ div.togbutton {
     margin-left: 145px;
     margin-bottom: 30px;
     margin-top: 100px;
-    max-width: 1000px;
+    max-width: 900px;
+    font-size: 30px;
     
 }
+
+div.businessInfo p {
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+
+main.bgrid {
+    margin-top: 100px;
+}
+
+input#list.display.currentView {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+
+}
+
+input#grid.display.currentView {
+    width: 70px;
+    height: auto;
+}
+
+input#list.display {
+    width: 50px;
+    height: auto;
+}
+
+input#grid.display {
+    width: 70px;
+    height: auto;
+}
+
+
 
 
 /*----------- FOOTER --------------*/
@@ -572,14 +614,7 @@ nav ul li a {
 
 
 
-/*----------- DIRECTORY LIST --------------*/
-.bgrid2 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
-.directoryList.hide2{
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
-}
 
 
 
