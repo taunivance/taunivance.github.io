@@ -655,7 +655,7 @@ h1.bgrid {
 .bgrid {
     align-items: center;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: -140px;
 }
 
 .bgrid2 {
@@ -709,7 +709,7 @@ input#grid.display.currentView {
 input#list.display {
     width: 40px;
     height: auto;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 input#grid.display {

@@ -407,12 +407,6 @@ div.togbutton {
 
 }
 
-.bgrid2 {
-    margin-left: 15px;
-    
-}
-
-
 /*-----------BUSINESS ADVERTISEMENT  --------------*/
 div.businessgrid {
     grid-template-columns: 1fr 1fr;
@@ -433,6 +427,7 @@ h1.businesstitle {
 /*----------- DIRECTORY LIST --------------*/
 .bgrid2 {
     grid-template-columns: 1fr 1fr;
+    margin-left: 15px;
 }
 
 .directoryList.hide2{
@@ -469,6 +464,10 @@ h1.businesstitle {
 }
 .directoryList p {
     font-size: 1em;;
+}
+
+.bgrid {
+    margin-left: -30px;
 }
 
 /*----------- BOARD OF DIRECTORS  --------------*/
