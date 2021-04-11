@@ -4,7 +4,6 @@
         "companyname": "100 Black Men of the Inland Empire",
         "address": "PO Box 1283",
         "city": "Riverside, California 92502",
-        "phone":9513784483,
         "companyurl": "http://www.100bmie.org",
         "imageurl": "images/blackmen.jpg"
       },
@@ -12,7 +11,6 @@
         "companyname": "American Cancer Society!",
         "address": "36377 Riverside Ave #203",
         "city": "Riverside, California 92506",
-        "phone":9513001200,
         "companyurl": "http://www.cancer.org",
         "imageurl": "images/americancancer.jpg"
       },
@@ -20,15 +18,13 @@
         "companyname": "Angelica's Florist & Gifts",
         "address": "1015 E Alessandro #150",
         "city": "Riverside, California 92508",
-        "phone":9516534200,
         "companyurl": "http://www.angelicasflorist.com",
         "imageurl": "images/angelas.jpg"
       },
       {
         "companyname": "Bob Hope USO",
-        "address": "JRDC Bldg 390/2325 Graeber Blvd",
-        "city": "March Air Reserve Base, California 92518",
-        "phone":7577075253,
+        "address": "JRDC Bldg 390",
+        "city": "March Air Reserve Base",
         "companyurl": "http://bobhope.uso.org",
         "imageurl": "images/bobhope.jpg"
       },
@@ -36,7 +32,6 @@
         "companyname": "California School for the Deaf Riverside",
         "address": "3044 Horace St",
         "city": "Riverside, California 92506",
-        "phone":9512487700,
         "companyurl": "http://www.csdr-cde.ca.gov",
         "imageurl": "images/csd.jpg"
       },
@@ -44,7 +39,6 @@
         "companyname": "ChildNet Youth & Family Svcs/Foster Family Network IE",
         "address": "3877 12th St",
         "city": "Riverside, California 92501",
-        "phone":9512476064,
         "companyurl": "http://bobhope.uso.org",
         "imageurl": "images/childnet.jpg"
       },
@@ -52,7 +46,6 @@
         "companyname": "NAACP Local 1059",
         "address": "PO Box 55131",
         "city": "Riverside, California 92517",
-        "phone":9513249603,
         "companyurl": "http://www.naacp-riverside.org",
         "imageurl": "images/naacp.jpg"
       },
@@ -60,7 +53,6 @@
         "companyname": "Riverside African American Historical Society Inc",
         "address": "PO Box 209",
         "city": "Riverside, California 92502",
-        "phone":9513841866,
         "companyurl": "http://www.raahsinc.org",
         "imageurl": "images/aahs.jpg"
       }

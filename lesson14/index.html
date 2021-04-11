@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
         <title>Riverside Chamber of Commerce</title>
         <meta name="description" content="Weather Site Preston Page">   
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">   
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/small.css" rel="stylesheet">
@@ -77,7 +77,7 @@
         </section>
         <section class="member">
             <div>
-                <h1>BE A PART OF THE CHAMBER</h1>
+                <h1 class="membut"><a href="membership.html">BE A PART OF THE CHAMBER</a></h1>
             </div>
         </section>
     </div>
@@ -95,7 +95,7 @@
         </section>
         <section class="contactus">
             <div>
-                <h1>CONTACT US</h1>
+                <h1 class="conbut"><a href="contactus.html">CONTACT US</a></h1>
             </div>
         </section>
     </div>
@@ -105,31 +105,36 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="images/1.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
+        <img src="images/missioninn.jpg" style="width:100%">
         </div>
     
         <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="images/2.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
+        <img src="images/medalofhonor.jpg" style="width:100%">
         </div>
     
         <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="images/3.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
+        <img src="images/nationcemetery.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <img src="images/sunset.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+        <img src="images/riverside2.jpg" style="width:100%">
         </div>
     
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         <!-- The dots/circles -->
         <div class="dots" style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </div>
 
@@ -196,7 +201,6 @@
 
         <script src="js/toggle.js"></script>
         <script src="js/weather.js"></script>
-        <script src="js/webfont.js"></script>
         <script src="js/slide.js"></script>
         <script src="js/currentdate.js"></script>
         

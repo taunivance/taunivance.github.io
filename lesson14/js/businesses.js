@@ -32,7 +32,7 @@ fetch(requestURL)
 
             
             let phone = document.createElement("p");
-            phone.textContent = businesses[i].phonenumber;
+            phone.textContent = businesses[i].phone;
             busInfo.appendChild(phone);
 
             let weblink = document.createElement("p");
