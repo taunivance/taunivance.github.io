@@ -3,7 +3,35 @@
     
 /*----------- HEADER --------------*/
 
-        
+
+img.logo {
+    width: 120px;
+    height: auto;
+    top: 5px;
+    left: 10px;
+    
+} 
+
+div.cbox {
+    width: 470px;
+    height: 120px;
+    margin-top: -140px;
+    margin-left: 75px;
+ 
+}   
+
+h1.title {
+    font-size: 16px;
+    top:65px;
+    left: 125px;
+}
+
+h2.motto {
+    font-size: 16px;
+    color: black;
+    top: 80px;
+    left: 125px
+}
 /*----------- NAVIGATION --------------*/
 nav button {display: none;}
 
@@ -19,7 +47,23 @@ nav ul li {
 
 nav ul li a {
     border: none;
-    padding: .8rem .9rem;
+    padding: .6rem 1rem;
+}
+
+/*----------- WEATHER SUMMARY --------------*/
+
+section.stats {
+    width: 20rem;
+    top: 610px;
+    left: 160px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+.stats h3 {
+    margin: 5px auto;
+    text-align: left;
 }
 
 
@@ -29,12 +73,12 @@ nav ul li a {
 .forecast h2 {
     font-family: 'Raleway';
     text-align: center;
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
 .forecast {
     display: block;
-    margin-top: -780px;
+    margin-top: -730px;
     margin-left: -35px;
 }
 
@@ -66,12 +110,72 @@ nav ul li a {
     height: auto;
 }
 
+/*----------- MISSION --------------*/
+
+.mission {
+    width: 320px;
+    height: auto;
+    margin-left: 60px;
+    top: 15px;
+    padding: .5px 20px;
+}
+
+/*----------- CONTACT US BUTTON --------------*/
+.contactus {
+    width: 320px;
+    height: auto;
+    right: -393px;
+    top: -680px;
+    padding: .5rem 20px;
+}
+
+/*----------- MEMBERSHIP --------------*/
+
+.member {
+    width: 320px;
+    height: auto;
+    margin-left: 392px;
+    top: -80px;
+    padding: .5rem 20px;
+}
+
+/*----------- GALLERY --------------*/
+
+.slideshow-container {
+    max-width: 310px;
+    margin-right: 60px;
+    top: -994px;
+  }
+
+  /*----------- EVENTS --------------*/
+
+main section.event {
+    width: 350px;
+    height: auto;
+    right: -190px;
+    top: 260px;
+    padding: .2rem 20px;
+  
+
+}
+
 
 /*-----------BUSINESS ADVERTISEMENT  --------------*/
 div.businessgrid {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    max-width: 500px;
+    margin-top: 200px;
     
 }
+
+h1.businesstitle {
+    margin-top: 350px;
+    margin-bottom: -5px;
+  
+}
+
 
 /*----------- DIRECTORY LIST --------------*/
 .bgrid2 {
