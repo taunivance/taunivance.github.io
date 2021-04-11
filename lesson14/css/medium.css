@@ -66,7 +66,174 @@ section.stats {
     text-align: left;
 }
 
+/*----------- DEMOGRAPHICS --------------*/
 
+.demotitle {
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+
+.demotitle0 {
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+
+section.demoinfo0 {
+   width: 800px;
+   margin-left: 10px;
+}
+
+.info0 {
+   margin: 0;
+   padding-top: 10px;
+   padding-left: 5px;
+   width: 400px;
+   font-size: 16px;
+}
+
+
+img.demoimage0 {
+   width: 65%;
+   margin-top: 30px;
+}
+
+section.demoinfo {
+   width: 800px;
+   margin-left: 70px;
+
+}
+
+.info {
+   font-size: 20px;
+   text-align: left;
+   width: 300px;
+   font-size: 16px;
+   margin-right: 30px;
+}
+
+p.info {
+   padding-top: 15px;
+}
+
+
+img.demoimage {
+   width: 65%;
+   margin-left: -10px;
+   margin-top: 10px;
+}
+
+section.demoinfo4 {
+   width: 800px;
+   margin-left: 20px;
+   padding-top: 30px;
+
+}
+
+img.demoimage4 {
+   width: 85%;
+   margin-left: 40px;
+   margin-right: 30px;
+   margin-top: 10px;
+}
+
+.info4 {
+   font-size: 16px;
+   text-align: left;
+   padding-left: 5px;
+   width: 300px;
+   margin-right: 130px;
+  
+}
+
+p.info4 {
+   padding-top: 15px;
+
+   
+}
+
+
+section.demoinfo2 {
+   width: 800px;
+   margin-left: 65px;
+   margin-top: 50px;
+}
+
+.info2 {
+   font-size: 16px;
+   text-align: left;
+   padding-left: 5px;
+   width: 300px;
+   margin-left: -5px;
+   
+}
+
+.info22 {
+   font-size: 16px;
+   text-align: left;
+   padding-left: 5px;
+   width: 300px;
+   margin-right: 155px;
+}
+
+
+section.demoinfo3 {
+   width: 800px;
+   margin-left: 40px;
+   margin-top: 60px;
+   padding-left: -10px;
+}
+
+img.demoimage3 {
+   text-align: left;
+   padding-left: 5px;
+   width: 95%;
+   margin-left: 8px;
+}
+
+h3.info33 {
+    margin-right: 100px;
+
+}
+
+.info33 {
+   font-size: 16px;
+   text-align: left;
+   width: 300px;
+   margin-right: 180px;
+   padding-top: 5px;
+}
+
+section.demoinfo5 {
+   width: 800px;
+   margin-left: 120px;
+   margin-top: 30px;
+   padding-left: -10px;
+   padding-bottom: 30px;
+}
+
+img.demoimage5 {
+   margin: 0;
+   text-align: left;
+   padding-left: 5px;
+   width: 140%;
+   margin-left: -80px;
+}
+
+img.demoimage6 {
+   margin: 0;
+   width: 65%;
+   margin-right: 300px;
+   padding-top: 5px;
+}
+
+img.demoimage7 {
+   margin: 0;
+   width: 55%;
+   margin-right: -10px;
+   margin-top: -150px;
+}
 
 /*----------- THREE DAY FORECAST --------------*/
 
@@ -79,7 +246,7 @@ section.stats {
 .forecast {
     display: block;
     margin-top: -730px;
-    margin-left: -35px;
+    margin-left: 5px;
 }
 
 .forecasts {
@@ -130,14 +297,47 @@ section.stats {
 }
 
 /*----------- MEMBERSHIP --------------*/
+.formtitle {
+    font-size: 24px;
+    margin-left: 130px;
+}
 
 .member {
     width: 320px;
     height: auto;
-    margin-left: 392px;
+    margin-left: 393px;
     top: -80px;
     padding: .5rem 20px;
 }
+
+fieldset.fieldset3 {
+    margin-left: 130px;
+    margin-top: -480px;
+    
+}
+
+form fieldset {
+    margin: 2rem 0;
+    padding: .5rem 2%;
+    max-width: 500px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+input.submitBtn {
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+    margin-left: 250px;
+    font-size: 1.2rem;    
+    margin-top: -10px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
 
 /*----------- GALLERY --------------*/
 
@@ -152,11 +352,64 @@ section.stats {
 main section.event {
     width: 350px;
     height: auto;
-    right: -190px;
+    right: -210px;
     top: 260px;
     padding: .2rem 20px;
   
 
+}
+
+/*----------- CONTACT INFO  --------------*/
+.map1{
+    margin-left: 40%;
+    margin-top: 380px;
+   }
+
+.contacttitle {
+    margin-left: 275px;
+}
+
+h1.tabtitle {
+    margin-left: 10px;
+}
+
+.fieldset4 {
+    margin-bottom: 75px;
+    margin-left: 135px;
+}
+
+.tabtitle {
+    margin-left: -140px;
+    margin-bottom: 0;
+    margin-top: -220px;
+}
+
+
+table {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-left: 40px;
+  
+   
+}
+
+input.submitBtn2 {
+    margin-left: 260px;
+}
+
+.height1 {
+    line-height: 16px;
+}
+/*------------DIRECTORY TOGGLE-----------------------*/
+
+div.togbutton {
+    margin-bottom: 50px;
+
+}
+
+.bgrid2 {
+    margin-left: 15px;
+    
 }
 
 
@@ -164,15 +417,15 @@ main section.event {
 div.businessgrid {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 30px;
-    margin-left: 110px;
+    margin-left: 135px;
     max-width: 500px;
-    margin-top: 200px;
+    margin-top: 30px;
     
 }
 
 h1.businesstitle {
-    margin-top: 350px;
-    margin-bottom: -5px;
+    margin-top: 490px;
+    margin-bottom: 30px;
   
 }
 
@@ -225,6 +478,24 @@ h1.businesstitle {
 }
 
 
+
+.social {
+    margin-left: 220px;
+}
+
+footer {
+    font-size: .9rem;
+
+}
+
+/* end of media query */
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 

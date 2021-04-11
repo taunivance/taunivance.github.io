@@ -92,21 +92,169 @@ section.mission h3 {
 main section.event {
     width: 350px;
     height: auto;
-    right: -820px;
+    right: -840px;
     top: -508px;
     padding: .2rem 20px;
   
 
 }
 
+/*----------- DEMOGRAPHICS --------------*/
+
+.demotitle {
+     padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.demotitle0 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+section.demoinfo0 {
+    width: 1200px;
+    margin-left: 40px;
+}
+
+.info0 {
+    margin: 0;
+     padding-top: 10px;
+    padding-left: 5px;
+    width: 500px;
+}
+
+
+img.demoimage0 {
+    width: 75%;
+}
+
+section.demoinfo {
+    width: 1200px;
+    margin-left: 120px;
+ 
+}
+
+.info {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    width: 500px;
+}
+
+p.info {
+    padding-top: 15px;
+}
+
+
+img.demoimage {
+    width: 75%;
+}
+
+section.demoinfo4 {
+    width: 1200px;
+    margin-left: 50px;
+    padding-top: 30px;
+
+}
+
+img.demoimage4 {
+    width: 75%;
+}
+
+.info4 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    width: 500px;
+}
+
+p.info4 {
+    padding-top: 15px;
+}
+
+
+section.demoinfo2 {
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.info2 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    width: 500px;
+}
+
+.info22 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+    width: 500px;
+}
+
+
+section.demoinfo3 {
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 60px;
+    padding-left: -10px;
+}
+
+img.demoimage3 {
+    text-align: left;
+    padding-left: 5px;
+    width: 600px;
+}
+
+.info33 {
+    font-size: 20px;
+    text-align: left;
+    width: 500px;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+section.demoinfo5 {
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-left: -10px;
+    padding-bottom: 30px;
+}
+
+img.demoimage5 {
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    width: 600px;
+}
+
+img.demoimage6 {
+    margin: 0;
+    width: 500px;
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+img.demoimage7 {
+    margin: 0;
+    width: 500px;
+    margin-left: -20px;
+    margin-top: -270px;
+}
+
+
 /*----------- BUSINESS ADVERTISEMENT  --------------*/
 
-.businessgrid {
+div.businessgrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 18px;
     max-width: 500px;
-    margin-top: -50px;
+    margin-top: 20px;
 }
 
 h1.businesstitle {
@@ -116,6 +264,10 @@ h1.businesstitle {
 }
 
 /*----------- MEMBERSHIP --------------*/
+.formtitle {
+    font-size: 30px;
+    margin-left: 160px;
+}
 
 .member {
     width: 350px;
@@ -124,6 +276,215 @@ h1.businesstitle {
     top: -110px;
     padding: .5rem 20px;
 }
+
+fieldset.fieldset3 {
+    margin-left: 670px;
+    margin-top: -1490px;
+    
+}
+
+form fieldset {
+    margin: 2rem 0;
+    padding: .5rem 2%;
+    max-width: 500px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+form legend {
+    color: #000099;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.fieldset2 {
+    margin-bottom: 500px;
+}
+
+
+input.submitBtn {
+    display: block;
+    border: none;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+    margin-left: 830px;
+     font-size: 1.2rem;    
+    margin-top: -70px;
+    margin-bottom: 200px;
+}
+
+
+
+.addinfo {
+    max-height: 300px;
+}
+
+
+.space {
+    margin-top: 1.5rem;
+}
+
+.thankyou {
+    font-family: 'raleway', sans-serif;
+    margin-left: 300px;
+
+}
+
+.conditions {
+    font-family: 'raleway', sans-serif;
+    margin-left: 300px;
+}
+
+/*----------- CONTACT INFO  --------------*/
+.contacttitle {
+    font-size: 30px;
+    margin-left: 135px;
+    margin-top: 50px;
+}
+
+.map1{
+    left: 50%;
+    margin-left: 66%;
+    margin-top: -295px;
+    height: 50%;
+   }
+
+
+.map2{
+    font-size: 30px;
+}
+
+.fieldset4 {
+    margin-bottom: 75px;
+    margin-left: 135px;
+}
+
+.tabtitle {
+    margin-left: -140px;
+    margin-bottom: 0;
+    margin-top: -220px;
+}
+
+.height1 {
+    line-height: 1px;
+}
+
+div.space {
+    margin-top: 30px;
+}
+
+td.margin1 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+td.margin2 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+td.margin3 {
+    padding-right: 40px;
+    text-align: center;
+    
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-left: 240px;
+  
+   
+}
+
+input.submitBtn2 {
+    padding: .75rem 1.5rem;
+    margin-top: -40px;
+    width: 50%;
+    max-width: 15rem;
+    margin-left: 280px;
+}
+
+.addinfo1 {
+    max-height: 200px;
+}
+
+h2 a.link {
+    margin-left: 40%;
+}
+
+.bodlink {
+    margin-bottom: 40px;
+    margin-left: -60px;
+}
+
+
+
+/*------------DIRECTORY TOGGLE-----------------------*/
+
+div.togbutton {
+    margin: 1% 78% auto;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.bgrid2 {
+    text-align: center;
+    margin-left: 145px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    max-width: 1000px;
+    
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    font-family: 'raleway';
+    font-size: .7rem;
+    background-color: #0f025a;
+    padding: .5rem;
+    text-align: center;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    max-width: 300px;
+ 
+}
+
+img.facebook {
+    width: 40px; 
+   
+
+}
+
+img.instagram {
+    width: 40px;
+  
+    
+}
+
+img.linkedin {
+    width: 40px;
+    
+    
+}
+
+.png {
+    color: white;
+}
+
 
 /*----------- CONTACT US BUTTON --------------*/
 .contactus {
@@ -137,8 +498,17 @@ h1.businesstitle {
 
 
   
-/*----------- BODY --------------*/
+/*------------FORM-----------------------*/
+.formtitle {
+    font-size: 30px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
 
+.membership {
+    margin-left: -10px;
+    margin-top: 10px;
+}
 
 
 
@@ -190,20 +560,6 @@ div.businessgrid {
 }
 
 
-/*----------- UPCOMING EVENTS  --------------*/
-
-
-
-/*----------- TOWN CARDS --------------*/
-
-
-
-
-/*----------- UPCOMING EVENTS  --------------*/
-
-
-
-
 /*----------- FORM  --------------*/
 form label.sbs {
     padding: .4rem 0;
@@ -211,18 +567,10 @@ form label.sbs {
 
 
 
-/*----------- CONTACT OFFICE  --------------*/
-
-
-
-
-
-
 /*----------- FOOTER --------------*/
 footer {
     font-size: 1rem;
-
-
+    text-align: center;
 
 }
 
