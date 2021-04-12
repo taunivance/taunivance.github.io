@@ -437,6 +437,8 @@ section.demoinfo0 {
     padding-top: 10px;
     padding-left: 5px;
     width: 500px;
+    margin-left: -130px;
+    margin-top: -100px;
 }
 
 
@@ -444,7 +446,7 @@ img.demoimage0 {
     grid-column: 1/2;
     width: 50%;
     margin-left: -40px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -654,7 +656,7 @@ h1.bgrid {
 .bgrid {
     align-items: center;
     justify-content: center;
-    margin-left: -140px;
+    margin-left: 40px;
 }
 
 .bgrid2 {
@@ -662,7 +664,7 @@ h1.bgrid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
     text-align: center;
-    margin-left: 145px;
+    margin-left: 445px;
     margin-bottom: 30px;
     margin-top: 100px;
     max-width: 1000px;

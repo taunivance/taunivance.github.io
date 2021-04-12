@@ -82,22 +82,37 @@ section.stats {
 
 }
 
-section.demoinfo0 {
-   width: 800px;
-   margin-left: 10px;
+h2.info0 {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: -10px;
+
 }
 
-.info0 {
+section.demoinfo0 {
+   width: 800px;
+   margin-left: 100px;
+}
+
+div.demographic0 a {
+    font-size: 20px;
+    margin-left: -20px;
+
+}
+
+.info0 { 
    margin: 0;
    padding-top: 10px;
    padding-left: 5px;
    width: 400px;
    font-size: 16px;
+   margin-top: -140px;
+   margin-right: 50px;
 }
 
 
 img.demoimage0 {
-   width: 65%;
+   width: 85%;
    margin-top: 30px;
 }
 
@@ -112,7 +127,7 @@ section.demoinfo {
    text-align: left;
    width: 300px;
    font-size: 16px;
-   margin-right: 30px;
+   margin-left: -30px;
 }
 
 p.info {
@@ -121,9 +136,9 @@ p.info {
 
 
 img.demoimage {
-   width: 65%;
-   margin-left: -10px;
-   margin-top: 10px;
+   width: 45%;
+   margin-right: 130px;
+   margin-top: -440px;
 }
 
 section.demoinfo4 {
@@ -135,9 +150,9 @@ section.demoinfo4 {
 
 img.demoimage4 {
    width: 85%;
-   margin-left: 40px;
+   margin-left: 20px;
    margin-right: 30px;
-   margin-top: 10px;
+   margin-top: 130px;
 }
 
 .info4 {
@@ -158,35 +173,41 @@ p.info4 {
 
 section.demoinfo2 {
    width: 800px;
-   margin-left: 65px;
+   margin-left: 45px;
    margin-top: 50px;
 }
 
-.info2 {
-   font-size: 16px;
-   text-align: left;
-   padding-left: 5px;
-   width: 300px;
-   margin-left: -5px;
-   
+p.info2 {
+    grid-column: 1/2;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5px;
+    width: 300px;
 }
 
-.info22 {
-   font-size: 16px;
-   text-align: left;
-   padding-left: 5px;
-   width: 300px;
-   margin-right: 155px;
+p.info22 {
+    grid-column: 2/3;
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5px;
+    width: 300px;
+    margin-right: 110px;
 }
 
 
 section.demoinfo3 {
+    display: grid;
+    align-content: center;
    width: 800px;
    margin-left: 40px;
    margin-top: 60px;
 }
 
 img.demoimage3 {
+   grid-column: 1/2;
+   margin: 0;
    text-align: left;
    padding-left: 5px;
    width: 95%;
@@ -198,15 +219,28 @@ h3.info33 {
 
 }
 
+.demoinfo3 p {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 300px;
+    margin-left: 30px;
+}
+
 .info33 {
+   grid-column: 2/3;
+   margin: 0;
    font-size: 16px;
    text-align: left;
    width: 300px;
    margin-right: 180px;
    padding-top: 5px;
+   margin-top: -70px;
 }
 
 section.demoinfo5 {
+   display: grid;
+   align-content: center;
    width: 800px;
    margin-left: 120px;
    margin-top: 30px;
@@ -214,25 +248,28 @@ section.demoinfo5 {
 }
 
 img.demoimage5 {
-   margin: 0;
-   text-align: left;
-   padding-left: 5px;
-   width: 140%;
-   margin-left: -80px;
+    grid-column: 1/2;
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    width: 350px;
+    margin-left: -100px;
 }
 
 img.demoimage6 {
-   margin: 0;
-   width: 65%;
-   margin-right: 300px;
-   padding-top: 5px;
+    grid-column: 2/3;
+    margin: 0;
+    width: 300px;
+    margin-left: -200px;
+    padding-top: 5px;
 }
 
 img.demoimage7 {
-   margin: 0;
-   width: 55%;
-   margin-right: -10px;
-   margin-top: -150px;
+    grid-column: 2/3;
+    margin: 0;
+    width: 300px;
+    margin-left: -200px;
+    margin-top: -120px;
 }
 
 /*----------- THREE DAY FORECAST --------------*/
