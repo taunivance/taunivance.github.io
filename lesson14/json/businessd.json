@@ -12,49 +12,49 @@
         "address": "36377 Riverside Ave #203",
         "city": "Riverside, California 92506",
         "companyurl": "http://www.cancer.org",
-        "imageurl": "images/americancancer.jpg"
+        "imageurl": "images/americancancer.JPG"
       },
       {
         "companyname": "Angelica's Florist & Gifts",
         "address": "1015 E Alessandro #150",
         "city": "Riverside, California 92508",
         "companyurl": "http://www.angelicasflorist.com",
-        "imageurl": "images/angelas.jpg"
+        "imageurl": "images/angelas.JPG"
       },
       {
         "companyname": "Bob Hope USO",
         "address": "JRDC Bldg 390",
         "city": "March Air Reserve Base",
         "companyurl": "http://bobhope.uso.org",
-        "imageurl": "images/bobhope.jpg"
+        "imageurl": "images/bobhope.JPG"
       },
       {
         "companyname": "California School for the Deaf Riverside",
         "address": "3044 Horace St",
         "city": "Riverside, California 92506",
         "companyurl": "http://www.csdr-cde.ca.gov",
-        "imageurl": "images/csd.jpg"
+        "imageurl": "images/csd.JPG"
       },
       {
         "companyname": "ChildNet Youth & Family Svcs/Foster Family Network IE",
         "address": "3877 12th St",
         "city": "Riverside, California 92501",
         "companyurl": "http://bobhope.uso.org",
-        "imageurl": "images/childnet.jpg"
+        "imageurl": "images/childnet.JPG"
       },
       {
         "companyname": "NAACP Local 1059",
         "address": "PO Box 55131",
         "city": "Riverside, California 92517",
         "companyurl": "http://www.naacp-riverside.org",
-        "imageurl": "images/naacp.jpg"
+        "imageurl": "images/naacp.JPG"
       },
       {
         "companyname": "Riverside African American Historical Society Inc",
         "address": "PO Box 209",
         "city": "Riverside, California 92502",
         "companyurl": "http://www.raahsinc.org",
-        "imageurl": "images/aahs.jpg"
+        "imageurl": "images/aahs.JPG"
       }
     ]
   }
