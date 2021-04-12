@@ -531,8 +531,7 @@ p.info22 {
 section.demoinfo3 {
     margin-left: -10px;
     margin-top: 60px;
-    padding-left: -10px;
-}
+} 
 
 img.demoimage3 {
     padding-left: 5px;
@@ -560,7 +559,7 @@ section.demoinfo5 {
     width: 1200px;
     margin-left: 120px;
     margin-top: 30px;
-    padding-left: -10px;
+    
     padding-bottom: 30px;
 }
 
@@ -752,9 +751,9 @@ input#grid.display {
 /*----------- CONTACT INFO  --------------*/
 .contacttitle {
     font-family: 'raleway', sans-serif;
-    font-size: 30px;
-    margin-left: 135px;
-    margin-top: 50px;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 
 legend.black {
@@ -762,71 +761,45 @@ legend.black {
 }
 
 .map1{
-    position: fixed, no-repeat;
     left: 50%;
-    margin-left: 66%;
-    margin-top: -295px;
+    margin-left: 115px;
+    margin-top: 360px;
     height: 50%;
     transform: translate(-50%, -50%);
     font-family: 'raleway', sans-serif;
-    }
+    
+ }
+
+ .map1 h2 {
+     font-size: 20px;
+
+ }
+
+ .map1 h3 {
+    font-size: 10px;
+     
+}
+
+iframe {
+    width: 300px;
+}
 
 
 .map2{
     font-family: 'raleway', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .fieldset4 {
     margin-bottom: 75px;
-    margin-left: 135px;
+    margin-left: 5px;
 }
 
 fieldset.fieldset4 {
     border: 3px solid black;
+    min-width: 291px;
 }
 
-.tabtitle {
-    text-align: center;
-    margin-left: -140px;
-    margin-bottom: 0;
-    font-family: 'raleway', sans-serif;
-    margin-top: -220px;
-}
-
-.height1 {
-    line-height: 1px;
-}
-
-div.space {
-    margin-top: 30px;
-}
-
-td.margin1 {
-    padding-right: 40px;
-    text-align: center;
-    
-}
-
-td.margin2 {
-    padding-right: 40px;
-    text-align: center;
-    
-}
-
-td.margin3 {
-    padding-right: 40px;
-    text-align: center;
-    
-}
-
-table {
-    margin: 0 auto;
-    font-family: 'raleway', sans-serif;
-    margin-bottom: 25px;
-  
-   
-}
 
 input.submitBtn2 {
     display: block;
@@ -837,7 +810,7 @@ input.submitBtn2 {
     margin-top: -40px;
     width: 50%;
     max-width: 15rem;
-    margin-left: 280px;
+    margin-left: 80px;
     font-weight: bold;
     font-family: 'raleway', sans-serif;
     font-size: 1.2rem;    
@@ -845,6 +818,11 @@ input.submitBtn2 {
 
 .addinfo1 {
     max-height: 200px;
+    width: 285px;
+}
+
+textarea.addinfo1 {
+    width: 285px;
 }
 
 h2 a.link {
@@ -853,9 +831,27 @@ h2 a.link {
 }
 
 .bodlink {
-    margin-bottom: 40px;
-    margin-left: -60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
 }
+
+.gridcontact {
+    display: grid;
+    grid-template-columns: 1fr ;
+    font-family: 'raleway';
+    margin-left: 40px;
+}
+
+.tabtitle {
+    text-align: center;
+    margin-top: -230px;
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
+   
+   }
 
 
 
@@ -882,7 +878,7 @@ h2 a.link {
     grid-gap: 10px;
     text-align: center;
     font-family: 'raleway', sans-serif;
-
+    
 }
 
 /*------------FORM-----------------------*/

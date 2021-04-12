@@ -1,4 +1,6 @@
 @media only screen and (min-width: 32.5rem) {
+/* 32.5em is also 520px (if basefont is 16px) */
+
 
     
 /*----------- HEADER --------------*/
@@ -182,7 +184,6 @@ section.demoinfo3 {
    width: 800px;
    margin-left: 40px;
    margin-top: 60px;
-   padding-left: -10px;
 }
 
 img.demoimage3 {
@@ -209,7 +210,6 @@ section.demoinfo5 {
    width: 800px;
    margin-left: 120px;
    margin-top: 30px;
-   padding-left: -10px;
    padding-bottom: 30px;
 }
 
@@ -296,6 +296,7 @@ img.demoimage7 {
     padding: .5rem 20px;
 }
 
+
 /*----------- MEMBERSHIP --------------*/
 .formtitle {
     font-size: 24px;
@@ -365,32 +366,52 @@ main section.event {
     margin-top: 380px;
    }
 
+.map2{
+font-size: 30px;
+}
+
+.map1 h2 {
+    font-size: 24px;
+
+}
+
+.map1 h3 {
+   font-size: 20px;
+    
+}
+
+iframe {
+    width: 600px;
+}
+
 .contacttitle {
     margin-left: 275px;
+    font-size: 30px;
 }
 
 h1.tabtitle {
     margin-left: 10px;
+    font-size: 22px;
 }
 
-.fieldset4 {
+fieldset.fieldset4 {
     margin-bottom: 75px;
     margin-left: 135px;
+    width: 450px;
 }
 
-.tabtitle {
-    margin-left: -140px;
-    margin-bottom: 0;
-    margin-top: -220px;
+.gridcontact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
+.bodlink {
+    text-align: center;
+}
 
-table {
-    margin: 0 auto;
-    margin-bottom: 25px;
-    margin-left: 40px;
-  
-   
+textarea.addinfo1 {
+    max-height: 200px;
+    max-width: 610px;
 }
 
 input.submitBtn2 {
