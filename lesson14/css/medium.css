@@ -300,7 +300,7 @@ img.demoimage7 {
 /*----------- MEMBERSHIP --------------*/
 .formtitle {
     font-size: 24px;
-    margin-left: 130px;
+    margin-left: 20px;
 }
 
 .member {
@@ -309,6 +309,18 @@ img.demoimage7 {
     margin-left: 393px;
     top: -80px;
     padding: .5rem 20px;
+}
+
+fieldset.fieldset1 {
+    margin-left: 130px;
+    
+    
+}
+
+fieldset.fieldset2 {
+    margin-left: 130px;
+    
+    
 }
 
 fieldset.fieldset3 {
@@ -331,8 +343,14 @@ input.submitBtn {
     max-width: 20rem;
     margin-left: 250px;
     font-size: 1.2rem;    
-    margin-top: -10px;
+    margin-top: 230px;
     margin-bottom: 100px;
+}
+
+form label.top input, form label.top select {
+    width: 100%;
+    max-width: 50rem;
+  
 }
 
 
