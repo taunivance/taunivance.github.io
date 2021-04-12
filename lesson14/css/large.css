@@ -40,6 +40,7 @@
 
 section.stats {
     width: 20rem;
+    height: auto;
     top: 610px;
     left: 160px;
     margin-left: 135px;
@@ -56,6 +57,7 @@ section.stats {
 
 .slideshow-container {
     max-width: 350px;
+    height: auto;
     margin-right: 650px;
     top: -994px;
   }
@@ -118,6 +120,7 @@ main section.event {
 
 section.demoinfo0 {
     width: 1200px;
+    height: auto;
     margin-left: 40px;
 }
 
@@ -126,6 +129,7 @@ section.demoinfo0 {
     padding-top: 10px;
     padding-left: 5px;
     width: 500px;
+    height: auto;
     font-size: 20px;
     margin-top: -260px;
 }
@@ -147,6 +151,7 @@ div.demographic0 a {
 
 img.demoimage0 {
     width: 75%;
+    height: auto;
     margin-left: 100px;
 }
 
@@ -161,6 +166,7 @@ section.demoinfo {
     text-align: left;
     padding-left: 5px;
     width: 500px;
+    height: auto;
 }
 
 p.info {
@@ -176,6 +182,7 @@ img.demoimage {
 
 section.demoinfo4 {
     width: 1200px;
+    height: auto;
     margin-left: 50px;
     padding-top: 30px;
 
@@ -183,6 +190,7 @@ section.demoinfo4 {
 
 img.demoimage4 {
     width: 95%;
+    height: auto;
     margin-left: 50px;
     margin-top: -10px;
 }
@@ -192,6 +200,7 @@ img.demoimage4 {
     text-align: left;
     padding-left: 35px;
     width: 500px;
+    height: auto;
     margin-right: 50px;
 
 }
@@ -203,6 +212,7 @@ p.info4 {
 
 section.demoinfo2 {
     width: 1200px;
+    height: auto;
     margin-left: 120px;
     margin-top: 50px;
 }
@@ -213,6 +223,7 @@ p.info2 {
     text-align: left;
     padding-left: 5px;
     width: 500px;
+    height: auto;
 }
 
 p.info22 {
@@ -222,6 +233,7 @@ p.info22 {
     text-align: left;
     padding-left: 5px;
     width: 500px;
+    height: auto;
 }
 
 
@@ -229,6 +241,7 @@ section.demoinfo3 {
   
   
     width: 1200px;
+    height: auto;
     margin-left: 120px;
     margin-top: 60px;
 }
@@ -239,6 +252,7 @@ img.demoimage3 {
     text-align: left;
     padding-left: 5px;
     width: 600px;
+    height: auto;
 }
 
 .demoinfo3 p {
@@ -260,6 +274,7 @@ h3.info33 {
     font-size: 20px;
     text-align: left;
     width: 500px;
+    height: auto;
     margin-left: -20px;
     padding-top: 5px;
     margin-top: -220px;
@@ -267,6 +282,7 @@ h3.info33 {
 
 section.demoinfo5 {
     width: 1200px;
+    height: auto;
     margin-left: 120px;
     margin-top: 30px;
     padding-bottom: 30px;
@@ -276,16 +292,19 @@ img.demoimage5 {
     text-align: left;
     padding-left: 5px;
     width: 600px;
+    height: auto;
 }
 
 img.demoimage6 {
     width: 500px;
+    height: auto;
     margin-left: -20px;
     padding-top: 5px;
 }
 
 img.demoimage7 {
     width: 500px;
+    height: auto;
     margin-left: -20px;
     margin-top: -270px;
 }
@@ -298,6 +317,7 @@ div.businessgrid {
     margin-bottom: 30px;
     margin-left: 18px;
     max-width: 500px;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -391,6 +411,7 @@ input.submitBtn {
 .addinfo {
     max-height: 300px;
     width: 440px;
+  
 }
 
 
@@ -434,6 +455,7 @@ input.submitBtn {
     margin-bottom: 75px;
     margin-left: 135px;
     width: 450px;
+    height: auto;
 
 }
 
@@ -454,6 +476,7 @@ input.submitBtn2 {
     padding: .75rem 1.5rem;
     margin-top: -40px;
     width: 50%;
+    height: auto;
     max-width: 15rem;
     margin-left: 280px;
 }
@@ -564,18 +587,21 @@ footer {
 
 img.facebook {
     width: 40px; 
+    height: auto;
    
 
 }
 
 img.instagram {
     width: 40px;
+    height: auto;
   
     
 }
 
 img.linkedin {
     width: 40px;
+    height: auto;
     
     
 }
