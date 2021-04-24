@@ -6,6 +6,12 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+header {
+    background-color: #6495ED;
+    width: 100%;
+    height: auto;
+}
+
 main {
     background-color: #FAEBD7;
 
